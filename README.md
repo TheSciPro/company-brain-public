@@ -2,7 +2,7 @@
 
 A company brain on FalkorDB: it answers what the company knows, as of a given date, only from what the person asking may see, with every answer traced back to the graph node and Cypher it came from, and it acts only after a human approves.
 
-Demo video: VIDEO_URL
+Demo video: https://youtu.be/KGmLJPeKAZQ
 
 FalkorDB Graph Hacks entry for all three tracks:
 - **Track 1, Agents That Act on Connected Data:** the heartbeat watcher reads the graph and the onboarding records (overdue items, stale facts), resolves the right approver, and proposes an action that runs only after that person clicks Approve.
