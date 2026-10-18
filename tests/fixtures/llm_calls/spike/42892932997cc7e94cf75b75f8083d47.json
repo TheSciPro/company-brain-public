@@ -1,0 +1,12 @@
+{
+ "kind": "graphiti",
+ "model": "qwen/qwen3.8-27b",
+ "response": {
+  "summaries": [
+   {
+    "name": "Platform team",
+    "summary": "The user moved to the Platform team in the week of 2026-10-01, having previously worked on the Payments team."
+   }
+  ]
+ }
+}

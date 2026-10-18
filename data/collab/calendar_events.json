@@ -1,0 +1,411 @@
+[
+  {
+    "id": "CAL-2026-0205-PC",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-02-05T16:00+05:30",
+    "updated_at": "2026-02-05T16:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "Pricing Committee: Brightmart",
+    "start": "2026-02-05T16:00:00+05:30",
+    "end": "2026-02-05T17:30:00+05:30",
+    "attendees": [
+      {
+        "id": "NW0002",
+        "name": "Anjali Kapoor"
+      },
+      {
+        "id": "NW0202",
+        "name": "Manoj Pillai"
+      },
+      {
+        "id": "NW0011",
+        "name": "Rahul Bhatia"
+      },
+      {
+        "id": "NW0015",
+        "name": "Neha Joshi"
+      }
+    ],
+    "minutes": "MOM-2026-007"
+  },
+  {
+    "id": "CAL-2026-0216-RM",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-02-16T11:00+05:30",
+    "updated_at": "2026-02-16T11:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "Brightmart staffing plan",
+    "start": "2026-02-16T11:00:00+05:30",
+    "end": "2026-02-16T12:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW0801",
+        "name": "Bhavna Thakur"
+      },
+      {
+        "id": "NW0802",
+        "name": "Yusuf Ansari"
+      },
+      {
+        "id": "NW1101",
+        "name": "Siddharth Chauhan"
+      },
+      {
+        "id": "NW1102",
+        "name": "Ritu Agarwal"
+      }
+    ],
+    "minutes": "MOM-2026-009"
+  },
+  {
+    "id": "CAL-2026-0302-KO",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-03-02T10:00+05:30",
+    "updated_at": "2026-03-02T10:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "Brightmart kick-off",
+    "start": "2026-03-02T10:00:00+05:30",
+    "end": "2026-03-02T12:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW1101",
+        "name": "Siddharth Chauhan"
+      },
+      {
+        "id": "NW1102",
+        "name": "Ritu Agarwal"
+      },
+      {
+        "id": "NW1118",
+        "name": "James Carter"
+      },
+      {
+        "id": "NW1104",
+        "name": "Ananya Krishnan"
+      },
+      {
+        "id": "NW1105",
+        "name": "Mohit Saxena"
+      },
+      {
+        "id": "NW1106",
+        "name": "Deepa Narayan"
+      },
+      {
+        "id": "NW1107",
+        "name": "Varun Shah"
+      },
+      {
+        "id": "NW1108",
+        "name": "Sneha Patil"
+      },
+      {
+        "id": "NW1109",
+        "name": "Imran Sheikh"
+      },
+      {
+        "id": "NW1110",
+        "name": "Kiran Das"
+      },
+      {
+        "id": "NW1111",
+        "name": "Megha Sinha"
+      },
+      {
+        "id": "NW1112",
+        "name": "Arvind Pandey"
+      },
+      {
+        "id": "NW1113",
+        "name": "Tanvi Mishra"
+      },
+      {
+        "id": "NW1114",
+        "name": "Rajesh Yadav"
+      },
+      {
+        "id": "NW1115",
+        "name": "Fatima Khan"
+      },
+      {
+        "id": "NW1116",
+        "name": "Aakash Jain"
+      },
+      {
+        "id": "NW1117",
+        "name": "Shreya Ghosh"
+      }
+    ],
+    "minutes": "MOM-2026-012"
+  },
+  {
+    "id": "CAL-2026-0309-ARB",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-03-09T15:00+05:30",
+    "updated_at": "2026-03-09T15:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "Architecture review: loyalty-service",
+    "start": "2026-03-09T15:00:00+05:30",
+    "end": "2026-03-09T16:30:00+05:30",
+    "attendees": [
+      {
+        "id": "NW1104",
+        "name": "Ananya Krishnan"
+      },
+      {
+        "id": "NW1106",
+        "name": "Deepa Narayan"
+      },
+      {
+        "id": "NW1105",
+        "name": "Mohit Saxena"
+      },
+      {
+        "id": "NW1112",
+        "name": "Arvind Pandey"
+      }
+    ],
+    "minutes": "RFC-2026-010"
+  },
+  {
+    "id": "CAL-2026-0408-EX",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-04-08T14:00+05:30",
+    "updated_at": "2026-04-08T14:00+05:30",
+    "classification": "MGR",
+    "acl": [
+      "grp-mgr",
+      "grp-exec"
+    ],
+    "subject": "Exec: Consumer unit design",
+    "start": "2026-04-08T14:00:00+05:30",
+    "end": "2026-04-08T15:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW0001",
+        "name": "Rohan Mehra"
+      },
+      {
+        "id": "NW0003",
+        "name": "David Whitfield"
+      },
+      {
+        "id": "NW0004",
+        "name": "Sunita Rao"
+      }
+    ],
+    "minutes": "MOM-2026-018"
+  },
+  {
+    "id": "CAL-2026-0612-HO",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-06-12T14:00+05:30",
+    "updated_at": "2026-06-12T14:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "Architecture handover Ananya -> Mohit/Deepa",
+    "start": "2026-06-12T14:00:00+05:30",
+    "end": "2026-06-12T17:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW1104",
+        "name": "Ananya Krishnan"
+      },
+      {
+        "id": "NW1105",
+        "name": "Mohit Saxena"
+      },
+      {
+        "id": "NW1106",
+        "name": "Deepa Narayan"
+      },
+      {
+        "id": "NW1102",
+        "name": "Ritu Agarwal"
+      }
+    ],
+    "minutes": "MOM-2026-024"
+  },
+  {
+    "id": "CAL-2026-0728-AUD",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-07-28T09:30+05:30",
+    "updated_at": "2026-07-28T09:30+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "subject": "ISO 27001 surveillance audit opening",
+    "start": "2026-07-28T09:30:00+05:30",
+    "end": "2026-07-28T10:30:00+05:30",
+    "attendees": [
+      {
+        "id": "EXT-AA-01",
+        "name": "Claire Bennett"
+      },
+      {
+        "id": "EXT-AA-02",
+        "name": "Vivek Sharma"
+      },
+      {
+        "id": "NW0502",
+        "name": "Divya Shetty"
+      },
+      {
+        "id": "NW0006",
+        "name": "Meera Iyer"
+      },
+      {
+        "id": "NW0501",
+        "name": "Karthik Subramanian"
+      }
+    ],
+    "minutes": "MOM-2026-030"
+  },
+  {
+    "id": "CAL-2026-0810-EX",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-08-10T15:00+05:30",
+    "updated_at": "2026-08-10T15:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "subject": "Brightmart escalation response",
+    "start": "2026-08-10T15:00:00+05:30",
+    "end": "2026-08-10T16:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW0013",
+        "name": "Eleanor Hughes"
+      },
+      {
+        "id": "NW1101",
+        "name": "Siddharth Chauhan"
+      },
+      {
+        "id": "NW0006",
+        "name": "Meera Iyer"
+      },
+      {
+        "id": "NW1118",
+        "name": "James Carter"
+      }
+    ],
+    "minutes": "MOM-2026-035"
+  },
+  {
+    "id": "CAL-2026-0826-HO",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-08-26T11:00+05:30",
+    "updated_at": "2026-08-26T11:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "subject": "PM handover Ritu -> Nikhil",
+    "start": "2026-08-26T11:00:00+05:30",
+    "end": "2026-08-26T13:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW1102",
+        "name": "Ritu Agarwal"
+      },
+      {
+        "id": "NW1103",
+        "name": "Nikhil Bose"
+      },
+      {
+        "id": "NW1101",
+        "name": "Siddharth Chauhan"
+      }
+    ],
+    "minutes": "MOM-2026-038"
+  },
+  {
+    "id": "CAL-2026-1005-SC",
+    "source_system": "Microsoft 365 Calendar",
+    "created_at": "2026-10-07T10:00+05:30",
+    "updated_at": "2026-10-07T10:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "subject": "Brightmart steering committee (London)",
+    "start": "2026-10-07T10:00:00+05:30",
+    "end": "2026-10-07T12:00:00+05:30",
+    "attendees": [
+      {
+        "id": "NW1103",
+        "name": "Nikhil Bose"
+      },
+      {
+        "id": "NW1101",
+        "name": "Siddharth Chauhan"
+      },
+      {
+        "id": "NW1118",
+        "name": "James Carter"
+      },
+      {
+        "id": "EXT-BM-01",
+        "name": "Sarah Mitchell"
+      },
+      {
+        "id": "EXT-BM-02",
+        "name": "Mark Lewis"
+      }
+    ],
+    "minutes": null
+  }
+]

@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/qwen/qwen3.8-27b",
+ "response": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Payments team on-call policy\",\n      \"type\": \"Policy\",\n      \"description\": \"The on-call policy for the Payments team, which allows on-call engineers to claim one comp day after a weekend incident.\"\n    },\n    {\n      \"name\": \"Payments team\",\n      \"type\": \"Team\",\n      \"description\": \"The team responsible for payments, which has an on-call policy and for which Ben Ode approves comp days.\"\n    },\n    {\n      \"name\": \"Ben Ode\",\n      \"type\": \"Person\",\n      \"description\": \"Person who approves comp days for the Payments team.\"\n    }\n  ],\n  \"relationships\": [\n    {\n      \"source\": \"Ben Ode\",\n      \"target\": \"Payments team\",\n      \"type\": \"MEMBER_OF\",\n      \"description\": \"Ben Ode is a member of the Payments team, as he approves comp days for the team.\",\n      \"span_start\": 97,\n      \"span_end\": 146\n    }\n  ]\n}\n```"
+}

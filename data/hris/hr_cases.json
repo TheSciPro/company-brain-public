@@ -1,0 +1,312 @@
+[
+  {
+    "id": "HRC-2026-0031",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-08-03T15:20:00+05:30",
+    "updated_at": "2026-09-01T11:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr-con"
+    ],
+    "restricted_fields": [
+      {
+        "field": "subject_worker_id",
+        "classification": "RESTRICTED-HR",
+        "acl": [
+          "NW0004",
+          "grp-hr-con"
+        ],
+        "existence_disclosure": "PM/DM may be told only: 'an HR matter is open/closed for this person; contact HRBP Pooja Reddy'"
+      },
+      {
+        "field": "outcome",
+        "classification": "RESTRICTED-HR",
+        "acl": [
+          "NW0004",
+          "grp-hr-con"
+        ]
+      },
+      {
+        "field": "case_owner",
+        "classification": "RESTRICTED-HR",
+        "acl": [
+          "NW0004",
+          "grp-hr-con"
+        ]
+      }
+    ],
+    "case_type": "Policy Violation - Information Security",
+    "subject_worker_id": "NW1109",
+    "case_owner": "NW0301",
+    "opened": "2026-08-03",
+    "closed": "2026-09-01",
+    "status": "Closed",
+    "outcome": "Written warning; mandatory re-training completed 2026-08-29",
+    "linked": [
+      "SEC-2026-0077",
+      "INC-2026-014"
+    ],
+    "narrative": null,
+    "existence_visible_to": [
+      "grp-acc-brm-dm",
+      "NW1103"
+    ],
+    "note": "Narrative intentionally not stored (spec §5)."
+  },
+  {
+    "id": "HRC-2026-0001",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-03-18T10:00:00+05:30",
+    "updated_at": "2026-03-18T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Conduct",
+    "subject_worker_id": "NW4461",
+    "opened": "2026-03-18",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0002",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-08-13T10:00:00+05:30",
+    "updated_at": "2026-08-13T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Performance Support",
+    "subject_worker_id": "NW4933",
+    "opened": "2026-08-13",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0003",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-08-18T10:00:00+05:30",
+    "updated_at": "2026-08-18T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Grievance",
+    "subject_worker_id": "NW4543",
+    "opened": "2026-08-18",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0004",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-06-27T10:00:00+05:30",
+    "updated_at": "2026-06-27T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Conduct",
+    "subject_worker_id": "NW2578",
+    "opened": "2026-06-27",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0005",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-07-13T10:00:00+05:30",
+    "updated_at": "2026-07-13T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Conduct",
+    "subject_worker_id": "NW2287",
+    "opened": "2026-07-13",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0006",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-03-11T10:00:00+05:30",
+    "updated_at": "2026-03-11T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Grievance",
+    "subject_worker_id": "NW4441",
+    "opened": "2026-03-11",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0007",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-06-23T10:00:00+05:30",
+    "updated_at": "2026-06-23T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Attendance",
+    "subject_worker_id": "NW3351",
+    "opened": "2026-06-23",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0008",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-01-02T10:00:00+05:30",
+    "updated_at": "2026-01-02T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Grievance",
+    "subject_worker_id": "NW3749",
+    "opened": "2026-01-02",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0009",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-06-27T10:00:00+05:30",
+    "updated_at": "2026-06-27T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Conduct",
+    "subject_worker_id": "NW3920",
+    "opened": "2026-06-27",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0010",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-06-26T10:00:00+05:30",
+    "updated_at": "2026-06-26T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Attendance",
+    "subject_worker_id": "NW2823",
+    "opened": "2026-06-26",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0011",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-01-14T10:00:00+05:30",
+    "updated_at": "2026-01-14T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Attendance",
+    "subject_worker_id": "NW2492",
+    "opened": "2026-01-14",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0012",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-01-19T10:00:00+05:30",
+    "updated_at": "2026-01-19T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Attendance",
+    "subject_worker_id": "NW2503",
+    "opened": "2026-01-19",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0013",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-07-20T10:00:00+05:30",
+    "updated_at": "2026-07-20T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Performance Support",
+    "subject_worker_id": "NW4156",
+    "opened": "2026-07-20",
+    "status": "Closed",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0014",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-05-09T10:00:00+05:30",
+    "updated_at": "2026-05-09T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Conduct",
+    "subject_worker_id": "NW2059",
+    "opened": "2026-05-09",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  },
+  {
+    "id": "HRC-2026-0015",
+    "source_system": "Workday Employee Relations",
+    "created_at": "2026-03-24T10:00:00+05:30",
+    "updated_at": "2026-03-24T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr"
+    ],
+    "case_type": "Attendance",
+    "subject_worker_id": "NW4378",
+    "opened": "2026-03-24",
+    "status": "Open",
+    "outcome": null,
+    "narrative": null
+  }
+]

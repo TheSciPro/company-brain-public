@@ -1,0 +1,23 @@
+{
+ "doc_id": "DEC-2026-036",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "incident_report_deadline",
+   "label": "Incident report deadline",
+   "value": "24",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "IR runbook with 24h client clock (CAPA-2)"
+  },
+  {
+   "key": "access_review_frequency",
+   "label": "Access review frequency",
+   "value": "1",
+   "unit": "month",
+   "qualifiers": {},
+   "quote": "monthly access reviews with mandatory delegate (CAPA-3)"
+  }
+ ]
+}

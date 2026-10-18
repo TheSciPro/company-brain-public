@@ -1,0 +1,31 @@
+id,row_id,item,region,unit_of_measure,min,max,approver_1,approver_2,additional,notes,doc_id,version,effective_from,effective_to,source_system,classification,acl
+DOA-01,DOA-01,Business expense (per claim),IN,INR,0,25000,Line manager (G4+),,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-02,DOA-02,Business expense (per claim),IN,INR,25001,200000,G6+ in reporting line,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-03,DOA-03,Business expense (per claim),IN,INR,200001,,G8 Unit Head,Financial Controller,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-04,DOA-04,Business expense (per claim),UK,GBP,0,250,Line manager (G4+),,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-05,DOA-05,Business expense (per claim),UK,GBP,251,2000,G6+ in reporting line,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-06,DOA-06,Business expense (per claim),UK,GBP,2001,,G8 Unit Head,Financial Controller,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-07,DOA-07,Domestic travel (per trip),IN,INR,0,50000,Line manager,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-08,DOA-08,Domestic travel (per trip),IN,INR,50001,150000,G6,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-09,DOA-09,Domestic travel (per trip),IN,INR,150001,,G8,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-10,DOA-10,International travel,ALL,,,,G6,G8 Unit Head,Client-billable: DM confirms billability,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-11,DOA-11,International travel > 30 days,ALL,,,,G6,G8 Unit Head,"CHRO (immigration review, HR+Legal)",,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-12,DOA-12,Leave <= 5 working days,ALL,days,0,5,Line manager,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-13,DOA-13,Leave 6-15 working days,ALL,days,6,15,Line manager,Project Manager if on billable project,,"If requester is the PM, line manager alone",POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-14,DOA-14,Leave > 15 days or unpaid,ALL,days,16,,HRBP,G6,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-15,DOA-15,Client discount vs rate card,ALL,%,0,10,Delivery Manager (G6),,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-16,DOA-16,Client discount vs rate card,ALL,%,10.01,15,Unit Head (G8),,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-17,DOA-17,Client discount vs rate card,ALL,%,15.01,,CFO,CEO,Pricing Committee note (rationale + floor margin),Joint approval,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-18,DOA-18,Bench pull (allocate from bench),ALL,,,,RM Manager (G5),,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-19,DOA-19,Release from active billable project,ALL,,,,Releasing DM,Receiving DM,,v2: 10 working days handover,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-20,DOA-20,"Release from active project, < 2 weeks' notice",ALL,,,,Releasing DM,Receiving DM,Unit Head of releasing unit,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-21,DOA-21,Release where releasing contract has key-person clause,ALL,,,,Releasing DM,Receiving DM,Client consent via Legal,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-22,DOA-22,Hotfix / unbudgeted cloud spend,IN,INR,0,100000,DM,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-23,DOA-23,Hotfix / unbudgeted cloud spend,IN,INR,100001,1000000,Unit Head,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-24,DOA-24,Hotfix / unbudgeted cloud spend,IN,INR,1000001,,CFO,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-25,DOA-25,Pricing exception renewal,ALL,,,,Same authority as original,,,POL-FIN-PRICE §3.4,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-26,DOA-26,Client-data access request,ALL,,,,Project Manager,,,POL-SEC-CDH §4; delegate via DLG,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-27,DOA-27,Monthly access review certification,ALL,,,,Project Manager,,,POL-SEC-CDH §4; ISO A.5.18,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-28,DOA-28,Delegation of approval authority,ALL,,,,Delegate same or higher grade,,,Recorded in DLG register with start/end (§5.3),POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-29,DOA-29,Self-approval,ALL,,,,Not permitted - goes up one level,,,,POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee
+DOA-30,DOA-30,Margin below 22% (recovery plan),ALL,,,,Financial Controller,,,"POL-FIN-PRICE §3.3, quarterly",POL-FIN-AUTH,v5,2025-10-01,,SharePoint (Finance),PUBLIC-INT,grp-employee

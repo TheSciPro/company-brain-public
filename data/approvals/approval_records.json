@@ -1,0 +1,1599 @@
+[
+  {
+    "id": "DQ-BRM-2026-001-v1",
+    "source_system": "Salesforce CPQ (Deal Desk)",
+    "created_at": "2026-01-27T16:10:00+05:30",
+    "updated_at": "2026-01-28T11:00:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "restricted_fields": [
+      {
+        "field": "discount_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ],
+        "existence_disclosure": "A draft quote existed and was superseded; value restricted"
+      },
+      {
+        "field": "blended_rate_gbp",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ]
+      }
+    ],
+    "type": "deal_quote",
+    "requester_id": "NW0202",
+    "requester_name": "Manoj Pillai",
+    "subject": "Brightmart loyalty rebuild - proposed discount vs RC-2026 (DRAFT)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-PRICE v3 §3.2 (10-15% => Unit Head)",
+    "status": "Superseded",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": null,
+        "action": "reviewed",
+        "acted_at": "2026-01-28T11:00:00+05:30",
+        "comment": "Shared with James for client temperature check"
+      }
+    ],
+    "links": [
+      "RFC-2026-002",
+      "ACC-BRM"
+    ],
+    "discount_pct": 12.0,
+    "blended_rate_gbp": null,
+    "superseded_by": "DQ-BRM-2026-001-v2",
+    "note": "Never submitted for approval; superseded after Brightmart counter (CHT-2026-003)."
+  },
+  {
+    "id": "DQ-BRM-2026-001-v2",
+    "source_system": "Salesforce CPQ (Deal Desk)",
+    "created_at": "2026-02-05T18:30:00+05:30",
+    "updated_at": "2026-02-05T17:45:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "restricted_fields": [
+      {
+        "field": "discount_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ],
+        "existence_disclosure": "An approved pricing exception exists (CFO+CEO, Feb 2026); ask DM or Finance"
+      },
+      {
+        "field": "floor_margin_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ]
+      }
+    ],
+    "type": "deal_quote",
+    "requester_id": "NW0202",
+    "requester_name": "Manoj Pillai",
+    "subject": "Brightmart loyalty rebuild - final pricing (exception PEX-2026-004)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-PRICE v3 §3.2 (>15% => CFO and CEO jointly + Pricing Committee note)",
+    "status": "Approved (see APR-2026-0201)",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0011",
+        "approver_name": "Rahul Bhatia",
+        "approver_role": "Unit Head",
+        "action": "recommended",
+        "acted_at": "2026-02-05T17:45:00+05:30",
+        "comment": "Pricing Committee recommends; >15% so CFO+CEO required"
+      }
+    ],
+    "links": [
+      "PEX-2026-004",
+      "APR-2026-0201",
+      "MOM-2026-007",
+      "DEC-2026-005"
+    ],
+    "discount_pct": 18.0,
+    "floor_margin_pct": 21.0,
+    "supersedes": "DQ-BRM-2026-001-v1"
+  },
+  {
+    "id": "APR-2026-0201",
+    "source_system": "Salesforce Deal Desk Approvals",
+    "created_at": "2026-02-06T10:00:00+05:30",
+    "updated_at": "2026-02-10T15:40:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "restricted_fields": [
+      {
+        "field": "discount_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ],
+        "existence_disclosure": "Exception exists; approvers CFO and CEO may be named"
+      }
+    ],
+    "type": "pricing_exception",
+    "requester_id": "NW0202",
+    "requester_name": "Manoj Pillai",
+    "subject": "Approve PEX-2026-004: Brightmart RC-2026 less 18%",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-PRICE v3 §3.2 >15%: CFO and CEO jointly",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0002",
+        "approver_name": "Anjali Kapoor",
+        "approver_role": "CFO",
+        "action": "approved",
+        "acted_at": "2026-02-10T12:15:00+05:30",
+        "comment": "Approved with 21% floor and 2027 reprice checkpoint"
+      },
+      {
+        "step": 2,
+        "approver_id": "NW0001",
+        "approver_name": "Rohan Mehra",
+        "approver_role": "CEO",
+        "action": "approved",
+        "acted_at": "2026-02-10T15:40:00+05:30",
+        "comment": "Approved. Strategic UK logo."
+      }
+    ],
+    "links": [
+      "PEX-2026-004",
+      "MOM-2026-007",
+      "DEC-2026-005",
+      "ACC-BRM"
+    ],
+    "discount_pct": 18.0
+  },
+  {
+    "id": "APR-2026-0216",
+    "source_system": "Kantata PSA Approvals",
+    "created_at": "2026-02-16T12:00:00+05:30",
+    "updated_at": "2026-02-17T10:30:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "type": "bench_allocation",
+    "requester_id": "NW0802",
+    "requester_name": "Yusuf Ansari",
+    "subject": "Allocate 10 bench resources to Brightmart (STF-2026-0140)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-AUTH v5: Bench pull => RM Manager (G5)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0801",
+        "approver_name": "Bhavna Thakur",
+        "approver_role": "RM Manager",
+        "action": "approved",
+        "acted_at": "2026-02-17T10:30:00+05:30",
+        "comment": "Bench pull, RM Manager authority"
+      }
+    ],
+    "links": [
+      "STF-2026-0140",
+      "BPL-2026-007",
+      "MOM-2026-009"
+    ]
+  },
+  {
+    "id": "APR-2026-0219",
+    "source_system": "Kantata PSA Approvals",
+    "created_at": "2026-02-18T09:30:00+05:30",
+    "updated_at": "2026-02-19T18:20:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013",
+      "grp-acc-cin",
+      "NW0010"
+    ],
+    "type": "active_project_release",
+    "requester_id": "NW0801",
+    "requester_name": "Bhavna Thakur",
+    "subject": "Release Varun Shah (NW1107) from Coastline SOW-CIN-03 to Brightmart",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-RMG-BENCH v2 §2.2 (releasing DM consent + 10 working days handover)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1202",
+        "approver_name": "Sameer Desai",
+        "approver_role": "Releasing DM",
+        "action": "approved",
+        "acted_at": "2026-02-19T17:05:00+05:30",
+        "comment": "Approving under protest - Varun is Annex B key person, M3 due 30 Apr. 3 days handover only."
+      },
+      {
+        "step": 2,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "Receiving DM",
+        "action": "approved",
+        "acted_at": "2026-02-19T18:20:00+05:30",
+        "comment": "Receiving DM"
+      }
+    ],
+    "links": [
+      "STF-2026-0146",
+      "CHT-2026-007",
+      "DEC-2026-008",
+      "SOW-CIN-03",
+      "POL-RMG-BENCH-v2"
+    ],
+    "handover_days_planned": 3,
+    "handover_days_required": 10,
+    "policy_breach": "handover < 10 working days (v2 §2.2)",
+    "unit_head_consulted": false,
+    "legal_key_person_check": false
+  },
+  {
+    "id": "APR-2026-0224-01",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1106",
+    "requester_name": "Deepa Narayan",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Deepa Narayan",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0301",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-02",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1107",
+    "requester_name": "Varun Shah",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Varun Shah",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0302",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-03",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1108",
+    "requester_name": "Sneha Patil",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Sneha Patil",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0303",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-04",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1109",
+    "requester_name": "Imran Sheikh",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Imran Sheikh",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1105",
+        "approver_name": "Mohit Saxena",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T18:40:00+05:30",
+        "comment": "Approved for Ritu (DLG-2026-004)",
+        "on_behalf_of": "NW1102"
+      }
+    ],
+    "links": [
+      "ITT-2026-0304",
+      "POL-SEC-CDH-v2",
+      "DLG-2026-004"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-05",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1110",
+    "requester_name": "Kiran Das",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Kiran Das",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0305",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-06",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1111",
+    "requester_name": "Megha Sinha",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Megha Sinha",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0306",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-07",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1112",
+    "requester_name": "Arvind Pandey",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Arvind Pandey",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0307",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-08",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1113",
+    "requester_name": "Tanvi Mishra",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Tanvi Mishra",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0308",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-09",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1114",
+    "requester_name": "Rajesh Yadav",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Rajesh Yadav",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0309",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-10",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1115",
+    "requester_name": "Fatima Khan",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Fatima Khan",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0310",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-11",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1116",
+    "requester_name": "Aakash Jain",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Aakash Jain",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0311",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "APR-2026-0224-12",
+    "source_system": "ServiceNow Access Approvals",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T16:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "client_data_access",
+    "requester_id": "NW1117",
+    "requester_name": "Shreya Ghosh",
+    "subject": "Brightmart Citrix + BM-LOYALTY-PROD read access for Shreya Ghosh",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 (PM approves per-project access)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "approved",
+        "acted_at": "2026-02-24T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "ITT-2026-0312",
+      "POL-SEC-CDH-v2"
+    ]
+  },
+  {
+    "id": "DLG-2026-004",
+    "source_system": "ServiceNow Delegation Register",
+    "created_at": "2026-02-23T19:00:00+05:30",
+    "updated_at": "2026-02-23T19:30:00+05:30",
+    "classification": "MGR",
+    "acl": [
+      "grp-mgr",
+      "grp-exec"
+    ],
+    "type": "delegation",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Ritu Agarwal delegates PM approvals (Brightmart access requests) to Mohit Saxena",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-AUTH v5 §5.3",
+    "status": "Expired",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": null,
+        "action": "acknowledged",
+        "acted_at": "2026-02-23T19:30:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5"
+    ],
+    "delegate_id": "NW1105",
+    "valid_from": "2026-02-24",
+    "valid_to": "2026-02-28",
+    "note": "Mohit (G4) is lower grade than Ritu (G5) - only permitted for access approvals per DLG scope; expired 28 Feb. No delegation existed in June."
+  },
+  {
+    "id": "DLG-2026-011",
+    "source_system": "Concur Delegation",
+    "created_at": "2026-07-03T10:00:00+05:30",
+    "updated_at": "2026-07-03T12:00:00+05:30",
+    "classification": "MGR",
+    "acl": [
+      "grp-mgr",
+      "grp-exec"
+    ],
+    "type": "delegation",
+    "requester_id": "NW1101",
+    "requester_name": "Siddharth Chauhan",
+    "subject": "Siddharth Chauhan delegates expense approvals to Gaurav Kohli (G6) during leave",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-AUTH v5 §5.3",
+    "status": "Expired",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0013",
+        "approver_name": "Eleanor Hughes",
+        "approver_role": null,
+        "action": "acknowledged",
+        "acted_at": "2026-07-03T12:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5"
+    ],
+    "delegate_id": "NW1401",
+    "valid_from": "2026-07-27",
+    "valid_to": "2026-07-31"
+  },
+  {
+    "id": "APR-2026-0316",
+    "source_system": "SAP Concur Travel",
+    "created_at": "2026-03-16T09:20:00+05:30",
+    "updated_at": "2026-03-17T10:10:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1107",
+      "NW1101",
+      "NW0011",
+      "grp-finance"
+    ],
+    "type": "international_travel",
+    "requester_id": "NW1107",
+    "requester_name": "Varun Shah",
+    "subject": "London, Brightmart discovery workshop, 12 days (23 Mar - 3 Apr)",
+    "amount": 385000,
+    "currency": "INR",
+    "matrix_rule": "POL-HR-TRAVEL v3 §3.2: G6 + Unit Head (G8); <30 days no immigration review",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "G6 / DM",
+        "action": "approved",
+        "acted_at": "2026-03-16T14:00:00+05:30",
+        "comment": "Client-billable confirmed per SOW-BRM-01 §6"
+      },
+      {
+        "step": 2,
+        "approver_id": "NW0011",
+        "approver_name": "Rahul Bhatia",
+        "approver_role": "Unit Head (Retail, pre-reorg)",
+        "action": "approved",
+        "acted_at": "2026-03-17T10:10:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-HR-TRAVEL-v3",
+      "SOW-BRM-01"
+    ],
+    "billable": true,
+    "duration_days": 12
+  },
+  {
+    "id": "APR-2026-0318",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-03-18T11:00:00+05:30",
+    "updated_at": "2026-03-19T09:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1101",
+      "NW0011",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1101",
+    "requester_name": "Siddharth Chauhan",
+    "subject": "Client dinner + team offsite, Brightmart kick-off",
+    "amount": 60000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5: expense <= ₹2,00,000 => G6+ in reporting line (requester is G6, so manager)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0011",
+        "approver_name": "Rahul Bhatia",
+        "approver_role": "Line manager (pre-reorg)",
+        "action": "approved",
+        "acted_at": "2026-03-19T09:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5"
+    ]
+  },
+  {
+    "id": "APR-2026-0420",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-04-20T10:00:00+05:30",
+    "updated_at": "2026-04-20T15:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1115",
+      "NW1101",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1115",
+    "requester_name": "Fatima Khan",
+    "subject": "London client workshop materials & travel (UK Ltd)",
+    "amount": 1200,
+    "currency": "GBP",
+    "matrix_rule": "POL-FIN-AUTH v5 UK: A=£250 line manager, B=£2,000 G6",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "Line manager G6 (UK limit B £2,000)",
+        "action": "approved",
+        "acted_at": "2026-04-20T15:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5"
+    ]
+  },
+  {
+    "id": "APR-2026-0512",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-05-12T10:30:00+05:30",
+    "updated_at": "2026-05-12T17:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1105",
+      "NW1101",
+      "NW0013",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1105",
+    "requester_name": "Mohit Saxena",
+    "subject": "Kafka Summit London + certification (team capability)",
+    "amount": 180000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5: ₹25k-₹2L => G6+ in reporting line; > ₹2L => G8 Unit Head + Financial Controller",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "G6 in reporting line",
+        "action": "approved",
+        "acted_at": "2026-05-12T17:00:00+05:30",
+        "comment": "Within G6 limit. Above ₹2L would go to Eleanor (Head Consumer) not Rahul."
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5",
+      "ORG-2026-05"
+    ],
+    "escalation_path": [
+      "NW1101",
+      "NW0013",
+      "NW0015"
+    ]
+  },
+  {
+    "id": "APR-2026-0602",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-06-02T12:00:00+05:30",
+    "updated_at": "2026-06-03T09:30:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1101",
+      "NW0013",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1101",
+    "requester_name": "Siddharth Chauhan",
+    "subject": "Brightmart QBR hosting, Bangalore",
+    "amount": 55000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5 §5.2: reporting line as of request date (manager = Eleanor since 2026-05-01)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0013",
+        "approver_name": "Eleanor Hughes",
+        "approver_role": "Line manager (post-reorg)",
+        "action": "approved",
+        "acted_at": "2026-06-03T09:30:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5",
+      "ORG-2026-05"
+    ]
+  },
+  {
+    "id": "APR-2026-0815",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-08-15T10:00:00+05:30",
+    "updated_at": "2026-08-15T18:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1112",
+      "NW1105",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1112",
+    "requester_name": "Arvind Pandey",
+    "subject": "Late-night support cab + meals (peak prep)",
+    "amount": 18000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5: <= ₹25,000 line manager (G4+)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1105",
+        "approver_name": "Mohit Saxena",
+        "approver_role": "Line manager G4",
+        "action": "approved",
+        "acted_at": "2026-08-15T18:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5"
+    ]
+  },
+  {
+    "id": "APR-2026-0909",
+    "source_system": "SAP Concur Expense",
+    "created_at": "2026-09-09T11:00:00+05:30",
+    "updated_at": "2026-09-11T16:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1110",
+      "NW1105",
+      "NW1101",
+      "NW0013",
+      "grp-finance"
+    ],
+    "type": "expense",
+    "requester_id": "NW1110",
+    "requester_name": "Kiran Das",
+    "subject": "Load-testing SaaS licences (annual) - paid on corporate card",
+    "amount": 240000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5: > ₹2,00,000 => G8 Unit Head + Financial Controller",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1105",
+        "approver_name": "Mohit Saxena",
+        "approver_role": "Line manager",
+        "action": "forwarded",
+        "acted_at": "2026-09-09T15:00:00+05:30",
+        "comment": "Above my limit"
+      },
+      {
+        "step": 2,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "G6",
+        "action": "forwarded",
+        "acted_at": "2026-09-10T10:00:00+05:30",
+        "comment": "Above ₹2L"
+      },
+      {
+        "step": 3,
+        "approver_id": "NW0013",
+        "approver_name": "Eleanor Hughes",
+        "approver_role": "Unit Head (Consumer)",
+        "action": "approved",
+        "acted_at": "2026-09-11T09:00:00+05:30",
+        "comment": ""
+      },
+      {
+        "step": 4,
+        "approver_id": "NW0015",
+        "approver_name": "Neha Joshi",
+        "approver_role": "Financial Controller",
+        "action": "approved",
+        "acted_at": "2026-09-11T16:00:00+05:30",
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5",
+      "ORG-2026-05"
+    ]
+  },
+  {
+    "id": "APR-2026-0706",
+    "source_system": "Workday Absence",
+    "created_at": "2026-06-19T10:00:00+05:30",
+    "updated_at": "2026-06-20T11:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1102",
+      "NW1101",
+      "grp-hr"
+    ],
+    "type": "leave",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Earned leave 12 working days (6 Jul - 21 Jul)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-HR-LEAVE v4 §4.3 (6-15 days: line manager + PM); §4.4 15 days' notice",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "Line manager",
+        "action": "approved",
+        "acted_at": "2026-06-20T11:00:00+05:30",
+        "comment": "Requester is the PM, so line-manager approval suffices"
+      }
+    ],
+    "links": [
+      "POL-HR-LEAVE-v4"
+    ],
+    "leave_type": "Earned",
+    "start": "2026-07-06",
+    "end": "2026-07-21",
+    "working_days": 12,
+    "applied_on": "2026-06-19",
+    "notice_days": 17
+  },
+  {
+    "id": "APR-2026-0721",
+    "source_system": "Coupa Spend Approvals",
+    "created_at": "2026-07-21T10:00:00+05:30",
+    "updated_at": "2026-07-22T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "type": "unbudgeted_cloud_spend",
+    "requester_id": "NW1112",
+    "requester_name": "Arvind Pandey",
+    "subject": "Azure AKS + Event Hubs scale-up for Brightmart peak prep (unbudgeted)",
+    "amount": 650000,
+    "currency": "INR",
+    "matrix_rule": "POL-FIN-AUTH v5: hotfix/unbudgeted cloud ₹1L-₹10L => Unit Head",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1105",
+        "approver_name": "Mohit Saxena",
+        "approver_role": "Acting Architect",
+        "action": "endorsed",
+        "acted_at": "2026-07-21T12:00:00+05:30",
+        "comment": "Technical need confirmed"
+      },
+      {
+        "step": 2,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "DM",
+        "action": "endorsed",
+        "acted_at": "2026-07-21T15:00:00+05:30",
+        "comment": "Above DM limit ₹1L"
+      },
+      {
+        "step": 3,
+        "approver_id": "NW0013",
+        "approver_name": "Eleanor Hughes",
+        "approver_role": "Unit Head (Consumer)",
+        "action": "approved",
+        "acted_at": "2026-07-22T10:00:00+05:30",
+        "comment": "Within Unit Head authority (₹1L-₹10L)"
+      }
+    ],
+    "links": [
+      "POL-FIN-AUTH-v5",
+      "ORG-2026-05"
+    ]
+  },
+  {
+    "id": "APR-2026-0918",
+    "source_system": "SAP Concur Travel",
+    "created_at": "2026-09-18T10:00:00+05:30",
+    "updated_at": "2026-09-18T10:00:00+05:30",
+    "classification": "PERSONAL",
+    "acl": [
+      "NW1103",
+      "NW1101",
+      "NW0013",
+      "grp-finance"
+    ],
+    "type": "international_travel",
+    "requester_id": "NW1103",
+    "requester_name": "Nikhil Bose",
+    "subject": "London, Brightmart steering committee + remediation review, 10 days (5-14 Oct)",
+    "amount": 410000,
+    "currency": "INR",
+    "matrix_rule": "POL-HR-TRAVEL v3 §3.2/3.3: G6 + Unit Head; DM confirms billability; <30 days no CHRO",
+    "status": "Pending",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1101",
+        "approver_name": "Siddharth Chauhan",
+        "approver_role": "G6 / DM",
+        "action": "pending",
+        "acted_at": null,
+        "comment": "Awaiting billability confirmation"
+      },
+      {
+        "step": 2,
+        "approver_id": "NW0013",
+        "approver_name": "Eleanor Hughes",
+        "approver_role": "Unit Head (Consumer)",
+        "action": "not_started",
+        "acted_at": null,
+        "comment": ""
+      }
+    ],
+    "links": [
+      "POL-HR-TRAVEL-v3",
+      "ORG-2026-05"
+    ],
+    "duration_days": 10,
+    "billable": "tbc"
+  },
+  {
+    "id": "APR-2026-0331",
+    "source_system": "Finance Margin Governance",
+    "created_at": "2026-03-31T17:00:00+05:30",
+    "updated_at": "2026-04-02T11:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "NW1101"
+    ],
+    "restricted_fields": [
+      {
+        "field": "q1_margin_pct",
+        "classification": "RESTRICTED-FIN",
+        "acl": [
+          "grp-finance",
+          "grp-exec"
+        ]
+      }
+    ],
+    "type": "margin_recovery_plan",
+    "requester_id": "NW0201",
+    "requester_name": "Aditi Verma",
+    "subject": "Brightmart Q1 margin 20.4% below 21% floor - recovery plan",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-FIN-PRICE v3 §3.3 (<22% margin needs recovery plan)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0015",
+        "approver_name": "Neha Joshi",
+        "approver_role": "Financial Controller",
+        "action": "approved",
+        "acted_at": "2026-04-02T11:00:00+05:30",
+        "comment": "Quarterly review per POL-FIN-PRICE §3.3"
+      }
+    ],
+    "links": [
+      "PEX-2026-004",
+      "MOM-2026-015"
+    ],
+    "q1_margin_pct": 20.4,
+    "floor_margin_pct": 21.0
+  },
+  {
+    "id": "APR-2026-0506",
+    "source_system": "Finance Margin Governance",
+    "created_at": "2026-05-06T12:00:00+05:30",
+    "updated_at": "2026-05-06T16:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "NW1202",
+      "NW0010"
+    ],
+    "restricted_fields": [
+      {
+        "field": "amount",
+        "classification": "RESTRICTED-FIN",
+        "acl": [
+          "grp-finance",
+          "grp-exec"
+        ],
+        "existence_disclosure": "PM may be told 'a service credit was applied'"
+      }
+    ],
+    "type": "service_credit",
+    "requester_id": "NW1202",
+    "requester_name": "Sameer Desai",
+    "subject": "Coastline Insurance service credit - M3 missed (SOW-CIN-03 §8)",
+    "amount": 48000,
+    "currency": "USD",
+    "matrix_rule": "SOW-CIN-03 §8 service credit",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW0015",
+        "approver_name": "Neha Joshi",
+        "approver_role": "Financial Controller",
+        "action": "approved",
+        "acted_at": "2026-05-06T16:00:00+05:30",
+        "comment": "Recorded against Q2 revenue"
+      }
+    ],
+    "links": [
+      "ESC-2026-002",
+      "SOW-CIN-03",
+      "STF-2026-0146"
+    ]
+  },
+  {
+    "id": "APR-2026-0610",
+    "source_system": "Client Governance Log",
+    "created_at": "2026-05-20T18:00:00+05:30",
+    "updated_at": "2026-06-10T16:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "type": "client_approval_key_person",
+    "requester_id": "NW1101",
+    "requester_name": "Siddharth Chauhan",
+    "subject": "Brightmart consent: replace named architect (MSA §9) Ananya Krishnan -> Mohit Saxena (acting)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "MSA-BRM-2026 §9 (30 days' notice + client approval)",
+    "status": "Approved",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "EXT-BM-01",
+        "approver_name": "Sarah Mitchell",
+        "approver_role": "Client CIO",
+        "action": "approved",
+        "acted_at": "2026-06-10T16:00:00+05:30",
+        "comment": "Approved; noted notice was 21 days vs 30 required. Expect a permanent architect plan."
+      }
+    ],
+    "links": [
+      "MSA-BRM-2026",
+      "CHT-2026-022",
+      "STF-2026-0388",
+      "STF-2026-0389"
+    ],
+    "notice_given": "2026-05-20",
+    "client_approved": "2026-06-10",
+    "effective": "2026-06-15",
+    "notice_days": 21,
+    "contract_required_notice_days": 30,
+    "note": "Notice given 2026-05-20; client approval 2026-06-10 = 21 days of notice before approval vs 30 required by MSA §9 (late)."
+  },
+  {
+    "id": "APR-2026-0330",
+    "source_system": "ServiceNow Access Certification",
+    "created_at": "2026-03-30T17:00:00+05:30",
+    "updated_at": "2026-03-30T17:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "access_review",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Monthly access review - Brightmart client data - 2026-03",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 / ISO A.5.18",
+    "status": "Completed",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "certified",
+        "acted_at": "2026-03-30T17:00:00+05:30",
+        "comment": "14 accounts reviewed; no changes"
+      }
+    ],
+    "links": [
+      "POL-SEC-CDH-v2",
+      "CTL-A.5.18"
+    ],
+    "review_period": "2026-03"
+  },
+  {
+    "id": "APR-2026-0429",
+    "source_system": "ServiceNow Access Certification",
+    "created_at": "2026-04-29T17:00:00+05:30",
+    "updated_at": "2026-04-29T17:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "access_review",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Monthly access review - Brightmart client data - 2026-04",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 / ISO A.5.18",
+    "status": "Completed",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "certified",
+        "acted_at": "2026-04-29T17:00:00+05:30",
+        "comment": "14 accounts reviewed; no changes"
+      }
+    ],
+    "links": [
+      "POL-SEC-CDH-v2",
+      "CTL-A.5.18"
+    ],
+    "review_period": "2026-04"
+  },
+  {
+    "id": "APR-2026-0529",
+    "source_system": "ServiceNow Access Certification",
+    "created_at": "2026-05-29T17:00:00+05:30",
+    "updated_at": "2026-05-29T17:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "access_review",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Monthly access review - Brightmart client data - 2026-05",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 / ISO A.5.18",
+    "status": "Completed",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "certified",
+        "acted_at": "2026-05-29T17:00:00+05:30",
+        "comment": "14 accounts reviewed; no changes"
+      }
+    ],
+    "links": [
+      "POL-SEC-CDH-v2",
+      "CTL-A.5.18"
+    ],
+    "review_period": "2026-05"
+  },
+  {
+    "id": "APR-2026-0729",
+    "source_system": "ServiceNow Access Certification",
+    "created_at": "2026-07-29T17:00:00+05:30",
+    "updated_at": "2026-07-29T17:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "access_review",
+    "requester_id": "NW1102",
+    "requester_name": "Ritu Agarwal",
+    "subject": "Monthly access review - Brightmart client data - 2026-07",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 / ISO A.5.18",
+    "status": "Completed",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1102",
+        "approver_name": "Ritu Agarwal",
+        "approver_role": "Project Manager",
+        "action": "certified",
+        "acted_at": "2026-07-29T17:00:00+05:30",
+        "comment": "14 accounts reviewed; no changes"
+      }
+    ],
+    "links": [
+      "POL-SEC-CDH-v2",
+      "CTL-A.5.18"
+    ],
+    "review_period": "2026-07"
+  },
+  {
+    "id": "APR-2026-0908",
+    "source_system": "ServiceNow Access Certification",
+    "created_at": "2026-09-08T17:00:00+05:30",
+    "updated_at": "2026-09-08T17:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "type": "access_review",
+    "requester_id": "NW1103",
+    "requester_name": "Nikhil Bose",
+    "subject": "Monthly access review - Brightmart client data - 2026-08 (+ June catch-up)",
+    "amount": null,
+    "currency": null,
+    "matrix_rule": "POL-SEC-CDH v2 §4 / ISO A.5.18",
+    "status": "Completed",
+    "steps": [
+      {
+        "step": 1,
+        "approver_id": "NW1103",
+        "approver_name": "Nikhil Bose",
+        "approver_role": "Project Manager",
+        "action": "certified",
+        "acted_at": "2026-09-08T17:00:00+05:30",
+        "comment": "14 accounts reviewed; 1 suspension (NW1109) confirmed; June gap documented"
+      }
+    ],
+    "links": [
+      "POL-SEC-CDH-v2",
+      "CTL-A.5.18",
+      "AUD-2026-02"
+    ],
+    "review_period": "2026-08 (+ June catch-up)"
+  }
+]

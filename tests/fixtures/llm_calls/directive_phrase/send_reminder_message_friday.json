@@ -1,0 +1,10 @@
+{
+  "request": {
+    "after": "by Friday, in one short paragraph.",
+    "before": "",
+    "field": "message",
+    "kind": "send_reminder",
+    "tool": "propose_action"
+  },
+  "response": "{\"text\": \"Ask for the review by Friday and keep reminder messages to one short paragraph.\"}"
+}

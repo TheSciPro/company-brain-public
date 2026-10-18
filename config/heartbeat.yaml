@@ -1,0 +1,21 @@
+# Heartbeat (OpenClaw gateway/heartbeat + Hermes wake gate): a periodic, quiet check.
+# It speaks only when a configured check finds something new, and only to that person's own DM.
+version: 2
+enabled: true
+interval_minutes: 60
+active_hours: {start: "09:00", end: "19:00"}   # in agent.timezone; end is exclusive; outside -> skip silently
+weekdays_only: true
+silence_token: NO_REPLY                        # exact reply, or a short reply edged with this token, is dropped
+ack_token: HEARTBEAT_OK                        # same rule: a short ack is silence, never delivered
+max_chars: 300
+dedupe_hours: 20                               # same signals inside this window -> no model call, no second nudge
+use_llm: false                                 # true: background model phrases the nudge (prompts/heartbeat.md)
+prompt: heartbeat
+wake_gate:
+  skip_when_unchanged: true                    # same fingerprint as the last delivered nudge -> zero LLM calls
+  checks:                                      # cheap probes, run before any model call; an unknown name is an error
+    - {name: onboarding_due, within_days: 2}   # overdue, or due within this many days
+    - {name: pending_approvals}
+delivery:
+  to: owner                                    # this person's in-app DM only; a group target is rejected
+  channel: inbox                               # the owner's inbox; nothing is posted to a group

@@ -1,0 +1,39 @@
+{
+ "doc_id": "RFC-2026-002",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "discount_pct",
+   "label": "Discount percentage",
+   "value": "12",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "12% discount (Unit Head authority band 10–15%)."
+  },
+  {
+   "key": "discount_pct_unit_head_min",
+   "label": "Minimum discount requiring Unit Head approval",
+   "value": "10",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Unit Head authority band 10–15%."
+  },
+  {
+   "key": "discount_pct_unit_head_max",
+   "label": "Maximum discount allowed with Unit Head approval",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Unit Head authority band 10–15%."
+  },
+  {
+   "key": "target_gross_margin_t_and_m",
+   "label": "Target gross margin for Time & Materials",
+   "value": "25",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Margin ~25%."
+  }
+ ]
+}

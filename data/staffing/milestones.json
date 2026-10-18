@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MS-CIN-M3",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-05-21T10:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "account": "ACC-CIN",
+    "name": "M3 ClaimCenter claims-module cutover",
+    "due": "2026-04-30",
+    "actual": "2026-05-21",
+    "status": "Missed (3 weeks late)",
+    "links": [
+      "ESC-2026-002",
+      "APR-2026-0506"
+    ]
+  },
+  {
+    "id": "MS-CIN-M2",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-01-30T10:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "account": "ACC-CIN",
+    "name": "M2 Policy data migration",
+    "due": "2026-01-31",
+    "actual": "2026-01-30",
+    "status": "Met",
+    "links": []
+  },
+  {
+    "id": "MS-BRM-M1",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-04-09T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "account": "ACC-BRM",
+    "name": "M1 Discovery & architecture sign-off",
+    "due": "2026-04-10",
+    "actual": "2026-04-09",
+    "status": "Met",
+    "links": [
+      "RFC-2026-010"
+    ]
+  },
+  {
+    "id": "MS-BRM-M2",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-07-17T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "account": "ACC-BRM",
+    "name": "M2 Loyalty-service MVP (points accrual)",
+    "due": "2026-07-15",
+    "actual": "2026-07-17",
+    "status": "Met (2 days late, no credit)",
+    "links": []
+  },
+  {
+    "id": "MS-BRM-M3",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-09-28T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "account": "ACC-BRM",
+    "name": "M3 Peak-ready release (pre-freeze)",
+    "due": "2026-11-10",
+    "actual": null,
+    "status": "On track - at risk (remediation work)",
+    "links": [
+      "ESC-2026-005"
+    ]
+  },
+  {
+    "id": "MS-BRM-REM",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-01-15T10:00:00+05:30",
+    "updated_at": "2026-08-18T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "account": "ACC-BRM",
+    "name": "Remediation plan delivery to client (ESC-2026-005, 14 days)",
+    "due": "2026-08-20",
+    "actual": "2026-08-18",
+    "status": "Met",
+    "links": [
+      "DEC-2026-036"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+ "doc_id": "MOM-2026-007",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "discount_pct",
+   "label": "Recommended discount percentage",
+   "value": "18",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Recommend RC-2026 less 18%"
+  },
+  {
+   "key": "target_gross_margin_t_and_m",
+   "label": "Floor gross margin for Time & Materials",
+   "value": "21",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "floor margin 21%"
+  },
+  {
+   "key": "exception_initial_term_only",
+   "label": "Exceptions valid only for the initial contract term",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "exception valid for initial term only"
+  }
+ ]
+}

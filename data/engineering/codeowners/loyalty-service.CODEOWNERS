@@ -1,0 +1,5 @@
+# CODEOWNERS - brightmart/loyalty-service
+# Updated 2026-06-15 (PR #212): @ananya-krishnan -> @mohit-saxena (Acting Architect, STF-2026-0389)
+*                       @mohit-saxena
+/docs/adr/              @mohit-saxena
+/src/main/java/**/accrual/  @mohit-saxena

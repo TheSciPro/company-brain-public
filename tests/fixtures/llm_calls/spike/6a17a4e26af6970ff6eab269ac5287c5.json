@@ -1,0 +1,10 @@
+{
+ "kind": "graphiti",
+ "model": "nvidia/nemotron-3-super-120b-a12b:free",
+ "response": {
+  "contradicted_facts": [
+   0
+  ],
+  "duplicate_facts": []
+ }
+}

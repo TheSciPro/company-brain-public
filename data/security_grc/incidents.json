@@ -1,0 +1,228 @@
+[
+  {
+    "id": "INC-2026-014",
+    "source_system": "ServiceNow SecOps",
+    "created_at": "2026-08-01T09:15:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "restricted_fields": [
+      {
+        "field": "subject_person.name",
+        "classification": "SECURITY",
+        "acl": [
+          "grp-security",
+          "grp-auditor-ext",
+          "grp-auditor-int",
+          "grp-exec"
+        ],
+        "existence_disclosure": "External auditors and non-account roles see employee ID NW1109 only"
+      },
+      {
+        "field": "hr_followup",
+        "classification": "RESTRICTED-HR",
+        "acl": [
+          "NW0004",
+          "grp-hr-con"
+        ],
+        "existence_disclosure": "Existence only: 'HR follow-up exists'"
+      }
+    ],
+    "title": "Brightmart client PII accessed from unmanaged personal device",
+    "severity_initial": "Sev2",
+    "severity": "Sev1",
+    "account": "ACC-BRM",
+    "sec_ticket": "SEC-2026-0077",
+    "subject_person": {
+      "employee_id": "NW1109",
+      "name": "Imran Sheikh"
+    },
+    "data_involved": "BM-LOYALTY-PROD members table (loyalty member name, email, postcode, purchase history) - viewed in session; no download evidenced",
+    "detected_by": "EXT-AA-01 (audit sample)",
+    "awareness_t0": "2026-08-01T10:30:00+05:30",
+    "client_notification": {
+      "required_by": "ADD-BRM-GDPR-01 §8 / MSA-BRM-2026 §12 (24h)",
+      "deadline": "2026-08-02T10:30:00+05:30",
+      "sent_at": "2026-08-02T12:30:00+05:30",
+      "elapsed_hours": 26,
+      "met": false,
+      "sent_by": "NW0402",
+      "to": "EXT-BM-03",
+      "cause": "Team applied POL-SEC-IR v2 §4 default 72h instead of contractual 24h"
+    },
+    "regulator_notification": {
+      "assessment": "Controller (Brightmart) decision; Northwind as processor notified controller",
+      "by": null
+    },
+    "timeline": [
+      {
+        "at": "2026-07-14T22:47:13+05:30",
+        "event": "Citrix SSO from unregistered personal laptop over home Wi-Fi (NW1109) to fix failed pipeline ldp-accrual-nightly",
+        "evidence": "OKTA-EVT-20260714-2247"
+      },
+      {
+        "at": "2026-07-30T15:10:00+05:30",
+        "event": "Detected: Ashgrove auditor sample of Citrix logs flags unregistered device",
+        "evidence": "AUD-2026-01"
+      },
+      {
+        "at": "2026-08-01T09:15:00+05:30",
+        "event": "SEC-2026-0077 opened by SOC (Sev2: policy violation with potential exposure); IT Security Manager notified",
+        "evidence": "SEC-2026-0077"
+      },
+      {
+        "at": "2026-08-01T10:30:00+05:30",
+        "event": "Upgraded to Sev1: session confirmed to have queried BM-LOYALTY-PROD members table (PII). Awareness clock T0 for DPA §8",
+        "evidence": "SEC-2026-0077"
+      },
+      {
+        "at": "2026-08-01T10:40:00+05:30",
+        "event": "DPO (Grace Okafor) and DM (Siddharth Chauhan) notified per POL-SEC-IR §4",
+        "evidence": "CHT-2026-031"
+      },
+      {
+        "at": "2026-08-02T12:30:00+05:30",
+        "event": "Brightmart DPO (Hannah Price) notified by Northwind DPO: T0+26h; DPA §8 requires 24h - LATE. Team used IR §4 72h default",
+        "evidence": "CHT-2026-031"
+      },
+      {
+        "at": "2026-08-03T11:05:00+05:30",
+        "event": "Containment: NW1109 Citrix access suspended",
+        "evidence": "OKTA-EVT-20260803-SUSP"
+      },
+      {
+        "at": "2026-08-06T16:00:00+01:00",
+        "event": "Brightmart formal escalation ESC-2026-005 (audit right §16; remediation plan in 14 days)",
+        "evidence": "ESC-2026-005"
+      },
+      {
+        "at": "2026-08-12T15:00:00+05:30",
+        "event": "Post-incident review PIR-2026-014 completed; CAPA-1..4 raised",
+        "evidence": "PIR-2026-014"
+      },
+      {
+        "at": "2026-08-18T17:00:00+01:00",
+        "event": "Remediation plan sent to Brightmart",
+        "evidence": "DEC-2026-036"
+      },
+      {
+        "at": "2026-09-01T10:20:00+05:30",
+        "event": "Access restored on enrolled device after re-training",
+        "evidence": "ITT-2026-2301"
+      },
+      {
+        "at": "2026-09-15T18:00:00+05:30",
+        "event": "CAPA-1 due date passed at 80% - overdue",
+        "evidence": "ITT-2026-2210"
+      }
+    ],
+    "hr_followup": "HRC-2026-0031",
+    "pir": "PIR-2026-014",
+    "escalation": "ESC-2026-005",
+    "findings": [
+      "AUD-2026-01"
+    ],
+    "status": "Closed - CAPA open"
+  },
+  {
+    "id": "SEC-2026-0077",
+    "source_system": "ServiceNow SecOps",
+    "created_at": "2026-08-01T09:15:00+05:30",
+    "updated_at": "2026-09-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "opened_by": "NW0503",
+    "assigned_to": "NW0501",
+    "severity_history": [
+      {
+        "at": "2026-08-01T09:15:00+05:30",
+        "sev": "Sev2"
+      },
+      {
+        "at": "2026-08-01T10:30:00+05:30",
+        "sev": "Sev1"
+      }
+    ],
+    "incident": "INC-2026-014",
+    "actions": [
+      "2026-08-03 access suspended (NW1109)",
+      "2026-09-01 access restored (ITT-2026-2301)"
+    ],
+    "status": "Resolved"
+  },
+  {
+    "id": "PIR-2026-014",
+    "source_system": "ServiceNow SecOps",
+    "created_at": "2026-08-12T15:00:00+05:30",
+    "updated_at": "2026-08-12T15:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "incident": "INC-2026-014",
+    "participants": [
+      "NW0501",
+      "NW1701",
+      "NW0502",
+      "NW0503",
+      "NW1101",
+      "NW0402"
+    ],
+    "due_by": "2026-08-14 (10 working days per POL-SEC-IR §6)",
+    "completed": "2026-08-12",
+    "root_cause": "Okta device assurance / MDM conditional access was not enforced on the Brightmart Citrix gateway, so an unregistered personal laptop could authenticate. Contributing: no on-call laptop for late-night pipeline support; June access review skipped; IR runbook lacked client-specific notification clocks.",
+    "capa": [
+      {
+        "id": "CAPA-2026-014-1",
+        "action": "Enforce device compliance on Citrix gateway",
+        "owner": "NW1701",
+        "due": "2026-09-15",
+        "status": "Open - overdue (80%)",
+        "ticket": "ITT-2026-2210"
+      },
+      {
+        "id": "CAPA-2026-014-2",
+        "action": "Client notification-clock lookup in IR runbook",
+        "owner": "NW0501",
+        "due": "2026-08-31",
+        "status": "Closed",
+        "ticket": "ITT-2026-2215"
+      },
+      {
+        "id": "CAPA-2026-014-3",
+        "action": "Access-review calendar with mandatory delegate",
+        "owner": "NW1103",
+        "due": "2026-09-30",
+        "status": "Open",
+        "ticket": "ITT-2026-2216"
+      },
+      {
+        "id": "CAPA-2026-014-4",
+        "action": "Complete A.6.3 training for 3 staff",
+        "owner": "NW1117",
+        "due": "2026-08-31",
+        "status": "Closed",
+        "ticket": "ITT-2026-2217"
+      }
+    ]
+  }
+]

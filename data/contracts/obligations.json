@@ -1,0 +1,289 @@
+[
+  {
+    "id": "OBL-BRM-001",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "MSA-BRM-2026",
+    "source_clause": "MSA-BRM-2026§7.3",
+    "obligation": "Team processing Brightmart Personal Data works only from ODC-2 / Brightmart office; no home working",
+    "owner": "NW1101",
+    "owner_name": "Siddharth Chauhan",
+    "due": "continuous",
+    "status": "Breached once (INC-2026-014, 2026-07-14)"
+  },
+  {
+    "id": "OBL-BRM-002",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "MSA-BRM-2026",
+    "source_clause": "MSA-BRM-2026§9",
+    "obligation": "Named architect replacement: 30 days' notice + client approval",
+    "owner": "NW1101",
+    "owner_name": "Siddharth Chauhan",
+    "due": "event-driven",
+    "status": "Breached (21 days, APR-2026-0610)"
+  },
+  {
+    "id": "OBL-BRM-003",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "ADD-BRM-GDPR-01",
+    "source_clause": "ADD-BRM-GDPR-01§8",
+    "obligation": "Notify Brightmart DPO of Personal Data Breach within 24h of awareness",
+    "owner": "NW0402",
+    "owner_name": "Grace Okafor",
+    "due": "event-driven",
+    "status": "Breached (26h, INC-2026-014)"
+  },
+  {
+    "id": "OBL-BRM-004",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "MSA-BRM-2026",
+    "source_clause": "MSA-BRM-2026§12",
+    "obligation": "Security incident notice within 24h",
+    "owner": "NW1101",
+    "owner_name": "Siddharth Chauhan",
+    "due": "event-driven",
+    "status": "Breached (26h)"
+  },
+  {
+    "id": "OBL-BRM-005",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "MSA-BRM-2026",
+    "source_clause": "MSA-BRM-2026§16",
+    "obligation": "Support client audit; remediation plan within 14 days of escalation",
+    "owner": "NW1101",
+    "owner_name": "Siddharth Chauhan",
+    "due": "2026-08-20",
+    "status": "Met (sent 2026-08-18, DEC-2026-036)"
+  },
+  {
+    "id": "OBL-BRM-006",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "SOW-BRM-01",
+    "source_clause": "SOW-BRM-01§5.2",
+    "obligation": "No planned leave for allocated staff 2026-11-15..2026-12-31 (peak trading freeze)",
+    "owner": "NW1103",
+    "owner_name": "Nikhil Bose",
+    "due": "2026-11-15",
+    "status": "Upcoming"
+  },
+  {
+    "id": "OBL-BRM-007",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "ADD-BRM-GDPR-01",
+    "source_clause": "ADD-BRM-GDPR-01§6",
+    "obligation": "Prior written consent for sub-processors",
+    "owner": "NW0402",
+    "owner_name": "Grace Okafor",
+    "due": "continuous",
+    "status": "Compliant"
+  },
+  {
+    "id": "OBL-BRM-008",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "MSA-BRM-2026",
+    "source_clause": "MSA-BRM-2026§14",
+    "obligation": "SLA service credits for Sev1 SLA misses (monthly report)",
+    "owner": "NW1101",
+    "owner_name": "Siddharth Chauhan",
+    "due": "monthly",
+    "status": "No credit recorded to date"
+  },
+  {
+    "id": "OBL-BRM-009",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM-OPS",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "SOW-BRM-01",
+    "source_clause": "SOW-BRM-01§7",
+    "obligation": "CAPA evidence to client & certifier: device compliance on Citrix",
+    "owner": "NW1103",
+    "owner_name": "Nikhil Bose",
+    "due": "2026-10-30",
+    "status": "Open - at risk (ITT-2026-2210 overdue 15 Sep)"
+  },
+  {
+    "id": "OBL-BRM-010",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "contract": "ADD-BRM-GDPR-01",
+    "source_clause": "ADD-BRM-GDPR-01§9",
+    "obligation": "Annual audit right, 30 days' notice",
+    "owner": "NW0402",
+    "owner_name": "Grace Okafor",
+    "due": "annual",
+    "status": "Invoked 2026-08-06 under MSA §16"
+  },
+  {
+    "id": "OBL-CIN-001",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "contract": "SOW-CIN-03",
+    "source_clause": "SOW-CIN-03Annex B",
+    "obligation": "Key person (Varun Shah) - replacement requires client consent",
+    "owner": "NW1202",
+    "owner_name": "Sameer Desai",
+    "due": "event-driven",
+    "status": "Breached (released 2026-02-23 w/o consent)"
+  },
+  {
+    "id": "OBL-CIN-002",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "contract": "SOW-CIN-03",
+    "source_clause": "SOW-CIN-03§6.4",
+    "obligation": "10 working days' handover for any key-person change",
+    "owner": "NW1202",
+    "owner_name": "Sameer Desai",
+    "due": "event-driven",
+    "status": "Breached (3 days)"
+  },
+  {
+    "id": "OBL-CIN-003",
+    "source_system": "Icertis CLM",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "restricted_fields": [
+      {
+        "field": "status",
+        "classification": "RESTRICTED-FIN",
+        "acl": [
+          "grp-finance",
+          "grp-exec"
+        ]
+      }
+    ],
+    "contract": "SOW-CIN-03",
+    "source_clause": "SOW-CIN-03§8",
+    "obligation": "Milestone M3 by 2026-04-30 or service credit",
+    "owner": "NW1201",
+    "owner_name": "Prakash Hegde",
+    "due": "2026-04-30",
+    "status": "Missed; $48k credit (APR-2026-0506)"
+  }
+]

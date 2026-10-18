@@ -1,0 +1,97 @@
+{
+ "doc_id": "SOW-BRM-01",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "max_offshore_fte",
+   "label": "Maximum offshore full‑time equivalents",
+   "value": "16",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Up to 16 FTE offshore (ODC-2)"
+  },
+  {
+   "key": "max_onsite_fte_london",
+   "label": "Maximum onsite full‑time equivalents in London",
+   "value": "2",
+   "unit": null,
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "2 onsite London"
+  },
+  {
+   "key": "peak_freeze_start_day_month",
+   "label": "Start day/month of peak‑trading freeze each year",
+   "value": "15-11",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "no planned leave for allocated Supplier Personnel from 15 November to 31 December each year"
+  },
+  {
+   "key": "peak_freeze_end_day_month",
+   "label": "End day/month of peak‑trading freeze each year",
+   "value": "31-12",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "no planned leave for allocated Supplier Personnel from 15 November to 31 December each year"
+  },
+  {
+   "key": "peak_freeze_duration_days",
+   "label": "Duration of peak‑trading freeze each year",
+   "value": "46",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "from 15 November to 31 December each year"
+  },
+  {
+   "key": "milestone_due_date_m1",
+   "label": "M1 Discovery & architecture sign‑off due date",
+   "value": "2026-04-10",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "M1 Discovery & architecture sign‑off (2026-04-10)"
+  },
+  {
+   "key": "milestone_due_date_m2",
+   "label": "M2 MVP points accrual due date",
+   "value": "2026-07-15",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "M2 MVP points accrual (2026-07-15)"
+  },
+  {
+   "key": "milestone_due_date_m3",
+   "label": "M3 Peak‑ready release due date",
+   "value": "2026-11-10",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "M3 Peak-ready release (2026-11-10)"
+  },
+  {
+   "key": "travel_reimbursement_required",
+   "label": "Travel reimbursement condition",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Onsite travel for discovery and steering committees is reimbursable when pre‑agreed in writing by Brightmart"
+  },
+  {
+   "key": "emergency_leave_exception_allowed",
+   "label": "Emergency leave allowed during peak freeze",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Emergency leave excepted"
+  },
+  {
+   "key": "security_audit_correction_deadline",
+   "label": "Deadline to provide corrective‑action evidence for audit non‑conformity",
+   "value": "certifier_deadline",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "within the certifier's deadline"
+  }
+ ]
+}

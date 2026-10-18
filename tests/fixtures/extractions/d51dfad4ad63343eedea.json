@@ -1,0 +1,23 @@
+{
+ "doc_id": "DEC-2026-032",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "client_notification_deadline",
+   "label": "Client notification deadline",
+   "value": "24",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "DPA requires 24h."
+  },
+  {
+   "key": "incident_report_deadline",
+   "label": "Incident report deadline",
+   "value": "72",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Team applied IR §4 72h default; IR §4 defers to contract"
+  }
+ ]
+}

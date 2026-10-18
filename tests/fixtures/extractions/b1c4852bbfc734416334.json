@@ -1,0 +1,49 @@
+{
+ "doc_id": "MOM-2026-026",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "gross_margin",
+   "label": "Gross margin",
+   "value": "22.1",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "margin 22.1% (above 21% floor and 22% recovery threshold)"
+  },
+  {
+   "key": "margin_floor",
+   "label": "Margin floor",
+   "value": "21",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "margin 22.1% (above 21% floor and 22% recovery threshold)"
+  },
+  {
+   "key": "margin_recovery_threshold",
+   "label": "Margin recovery threshold",
+   "value": "22",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "margin 22.1% (above 21% floor and 22% recovery threshold)"
+  },
+  {
+   "key": "recovery_plan_duration_quarters",
+   "label": "Recovery plan duration",
+   "value": "1",
+   "unit": "quarters",
+   "qualifiers": {},
+   "quote": "Recovery plan to continue one more quarter."
+  },
+  {
+   "key": "vat_onsite_billing_due_date",
+   "label": "VAT on onsite billing due date",
+   "value": "2026-07-05",
+   "unit": null,
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "Rachel Moore — UK VAT on onsite billing (due 2026-07-05)."
+  }
+ ]
+}

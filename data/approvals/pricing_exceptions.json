@@ -1,0 +1,205 @@
+[
+  {
+    "id": "PEX-2026-004",
+    "source_system": "Finance Exception Register",
+    "created_at": "2026-02-10T16:00:00+05:30",
+    "updated_at": "2026-02-10T16:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "restricted_fields": [
+      {
+        "field": "discount_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ],
+        "existence_disclosure": "Existence + approvers (CFO, CEO, Feb 2026) may be disclosed to Brightmart PM; never % / rates / margin"
+      },
+      {
+        "field": "effective_rates_gbp",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ]
+      },
+      {
+        "field": "floor_margin_pct",
+        "classification": "RESTRICTED-FIN-DM",
+        "acl": [
+          "grp-finance",
+          "grp-exec",
+          "grp-pricing-desk",
+          "grp-acc-brm-dm",
+          "NW0011",
+          "NW0013"
+        ]
+      }
+    ],
+    "existence_visible_to": [
+      "grp-acc-brm",
+      "grp-mgr"
+    ],
+    "title": "Pricing Exception: Brightmart UK",
+    "account": "ACC-BRM",
+    "rate_card": "RC-2026",
+    "discount_pct": 18.0,
+    "effective_rates_gbp": {
+      "offshore": {
+        "G1": 14.76,
+        "G2": 19.68,
+        "G3": 26.24,
+        "G4": 32.8,
+        "G5": 39.36,
+        "G6": 47.56
+      },
+      "onsite_london": {
+        "G3": 61.5,
+        "G4": 72.16,
+        "G5": 80.36,
+        "G6": 94.3,
+        "G7": 114.8
+      }
+    },
+    "floor_margin_pct": 21.0,
+    "policy_target_margin_pct": 28.0,
+    "approvers": [
+      "NW0002",
+      "NW0001"
+    ],
+    "approved_on": "2026-02-10",
+    "approval_record": "APR-2026-0201",
+    "pricing_committee_note": "MOM-2026-007",
+    "decision": "DEC-2026-005",
+    "valid_for": "Initial contract term (POL-FIN-PRICE v3 §3.4): 2026-02-12 to 2029-02-11; renegotiate at renewal",
+    "checkpoints": [
+      "2027-02 reprice checkpoint (DEC-2026-005)"
+    ],
+    "supersedes_draft": "RFC-2026-002 / DQ-BRM-2026-001-v1 (12%, never approved)"
+  },
+  {
+    "id": "PEX-2026-002",
+    "source_system": "Finance Exception Register",
+    "created_at": "2026-01-14T10:00:00+05:30",
+    "updated_at": "2026-01-14T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: Veridian Pharma onsite blend (decoy)",
+    "account": "ACC-VER",
+    "discount_pct": 7.0,
+    "approvers": [
+      "NW1601"
+    ],
+    "approved_on": "2026-01-14",
+    "note": "≤10%, DM authority. Unrelated to Brightmart."
+  },
+  {
+    "id": "PEX-2025-011",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-03-10T10:00:00+05:30",
+    "updated_at": "2025-03-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-100",
+    "account": "CL-100",
+    "discount_pct": 4,
+    "background": true
+  },
+  {
+    "id": "PEX-2025-012",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-04-10T10:00:00+05:30",
+    "updated_at": "2025-04-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-107",
+    "account": "CL-107",
+    "discount_pct": 6,
+    "background": true
+  },
+  {
+    "id": "PEX-2025-013",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-05-10T10:00:00+05:30",
+    "updated_at": "2025-05-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-114",
+    "account": "CL-114",
+    "discount_pct": 8,
+    "background": true
+  },
+  {
+    "id": "PEX-2025-014",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-06-10T10:00:00+05:30",
+    "updated_at": "2025-06-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-121",
+    "account": "CL-121",
+    "discount_pct": 11,
+    "background": true
+  },
+  {
+    "id": "PEX-2025-015",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-07-10T10:00:00+05:30",
+    "updated_at": "2025-07-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-128",
+    "account": "CL-128",
+    "discount_pct": 9,
+    "background": true
+  },
+  {
+    "id": "PEX-2025-016",
+    "source_system": "Finance Exception Register",
+    "created_at": "2025-08-10T10:00:00+05:30",
+    "updated_at": "2025-08-10T10:00:00+05:30",
+    "classification": "RESTRICTED-FIN",
+    "acl": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "title": "Pricing Exception: CL-135",
+    "account": "CL-135",
+    "discount_pct": 5,
+    "background": true
+  }
+]

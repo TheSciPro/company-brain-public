@@ -1,0 +1,27 @@
+{
+ "doc_id": "MSA-ZEN-2022",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "hourly_rate",
+   "label": "Blended hourly rate for T&M e‑commerce support",
+   "value": "2100",
+   "unit": "INR/hour",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "T&M e-commerce support, ₹2,100/hr blended."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "WFH allowed."
+  }
+ ]
+}

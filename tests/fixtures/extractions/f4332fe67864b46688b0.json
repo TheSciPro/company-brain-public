@@ -1,0 +1,23 @@
+{
+ "doc_id": "DEC-2026-014",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "All staff allocated to Brightmart work from ODC-2 (Floor 6) only; no WFH or work-from-anywhere days while allocated."
+  },
+  {
+   "key": "max_wfh_days_per_year",
+   "label": "Maximum work‑from‑anywhere days per year",
+   "value": "0",
+   "unit": "days/year",
+   "qualifiers": {},
+   "quote": "All staff allocated to Brightmart work from ODC-2 (Floor 6) only; no WFH or work-from-anywhere days while allocated."
+  }
+ ]
+}

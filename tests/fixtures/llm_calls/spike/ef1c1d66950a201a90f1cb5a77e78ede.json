@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/qwen/qwen3.8-27b",
+ "response": "```json\n[\n  {\"name\": \"Payments team on-call policy\", \"type\": \"Policy\", \"description\": \"The on-call policy for the Payments team, allowing engineers to claim one comp day after a weekend incident\", \"confidence\": 0.92, \"start\": 0, \"end\": 28},\n  {\"name\": \"Payments team\", \"type\": \"Team\", \"description\": \"The team responsible for payments, which has an on-call policy\", \"confidence\": 0.95, \"start\": 0, \"end\": 13},\n  {\"name\": \"Ben Ode\", \"type\": \"Person\", \"description\": \"Person who approves comp days for the Payments team\", \"confidence\": 0.97, \"start\": 97, \"end\": 104},\n  {\"name\": \"Payments team\", \"type\": \"Team\", \"description\": \"The team responsible for payments, for which Ben Ode approves comp days\", \"confidence\": 0.95, \"start\": 132, \"end\": 145}\n]\n```"
+}

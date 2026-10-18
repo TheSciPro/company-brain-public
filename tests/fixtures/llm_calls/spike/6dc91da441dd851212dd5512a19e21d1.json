@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/qwen/qwen3.8-27b",
+ "response": "1. Payments team on-call policy vs Payments team | rule: 1a \u2013 \"on-call policy\" narrows to a specific policy document, not the team itself | NO\n2. Ben Ode vs Payments team on-call policy | rule: 1a \u2013 a person is not a policy; entirely different entity types | NO\n3. Payments vs Payments team | rule: 1b \u2013 \"team\" is a fuller label for the same team; both are type Team with the same members | YES\n4. Payments vs Payments team on-call policy | rule: 1a \u2013 \"team on-call policy\" narrows to a policy document, not the team | NO\n5. Platform vs Payments team | rule: 4 \u2013 different team IDs, different regions, different members; high similarity is coincidental | NO"
+}

@@ -1,0 +1,10 @@
+# Demo personas (synthetic Northwind data). The UI persona switcher and `nwb chat --as` read this file.
+version: 1
+personas:
+  - {id: NW1103, label: "Nikhil Bose · PM, Brightmart", asof: 2026-09-28}
+  - {id: NW0201, label: "Aditi Verma · Finance", asof: 2026-09-28}
+  - {id: NW0301, label: "Pooja Reddy · HRBP Consumer", asof: 2026-09-28}
+  - {id: EXT-AA-01, label: "Claire Bennett · External auditor", asof: 2026-09-29}
+  - {id: NW2027, label: "Omkar Bhat · New hire (Day 34)", asof: 2026-09-28}
+  - {id: NW1101, label: "Siddharth Chauhan · DM, Brightmart", asof: 2026-09-28}
+  - {id: NW2075, label: "Alok Naik · Engineering manager (approver for Omkar)", asof: 2026-09-28}

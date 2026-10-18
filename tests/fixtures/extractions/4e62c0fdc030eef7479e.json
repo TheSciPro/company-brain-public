@@ -1,0 +1,47 @@
+{
+ "doc_id": "ADD-BRM-GDPR-01",
+ "prompt_ref": "fact_extract@v2",
+ "model": "groq:openai/gpt-oss-20b",
+ "facts": [
+  {
+   "key": "breach_notification_within_hours",
+   "label": "Breach notification response time",
+   "value": "24",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Processor shall notify the Brightmart DPO of a Personal Data Breach within 24 hours of becoming aware"
+  },
+  {
+   "key": "audit_notice_days",
+   "label": "Audit notice period",
+   "value": "30",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Brightmart may audit annually with 30 days' notice"
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Remote work allowed",
+   "value": "0",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Personnel processing Personal Data must not work remotely"
+  },
+  {
+   "key": "sub_processor_consent_required",
+   "label": "Sub‑processor consent required",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Sub‑processors require Brightmart's prior written consent"
+  },
+  {
+   "key": "international_transfer_destination_country",
+   "label": "International transfer destination country",
+   "value": "IN",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "To India under the UK IDTA"
+  }
+ ]
+}

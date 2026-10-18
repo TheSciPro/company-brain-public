@@ -1,0 +1,42 @@
+# Entity resolution after GraphRAG-SDK finalize().
+# finalize() dedups exact names and reports probable duplicates. It does not merge on a guess.
+# These rules decide which of those leftovers are a link and which are only an inbox suggestion.
+# The numbers are the old resolver's: exact id or email links at 1.0; a unique normalised name
+# is not a merge; one "R. Surname" scores 0.9; several score 0.4; a shared full name scores 0.5;
+# an external person is never joined to an internal one, not by name and not by a shared email or id.
+version: 1
+suggestion_threshold: 0.9
+scores:
+  exact_link: 1.0
+  normalised_suffix: 0.95
+  initial_surname: 0.9
+  reordered_words: 0.85
+  shared_name: 0.5
+  ambiguous_initial: 0.4
+# Substrings of the reasons finalize() puts on probable_duplicates. Longest match wins.
+reasons:
+  normalised_suffix: "the same name once legal suffixes and abbreviations are normalised"
+  initial_surname: "the same surname, with one given name written as an initial"
+  reordered_words: "the same words in a different order"
+  shared_name: "same name as"
+name:
+  ascii_fold: true
+  drop_parenthetical: true
+  strip_pattern: "[^a-z.' -]"
+  initial_pattern: "^([a-z])\\.?\\s+([a-z][a-z' -]+)$"
+identities:
+  - label: Person
+    never_merge: true
+    link_by:
+      # A shared email or id is a link. Different emails are different people.
+      # Different ids are not, on their own, evidence of two people: every row has its own id.
+      - {field: email, property: email, normalise: lower, conflict: true}
+      - {field: id, property: entity_key, normalise: exact, conflict: false}
+    keep_apart:                 # checked first: a differing value here means no link, whatever else matches
+      - {field: external, property: external, normalise: lower}
+link:
+  type: IDENTIFIES
+  origin: INFERRED
+inbox:
+  kind: suggest_duplicate
+  proposed_by: resolution

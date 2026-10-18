@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "label": "Allocation",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "ApprovalLimit",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "Exception",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "HrCase",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "Person",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "Training",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    },
+    {
+      "label": "Unit",
+      "description": "Declared by the source catalog.",
+      "properties": []
+    }
+  ],
+  "relations": [
+    {
+      "label": "ALLOCATED",
+      "description": "Declared by the source catalog.",
+      "patterns": [
+        [
+          "Allocation",
+          "Person"
+        ]
+      ],
+      "properties": []
+    },
+    {
+      "label": "FOR_PERSON",
+      "description": "Declared by the source catalog.",
+      "patterns": [
+        [
+          "Training",
+          "Person"
+        ]
+      ],
+      "properties": []
+    },
+    {
+      "label": "MEMBER_OF",
+      "description": "Declared by the source catalog.",
+      "patterns": [
+        [
+          "Person",
+          "Unit"
+        ]
+      ],
+      "properties": []
+    },
+    {
+      "label": "REPORTS_TO",
+      "description": "Declared by the source catalog.",
+      "patterns": [
+        [
+          "Person",
+          "Person"
+        ]
+      ],
+      "properties": []
+    }
+  ],
+  "tables": []
+}

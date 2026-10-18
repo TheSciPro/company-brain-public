@@ -1,0 +1,70 @@
+# The judge's click-through (docs/DEMO.md) as checks for scripts/demo_ui_check.py.
+# Patterns are case-insensitive regexes on the visible answer text; `sources` match the Evidence panel.
+version: 1
+answer_timeout_s: 240
+# Never visible in a good answer: raw markdown, internal tool names, error text, a lone ellipsis.
+forbid_always:
+  - '\*\*'
+  - '【'
+  - '\b(company_fact|search_company|read_file|edit_file|onboarding_brief|query_[a-z_]+)\b'
+  - 'something went wrong'
+  - '^\s*…\s*$'
+  - '\bdec-[0-9a-f]{6,}'
+  - '\.md\b'          # memory file names are internal
+  - '/memories'
+# --record: one recording of the run at this size, cut into a webm (+ mp4) per step, plus a close-up of the
+# Evidence panel (reasoning graph + sources) after `zoom_after`. Questions are typed at type_delay_ms per key.
+record:
+  dir: var/demo-run/video
+  width: 1920
+  height: 1080
+  type_delay_ms: 55
+  hold_s: 3
+  zoom_after: 02_siddharth_discount
+  zoom_clip: 02z_evidence_zoom
+  zoom: 1.5
+  zoom_hold_s: 6
+  clips:   # clip name -> the steps it shows, in order (contiguous in the recording)
+    c01_siddharth: [02_siddharth_discount]
+    c01z_evidence_zoom: [02z_evidence_zoom]
+    c02_nikhil: [03_nikhil_refused]
+    c03_omkar: [04_omkar_onboarding]
+    c06_alok_approvals: [07_alok_approvals, 08_alok_approve]
+# --reset: lines earlier runs saved, removed so the memory starts clean (nothing else in the file changes).
+reset:
+  - {person: NW0301, file: USER.md, drop: 'three short bullet points'}
+steps:
+  - id: 01_personas
+    kind: personas
+    expect_ids: [NW1101, NW1103, NW2027, NW0301, NW2075]
+  - id: 02_siddharth_discount
+    kind: chat
+    persona: NW1101
+    message: What discount did we finally approve for Brightmart?
+    expect: ['final approved discount for Brightmart', '\b18\s?%', 'PEX-2026-004']
+    sources: ['highly confidential', 'FalkorDB graph\s+nw_kb_highly_confidential', 'node\s+\(:Fact', 'MATCH \(f:Fact\)', 'hops?']
+  - id: 03_nikhil_refused
+    kind: chat
+    persona: NW1103
+    message: What discount did we finally approve for Brightmart?
+    expect: ["(don.t|do not) have|not on record", 'Siddharth Chauhan']
+    forbid: ['\b18\s?%', 'PEX-2026-004']
+  - id: 04_omkar_onboarding
+    kind: chat
+    persona: NW2027
+    message: Hi, I'm new here. What should I focus on this week?
+    expect: ['Alok Naik', 'Komal Karnik', 'SSO|MFA']
+  - id: 07_alok_approvals
+    kind: approvals
+    persona: NW2075
+    expect_title: 'Overdue onboarding: Omkar Bhat'
+  - id: 08_alok_approve
+    kind: approve
+    persona: NW2075
+    expect_title: 'Overdue onboarding: Omkar Bhat'
+  - id: 09_aditi_finance
+    kind: chat
+    persona: NW0201
+    message: What discount did we finally approve for Brightmart?
+    # Finance is on PEX-2026-004's ACL (grp-finance), so Aditi sees it by a different grant than Siddharth.
+    expect: ['\b18\s?%', 'PEX-2026-004']

@@ -1,0 +1,23 @@
+{
+ "doc_id": "MSA-CIN-2024",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "key_person_removal_allowed",
+   "label": "Removal of key persons without client consent",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "§10 Key persons as listed in each SOW annex may not be removed without client consent."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission on managed devices",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "§13 US PII handled on managed devices; WFH allowed on managed devices."
+  }
+ ]
+}

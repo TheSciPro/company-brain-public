@@ -1,0 +1,61 @@
+# New-hire onboarding (R3). Templates are company content: edit here, run `nwb onboarding seed`.
+version: 1
+new_hire_window_days: 90          # people hired within this many days of their as-of date get a plan
+phases:                            # inclusive day ranges (day 1 = start date)
+  p0: [1, 1]
+  p1: [2, 7]
+  p2: [8, 30]
+  p3: [31, 60]
+  p4: [61, 90]
+buddy:
+  same_unit: true
+  max_grade_gap: 2
+  min_tenure_days: 365
+brief:
+  lookahead_days: 7
+  max_items: 6
+bootstrap:
+  top_items: 3
+# Beats run only on these purposes. Heartbeat and cron never onboard (OpenClaw bootstrap-mode).
+onboard_purposes: [chat]
+beats:
+  - id: confirm_place
+    example: >
+      You joined {{ team }}, and {{ manager }} is your manager{% if buddy %}. {{ buddy }} is your buddy{% endif %}.
+      Does that match?
+    text: >
+      Confirm they joined {{ team }}, manager {{ manager }}{% if buddy %}, buddy {{ buddy }}{% endif %}.
+      These facts are HR data: do not save them as memories. If they say one is wrong, save the correction
+      with add_memory(kind="correction", capture_intent="correction") and say the HR record is unchanged.
+  - id: answer_style
+    example: "How do you like answers: a few sentences, or shorter?"
+    text: >
+      Ask how they like answers (length, format). When they say, write it with edit_file in
+      /memories/USER.md under "How they like answers", outside the directory block.
+  - id: buddy
+    when:
+      all:
+        - {fact: has_buddy}
+    example: "Your onboarding buddy is {{ buddy }}. Want a one-line intro you can send them?"
+    text: >
+      Their onboarding buddy is {{ buddy }}. Offer a short intro. The buddy was assigned from HR data.
+  - id: brief
+    when:
+      all:
+        - {fact: open_items, op: gt, value: 0}
+    example: "I can pull your onboarding brief and start with what is overdue. Want that?"
+    text: >
+      Offer the onboarding brief: read the onboarding skill, then call onboarding_brief. Lead with overdue items.
+  - id: today
+    example: 'Today: {{ top_items | join("; ") or "nothing due" }}. Nudges stay in your inbox.'
+    text: >
+      Today's top items: {{ top_items | join("; ") or "none" }}. Nudges arrive in the in-app inbox during work
+      hours. When they finish an item, call update_onboarding_item.
+templates:
+  - {id: T-ACC-01, category: accounts, title: "Activate SSO, MFA and laptop enrolment", due_day: 1}
+  - {id: T-PPL-01, category: people, title: "Intro 1:1 with your manager", due_day: 2}
+  - {id: T-PPL-02, category: people, title: "Coffee with your onboarding buddy", due_day: 3}
+  - {id: T-TRN-01, category: training, title: "Complete Information Security Awareness training", due_day: 14}
+  - {id: T-RMP-01, category: ramp, title: "Shadow a project stand-up and log your first ticket", due_day: 21}
+  - {id: T-ACC-02, category: access, title: "Request project/client data access through your PM", due_day: 25}
+  - {id: T-RMP-02, category: ramp, title: "30-day check-in with your manager", due_day: 30}

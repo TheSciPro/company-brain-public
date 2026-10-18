@@ -1,0 +1,47 @@
+{
+ "doc_id": "DEC-2026-005",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "discount_pct",
+   "label": "Discount percentage",
+   "value": "18",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Recommend RC-2026 less **18%**, floor margin **21%**"
+  },
+  {
+   "key": "margin_recovery_threshold",
+   "label": "Margin percentage below which recovery review is required",
+   "value": "22",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Margin below 22% requires quarterly recovery review"
+  },
+  {
+   "key": "exception_initial_term_only",
+   "label": "Exception valid only for the initial contract term",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "exception valid for initial term only"
+  },
+  {
+   "key": "exception_renegotiation_at_renewal",
+   "label": "Exception must be renegotiated at renewal",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "renegotiate at 2029 renewal"
+  },
+  {
+   "key": "discount_pct_cfo_ceo_threshold",
+   "label": "Discount percentage above which CFO and CEO approval is required",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": ">15% ⇒ CFO **and** CEO approval"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+# Memory layer tunables (nwb.conf.models.MemoryConfig).
+# One memory system: USER.md holds preferences; Graphiti holds dated facts (group_id {company}__{user}).
+version: 4
+content_max_chars: 500
+kinds: [fact, preference, relationship, goal, credential, link, file, correction, outcome]
+default_sensitivity: highly_confidential   # personal memory = owner only
+authority: 1                               # chat memories never outrank company facts
+secret_patterns:                           # anything that looks like a secret is rejected
+  - '(?i)\b(password|passwd|pwd)\s*[:=]\s*\S+'
+  - '\b(gsk|sk|nvapi|ghp|xox[bp])[-_][A-Za-z0-9_\-]{8,}'
+  - '\bAKIA[0-9A-Z]{16}\b'
+  - '\b\d{4}[ -]?\d{4}[ -]?\d{4}[ -]?\d{4}\b'
+embedder:
+  kind: fastembed                          # fastembed | hashing (offline/tests)
+  model: BAAI/bge-small-en-v1.5
+  dim: 384
+search:                                    # company keyword search only (personal facts use Graphiti)
+  min_term_len: 3
+  stopwords: [the, and, for, what, when, who, how, did, does, are, was, were, you, your, my, me, our, with, that, this, about, from, have, has, can, should, would, do, is, it, of, to, in, "on", at, a, an, i]
+facts:
+  latency_budget_ms: 4000                  # recall budget, including time queued on the shared loop
+  io_timeout_ms: 30000                     # writes and reads; cancel and degrade instead of waiting forever
+  known_entity_limit: 40                   # names passed into extraction so Graphiti reuses them
+  chunk_chars: 400                         # under content_max_chars so LengthGuard does not drop a whole chat
+  slots:                                   # reserved hits per kind; preference is omitted on purpose
+    fact: 3
+    relationship: 2
+    goal: 2
+    outcome: 1
+    correction: 1
+  preference_kinds: [preference]
+  relation_kinds:
+    WORKS_ON: relationship
+    WORKS_AT: relationship
+    MEMBER_OF: relationship
+    MOVED_TO: relationship
+    REPORTS_TO: relationship
+    # Graphiti names the edge PREFERS / PREFERENCE, not the slot name "preference".
+    PREFERS: preference
+    PREFERENCE: preference
+  default_kind: fact
+  extraction_instructions: >
+    Extract dated work facts (teams, roles, clients, projects, offices) from the user's own words.
+    Reuse a known entity name when it is the same thing. Do not extract answer-style preferences;
+    those belong in the user's profile, not in this graph.
+consolidation:                         # memory-keeper, started by the turn counter (not a prompt nudge)
+  interval_turns: 6                    # new user messages since the last pass; 0 disables the counter
+  min_messages: 3                      # smaller batches are skipped, not rewritten
+  max_messages: 40
+  subagent: memory-keeper              # agent/subagents/memory-keeper.md (model: background, writes:)
+  sweep_minutes: 15
+# Quality gate: episode chunks, /memories/facts/ writes, and USER.md / MEMORY.md.
+# A rule rejects when at least min_matches pattern hits land and the text is at least min_chars long.
+quality:
+  guarded_files: [USER.md, MEMORY.md]
+  rejection_suffix: "Do not save this and do not retry the same text."
+  rules:
+    venting:
+      reason: "venting, not something that will still be true next week"
+      min_matches: 1
+      patterns:
+        - '(?i)\b(ugh+|argh|wtf|ffs|omfg)\b'
+        - '(?i)\b(so (frustrated|annoyed|angry)|i hate (this|that|it)|this is (ridiculous|stupid|insane))\b'
+        - '(?i)\b(just (venting|ranting)|need to (vent|rant))\b'
+    self_correction:
+      reason: "self-correction of something just said; save the durable fact, not the retraction"
+      min_matches: 1
+      patterns:
+        - '(?i)\b(scratch that|never mind|nvm|disregard (that|what i said)|ignore what i (just )?said|i take (that|it) back)\b'
+        - '(?i)\b(wait,?\s+no|sorry,?\s+i meant|no wait|that was wrong,?\s+i meant)\b'
+    stack_trace:
+      reason: "stack trace"
+      min_matches: 2
+      patterns:
+        - 'Traceback \(most recent call last\)'
+        - 'File ".+", line \d+'
+        - '\bat [\w.$<>]+\([^)\n]{0,120}:\d+:\d+\)'
+        - '\b[A-Za-z_.]*(Error|Exception): '
+    error_dump:
+      reason: "pasted error dump"
+      min_matches: 4
+      min_chars: 160
+      patterns:
+        - '(?i)\b(errno|segfault|traceback|panic)\b'
+        - '(?i)\b(ERROR|FATAL)\b'
+        - '(?i)\b(exception|failed)\b'
+# An edited approval becomes one Prefer directive per changed field.
+edit_learning:
+  enabled: true
+  verb: Prefer
+  verbs: [Always, Never, Prefer]
+  active_status: active
+  superseded_status: superseded
+  prompt: directive_phrase
+  role: background
+  max_chars: 240
+  excerpt_chars: 400
+  section: "## Directives"
+  target_file: USER.md
+  kind_field: kind
+  empty_marker: "- (none yet)"
+  ignore_fields: []

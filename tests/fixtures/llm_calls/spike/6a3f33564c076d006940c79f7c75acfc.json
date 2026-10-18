@@ -1,0 +1,22 @@
+{
+ "kind": "graphiti",
+ "model": "openai/gpt-oss-120b",
+ "response": {
+  "extracted_entities": [
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "user"
+   },
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "Payments team"
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "doc_id": "MSA-MED-2025",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "hourly_rate",
+   "label": "Blended hourly rate for T&M e‑commerce support",
+   "value": "2600",
+   "unit": "INR/hour",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Fixed-price HIS integration, ₹2,600/hr basis."
+  }
+ ]
+}

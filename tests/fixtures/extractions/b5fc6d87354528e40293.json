@@ -1,0 +1,65 @@
+{
+ "doc_id": "POL-HR-WFH@v2",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "max_wfh_days_per_week",
+   "label": "Maximum work-from-home days per week",
+   "value": "2",
+   "unit": "days/week",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Up to 2 days/week WFH with manager approval."
+  },
+  {
+   "key": "min_in_office_days_per_week",
+   "label": "Minimum in-office days per week",
+   "value": "3",
+   "unit": "days/week",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Minimum 3 days in office."
+  },
+  {
+   "key": "max_wfh_days_per_week",
+   "label": "Maximum work-from-home days per week",
+   "value": "2",
+   "unit": "days/week",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "Up to 2 days/week WFH."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work-from-home permission",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Up to 2 days/week WFH with manager approval."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work-from-home permission",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "Up to 2 days/week WFH."
+  },
+  {
+   "key": "wfh_on_company_devices_only",
+   "label": "WFH allowed only on company-managed devices",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "WFH only on Northwind-managed devices."
+  }
+ ]
+}

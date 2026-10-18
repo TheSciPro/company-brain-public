@@ -1,0 +1,5 @@
+{
+ "kind": "messages",
+ "model": "groq/qwen/qwen3.8-27b",
+ "response": "Ben Ode"
+}

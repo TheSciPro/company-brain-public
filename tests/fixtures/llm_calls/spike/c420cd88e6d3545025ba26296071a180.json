@@ -1,0 +1,22 @@
+{
+ "kind": "graphiti",
+ "model": "nvidia/nemotron-3-super-120b-a12b:free",
+ "response": {
+  "extracted_entities": [
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "user"
+   },
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "Platform team"
+   }
+  ]
+ }
+}

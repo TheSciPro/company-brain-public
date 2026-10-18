@@ -1,0 +1,45 @@
+# Manual only. Pushes this branch to a Hugging Face Docker Space when both secrets exist.
+name: Push Hugging Face Space
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  push-space:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Push branch to the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ secrets.HF_SPACE }}
+        run: |
+          set -euo pipefail
+          if [ -z "${HF_TOKEN}" ] || [ -z "${HF_SPACE}" ]; then
+            echo "HF_TOKEN or HF_SPACE is not set; skipping the Space push."
+            exit 0
+          fi
+          case "${HF_SPACE}" in
+            */*) ;;
+            *) echo "HF_SPACE must look like owner/space-name"; exit 1 ;;
+          esac
+          case "${HF_SPACE}" in
+            *[!A-Za-z0-9._/-]*) echo "HF_SPACE has unexpected characters"; exit 1 ;;
+          esac
+          askpass=$(mktemp)
+          printf '%s\n' \
+            '#!/bin/sh' \
+            'case "$1" in' \
+            '  *sername*) printf "%s\n" "${HF_SPACE%%/*}" ;;' \
+            '  *) printf "%s\n" "$HF_TOKEN" ;;' \
+            'esac' > "${askpass}"
+          chmod 700 "${askpass}"
+          export GIT_ASKPASS="${askpass}"
+          export GIT_TERMINAL_PROMPT=0
+          echo "Pushing HEAD to the Space main branch."
+          git push --force "https://huggingface.co/spaces/${HF_SPACE}.git" "HEAD:main"
+          rm -f "${askpass}"

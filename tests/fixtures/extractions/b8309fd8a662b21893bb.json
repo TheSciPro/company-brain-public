@@ -1,0 +1,39 @@
+{
+ "doc_id": "MOM-2026-012",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "access_review_frequency",
+   "label": "Access review frequency",
+   "value": "1",
+   "unit": "month",
+   "qualifiers": {},
+   "quote": "Ritu — monthly access review cadence (from 2026-03-30)."
+  },
+  {
+   "key": "peak_freeze_start_day_month",
+   "label": "Peak freeze start day/month",
+   "value": "15 Nov",
+   "unit": "day/month",
+   "qualifiers": {},
+   "quote": "Peak freeze 15 Nov–31 Dec: no planned leave."
+  },
+  {
+   "key": "peak_freeze_end_day_month",
+   "label": "Peak freeze end day/month",
+   "value": "31 Dec",
+   "unit": "day/month",
+   "qualifiers": {},
+   "quote": "Peak freeze 15 Nov–31 Dec: no planned leave."
+  },
+  {
+   "key": "peak_freeze_duration_days",
+   "label": "Peak freeze duration",
+   "value": "47",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Peak freeze 15 Nov–31 Dec: no planned leave."
+  }
+ ]
+}

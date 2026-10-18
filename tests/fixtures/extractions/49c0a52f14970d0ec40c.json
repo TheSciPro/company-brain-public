@@ -1,0 +1,31 @@
+{
+ "doc_id": "MOM-2026-004",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "bid_allowed",
+   "label": "Bid approval status",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Bid approved."
+  },
+  {
+   "key": "pricing_proposal_due_date",
+   "label": "Pricing proposal due date",
+   "value": "2026-01-27",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Manoj Pillai — pricing proposal (due 2026-01-27)."
+  },
+  {
+   "key": "solution_outline_due_date",
+   "label": "Solution outline due date",
+   "value": "2026-01-30",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Ananya — solution outline (due 2026-01-30)."
+  }
+ ]
+}

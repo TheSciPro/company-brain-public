@@ -1,0 +1,35 @@
+# Actions and the approval queue (R4). Every side effect the brain can cause is listed here: nothing else exists.
+version: 2
+kinds:
+  send_reminder:
+    description: "Send an in-app reminder to a colleague"
+    approver: self                 # the requester approves in chat (LangGraph interrupt), then it executes
+    executor: inbox
+  escalate_onboarding:
+    description: "Tell a new joiner's manager that onboarding items are overdue, and nudge the joiner"
+    approver: manager_of_target
+    executor: inbox
+  renew_access:
+    description: "Ask the resource owner to renew access that is about to expire"
+    approver: resource_owner
+    executor: inbox                # real renewal goes through a connector (R5); here the grantee is told the outcome
+  memory_change:
+    description: "Apply a memory patch or removal the consolidation agent proposed"
+    approver: self
+    executor: memory_apply         # a removal is not applied: files and facts stay
+  suggest_duplicate:
+    description: "Two records may be the same thing. Nothing is merged; a person decides."
+    approver: self
+    executor: inbox
+  review_ontology:
+    description: "Review a proposed ontology change before a load may use the new types"
+    approver: configured          # the directory group named by graph.yaml ontology.reviewer_role
+    executor: apply_ontology
+
+watcher:
+  enabled: true
+  interval_minutes: 60           # `nwb serve --scheduler`
+  reload: [actions, heartbeat]   # re-read each run; changed files reload, unchanged files are logged and kept
+  rules:
+    overdue_onboarding: {enabled: true, min_days_overdue: 7, action: escalate_onboarding}
+    expiring_grants: {enabled: true, within_days: 35, action: renew_access}

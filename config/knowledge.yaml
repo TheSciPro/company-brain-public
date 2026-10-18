@@ -1,0 +1,27 @@
+# Knowledge tunables. Nothing here is a fact: facts are extracted from the ingested data.
+version: 1
+
+approvals:
+  self_approval: up_one_level      # never resolve a requester to themselves
+  max_chain_depth: 8
+
+resolve:                           # question -> fact keys discovered in the data
+  top_k: 5                         # keys considered per question
+  shown: 3                         # candidates returned to the model after ranking
+  specific_margin: 0.65            # only when the top key has an answer: near-equal keys, most specific scope wins
+  min_score: 0.12
+  lexical_weight: 0.6              # rest is embedding similarity
+  index_cache: 64                  # per-person key indexes kept (each is built from facts that person may read)
+
+extraction:                        # LLM fact extraction at ingest (LLM_MAIN)
+  prompt: fact_extract
+  max_facts_per_doc: 25
+  max_chars: 12000
+  role: main                       # quality matters and it runs once per document hash
+  retries: 4
+  retry_wait_s: 20
+
+search:
+  default_limit: 6
+  max_limit: 12
+  snippet_chars: 240

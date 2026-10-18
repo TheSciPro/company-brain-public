@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/openai/gpt-oss-120b",
+ "response": "1. Payments vs Payments team | rule: 1b | YES\n2. Payments team on-call policy vs Payments team | rule: 5 | NO\n3. Ben Ode vs Payments team on-call policy | rule: 5 | NO\n4. Payments vs Payments team on-call policy | rule: 5 | NO\n5. Platform vs Payments team | rule: 5 | NO"
+}

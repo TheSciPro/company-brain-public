@@ -1,0 +1,10 @@
+{
+  "request": {
+    "after": "Monday, a single sentence.",
+    "before": "Friday, one short paragraph.",
+    "field": "message",
+    "kind": "send_reminder",
+    "tool": "propose_action"
+  },
+  "response": "{\"text\": \"Ask for the review by Monday and keep reminder messages to a single sentence.\"}"
+}

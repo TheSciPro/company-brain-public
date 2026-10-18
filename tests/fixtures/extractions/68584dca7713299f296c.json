@@ -1,0 +1,15 @@
+{
+ "doc_id": "MOM-2026-015",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "margin_recovery_threshold",
+   "label": "Margin floor requiring recovery plan",
+   "value": "21",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Q1 margin 20.4% (< 21% floor). Recovery plan required"
+  }
+ ]
+}

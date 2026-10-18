@@ -1,0 +1,6 @@
+{
+ "doc_id": "ISMS-SOA@2026.1",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": []
+}

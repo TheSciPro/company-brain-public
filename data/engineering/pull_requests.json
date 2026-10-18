@@ -1,0 +1,4533 @@
+[
+  {
+    "id": "PR-loyalty-service-1",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-25T11:00:00+05:30",
+    "updated_at": "2026-04-25T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 1,
+    "title": "redemption: feat null member ids",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-04-25T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-25T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-233"
+  },
+  {
+    "id": "PR-loyalty-service-2",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-22T11:00:00+05:30",
+    "updated_at": "2026-08-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 2,
+    "title": "functions-binding: feat retry backoff",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-08-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-22T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-208"
+  },
+  {
+    "id": "PR-loyalty-service-3",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-27T11:00:00+05:30",
+    "updated_at": "2026-03-27T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 3,
+    "title": "accrual: fix idempotent offsets",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-03-27T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-27T13:00:00+05:30",
+        "comments": 1
+      },
+      {
+        "reviewer": "varun-shah",
+        "reviewer_id": "NW1107",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-27T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-311"
+  },
+  {
+    "id": "PR-loyalty-service-4",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-26T11:00:00+05:30",
+    "updated_at": "2026-06-26T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 4,
+    "title": "accrual: fix flaky test",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-26T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-06-26T13:00:00+05:30",
+        "comments": 4
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-26T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-130"
+  },
+  {
+    "id": "PR-loyalty-service-5",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-17T11:00:00+05:30",
+    "updated_at": "2026-04-17T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 5,
+    "title": "config: feat batch size",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-04-17T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-17T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-193"
+  },
+  {
+    "id": "PR-loyalty-service-6",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-06T11:00:00+05:30",
+    "updated_at": "2026-07-06T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 6,
+    "title": "schema-registry: feat retry backoff",
+    "author": "aakash-jain",
+    "author_id": "NW1116",
+    "state": "merged",
+    "merged_at": "2026-07-06T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-06T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-319"
+  },
+  {
+    "id": "PR-loyalty-service-7",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-02T11:00:00+05:30",
+    "updated_at": "2026-06-02T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 7,
+    "title": "tests: refactor alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-02T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-02T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-402"
+  },
+  {
+    "id": "PR-loyalty-service-8",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-23T11:00:00+05:30",
+    "updated_at": "2026-03-23T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 8,
+    "title": "config: chore batch size",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-03-23T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-23T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-404"
+  },
+  {
+    "id": "PR-loyalty-service-9",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-12T11:00:00+05:30",
+    "updated_at": "2026-04-12T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 9,
+    "title": "dlq: feat batch size",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-04-12T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-12T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-236"
+  },
+  {
+    "id": "PR-loyalty-service-10",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-30T11:00:00+05:30",
+    "updated_at": "2026-05-30T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 10,
+    "title": "accrual: feat alerting",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-05-30T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "varun-shah",
+        "reviewer_id": "NW1107",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-30T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-322"
+  },
+  {
+    "id": "PR-loyalty-service-11",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-06T11:00:00+05:30",
+    "updated_at": "2026-07-06T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 11,
+    "title": "schema-registry: feat null member ids",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-07-06T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-06T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-248"
+  },
+  {
+    "id": "PR-loyalty-service-12",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-13T11:00:00+05:30",
+    "updated_at": "2026-07-13T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 12,
+    "title": "accrual: chore partition rebalance",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-07-13T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-13T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-371"
+  },
+  {
+    "id": "PR-loyalty-service-13",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-25T11:00:00+05:30",
+    "updated_at": "2026-06-25T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 13,
+    "title": "tests: fix idempotent offsets",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-06-25T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-25T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-125"
+  },
+  {
+    "id": "PR-loyalty-service-14",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-25T11:00:00+05:30",
+    "updated_at": "2026-03-25T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 14,
+    "title": "kafka-consumer: fix points rounding",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-03-25T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-25T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-137"
+  },
+  {
+    "id": "PR-loyalty-service-15",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-16T11:00:00+05:30",
+    "updated_at": "2026-07-16T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 15,
+    "title": "accrual: refactor alerting",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-07-16T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-16T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-291"
+  },
+  {
+    "id": "PR-loyalty-service-16",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-18T11:00:00+05:30",
+    "updated_at": "2026-03-18T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 16,
+    "title": "tests: refactor partition rebalance",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-03-18T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-18T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-407"
+  },
+  {
+    "id": "PR-loyalty-service-17",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-30T11:00:00+05:30",
+    "updated_at": "2026-04-30T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 17,
+    "title": "functions-binding: feat null member ids",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-04-30T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-30T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-411"
+  },
+  {
+    "id": "PR-loyalty-service-18",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-26T11:00:00+05:30",
+    "updated_at": "2026-06-26T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 18,
+    "title": "accrual: fix alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-26T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "varun-shah",
+        "reviewer_id": "NW1107",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-26T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-246"
+  },
+  {
+    "id": "PR-loyalty-service-19",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-04T11:00:00+05:30",
+    "updated_at": "2026-05-04T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 19,
+    "title": "tests: feat retry backoff",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-05-04T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-04T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-232"
+  },
+  {
+    "id": "PR-loyalty-service-20",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-01T11:00:00+05:30",
+    "updated_at": "2026-06-01T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 20,
+    "title": "accrual: refactor retry backoff",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-06-01T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-01T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-396"
+  },
+  {
+    "id": "PR-loyalty-service-21",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-23T11:00:00+05:30",
+    "updated_at": "2026-07-23T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 21,
+    "title": "functions-binding: feat alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-23T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-23T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-279"
+  },
+  {
+    "id": "PR-loyalty-service-22",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-28T11:00:00+05:30",
+    "updated_at": "2026-05-28T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 22,
+    "title": "tests: fix idempotent offsets",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-05-28T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-28T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-218"
+  },
+  {
+    "id": "PR-loyalty-service-23",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-17T11:00:00+05:30",
+    "updated_at": "2026-09-17T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 23,
+    "title": "dlq: refactor null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-09-17T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "rajesh-yadav",
+        "reviewer_id": "NW1114",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-17T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-291"
+  },
+  {
+    "id": "PR-loyalty-service-24",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-20T11:00:00+05:30",
+    "updated_at": "2026-04-20T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 24,
+    "title": "redemption: chore batch size",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-04-20T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "rajesh-yadav",
+        "reviewer_id": "NW1114",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-20T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-330"
+  },
+  {
+    "id": "PR-loyalty-service-25",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-05T11:00:00+05:30",
+    "updated_at": "2026-09-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 25,
+    "title": "dlq: refactor alerting",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-09-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-05T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-292"
+  },
+  {
+    "id": "PR-loyalty-service-26",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-19T11:00:00+05:30",
+    "updated_at": "2026-08-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 26,
+    "title": "accrual: feat partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-19T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-153"
+  },
+  {
+    "id": "PR-loyalty-service-27",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-05T11:00:00+05:30",
+    "updated_at": "2026-03-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 27,
+    "title": "schema-registry: fix batch size",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-03-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-05T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-381"
+  },
+  {
+    "id": "PR-loyalty-service-28",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-24T11:00:00+05:30",
+    "updated_at": "2026-03-24T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 28,
+    "title": "schema-registry: chore null member ids",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-03-24T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-24T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-183"
+  },
+  {
+    "id": "PR-loyalty-service-29",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-03T11:00:00+05:30",
+    "updated_at": "2026-07-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 29,
+    "title": "redemption: feat alerting",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-07-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "rajesh-yadav",
+        "reviewer_id": "NW1114",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-03T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-190"
+  },
+  {
+    "id": "PR-loyalty-service-30",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-14T11:00:00+05:30",
+    "updated_at": "2026-04-14T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 30,
+    "title": "schema-registry: fix partition rebalance",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-04-14T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-14T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-270"
+  },
+  {
+    "id": "PR-loyalty-service-31",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-29T11:00:00+05:30",
+    "updated_at": "2026-06-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 31,
+    "title": "kafka-consumer: feat partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-29T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-385"
+  },
+  {
+    "id": "PR-loyalty-service-32",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-27T11:00:00+05:30",
+    "updated_at": "2026-07-27T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 32,
+    "title": "accrual: fix flaky test",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-27T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "varun-shah",
+        "reviewer_id": "NW1107",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-27T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-209"
+  },
+  {
+    "id": "PR-loyalty-service-33",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-19T11:00:00+05:30",
+    "updated_at": "2026-08-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 33,
+    "title": "kafka-consumer: fix retry backoff",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-08-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-19T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-141"
+  },
+  {
+    "id": "PR-loyalty-service-34",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-29T11:00:00+05:30",
+    "updated_at": "2026-03-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 34,
+    "title": "schema-registry: refactor alerting",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-03-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-29T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-235"
+  },
+  {
+    "id": "PR-loyalty-service-35",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-01T11:00:00+05:30",
+    "updated_at": "2026-06-01T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 35,
+    "title": "functions-binding: feat idempotent offsets",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-06-01T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-01T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-218"
+  },
+  {
+    "id": "PR-loyalty-service-36",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-31T11:00:00+05:30",
+    "updated_at": "2026-08-31T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 36,
+    "title": "tests: refactor null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-31T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-31T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-284"
+  },
+  {
+    "id": "PR-loyalty-service-37",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-01T11:00:00+05:30",
+    "updated_at": "2026-08-01T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 37,
+    "title": "kafka-consumer: feat alerting",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-08-01T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-01T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-169"
+  },
+  {
+    "id": "PR-loyalty-service-38",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-30T11:00:00+05:30",
+    "updated_at": "2026-08-30T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 38,
+    "title": "dlq: feat alerting",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-08-30T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-30T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-155"
+  },
+  {
+    "id": "PR-loyalty-service-39",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-22T11:00:00+05:30",
+    "updated_at": "2026-03-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 39,
+    "title": "config: chore alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-03-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-22T13:00:00+05:30",
+        "comments": 1
+      },
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-22T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-287"
+  },
+  {
+    "id": "PR-loyalty-service-40",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-01T11:00:00+05:30",
+    "updated_at": "2026-08-01T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 40,
+    "title": "accrual: feat retry backoff",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-01T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-01T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-268"
+  },
+  {
+    "id": "PR-loyalty-service-41",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-27T11:00:00+05:30",
+    "updated_at": "2026-03-27T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 41,
+    "title": "dlq: fix alerting",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-03-27T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-27T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-120"
+  },
+  {
+    "id": "PR-loyalty-service-42",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-17T11:00:00+05:30",
+    "updated_at": "2026-05-17T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 42,
+    "title": "kafka-consumer: feat retry backoff",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-05-17T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-17T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-234"
+  },
+  {
+    "id": "PR-loyalty-service-43",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-19T11:00:00+05:30",
+    "updated_at": "2026-08-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 43,
+    "title": "kafka-consumer: feat idempotent offsets",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-08-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-19T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-102"
+  },
+  {
+    "id": "PR-loyalty-service-44",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T11:00:00+05:30",
+    "updated_at": "2026-03-02T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 44,
+    "title": "config: chore retry backoff",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-03-02T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-02T13:00:00+05:30",
+        "comments": 4
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-02T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-238"
+  },
+  {
+    "id": "PR-loyalty-service-45",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-22T11:00:00+05:30",
+    "updated_at": "2026-06-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 45,
+    "title": "redemption: feat points rounding",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-06-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-22T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-289"
+  },
+  {
+    "id": "PR-loyalty-service-46",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-19T11:00:00+05:30",
+    "updated_at": "2026-07-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 46,
+    "title": "schema-registry: fix points rounding",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-07-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-19T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-137"
+  },
+  {
+    "id": "PR-loyalty-service-47",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-29T11:00:00+05:30",
+    "updated_at": "2026-03-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 47,
+    "title": "redemption: fix flaky test",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-03-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-29T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-396"
+  },
+  {
+    "id": "PR-loyalty-service-48",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-28T11:00:00+05:30",
+    "updated_at": "2026-07-28T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 48,
+    "title": "schema-registry: feat partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-28T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-28T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-281"
+  },
+  {
+    "id": "PR-loyalty-service-49",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-28T11:00:00+05:30",
+    "updated_at": "2026-08-28T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 49,
+    "title": "schema-registry: chore retry backoff",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-08-28T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-28T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-125"
+  },
+  {
+    "id": "PR-loyalty-service-50",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-12T11:00:00+05:30",
+    "updated_at": "2026-08-12T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 50,
+    "title": "redemption: feat points rounding",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-08-12T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-12T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-292"
+  },
+  {
+    "id": "PR-loyalty-service-51",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-15T11:00:00+05:30",
+    "updated_at": "2026-05-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 51,
+    "title": "accrual: chore null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-05-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-15T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-145"
+  },
+  {
+    "id": "PR-loyalty-service-52",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-21T11:00:00+05:30",
+    "updated_at": "2026-07-21T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 52,
+    "title": "functions-binding: chore points rounding",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-07-21T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-21T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-204"
+  },
+  {
+    "id": "PR-loyalty-service-53",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-02T11:00:00+05:30",
+    "updated_at": "2026-07-02T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 53,
+    "title": "dlq: fix partition rebalance",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-07-02T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-02T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-267"
+  },
+  {
+    "id": "PR-loyalty-service-54",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-15T11:00:00+05:30",
+    "updated_at": "2026-08-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 54,
+    "title": "accrual: fix batch size",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-08-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-15T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-400"
+  },
+  {
+    "id": "PR-loyalty-service-55",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-07T11:00:00+05:30",
+    "updated_at": "2026-08-07T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 55,
+    "title": "schema-registry: fix flaky test",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-07T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "rajesh-yadav",
+        "reviewer_id": "NW1114",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-07T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-104"
+  },
+  {
+    "id": "PR-loyalty-service-56",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-29T11:00:00+05:30",
+    "updated_at": "2026-03-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 56,
+    "title": "config: refactor flaky test",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-03-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-29T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-122"
+  },
+  {
+    "id": "PR-loyalty-service-57",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-25T11:00:00+05:30",
+    "updated_at": "2026-08-25T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 57,
+    "title": "tests: feat partition rebalance",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-08-25T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-25T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-322"
+  },
+  {
+    "id": "PR-loyalty-service-58",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-07T11:00:00+05:30",
+    "updated_at": "2026-06-07T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 58,
+    "title": "redemption: fix retry backoff",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-06-07T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-07T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-302"
+  },
+  {
+    "id": "PR-loyalty-service-59",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-06T11:00:00+05:30",
+    "updated_at": "2026-07-06T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 59,
+    "title": "config: feat flaky test",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-07-06T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-07-06T13:00:00+05:30",
+        "comments": 3
+      },
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-06T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-417"
+  },
+  {
+    "id": "PR-loyalty-service-60",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-15T11:00:00+05:30",
+    "updated_at": "2026-08-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 60,
+    "title": "accrual: fix alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-15T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-221"
+  },
+  {
+    "id": "PR-loyalty-service-61",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-09T11:00:00+05:30",
+    "updated_at": "2026-04-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 61,
+    "title": "kafka-consumer: feat idempotent offsets",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-04-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-09T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-181"
+  },
+  {
+    "id": "PR-loyalty-service-62",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-03T11:00:00+05:30",
+    "updated_at": "2026-05-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 62,
+    "title": "accrual: chore batch size",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-05-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-03T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-151"
+  },
+  {
+    "id": "PR-loyalty-service-63",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-11T11:00:00+05:30",
+    "updated_at": "2026-04-11T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 63,
+    "title": "tests: refactor points rounding",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-04-11T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-11T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-115"
+  },
+  {
+    "id": "PR-loyalty-service-64",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-19T11:00:00+05:30",
+    "updated_at": "2026-08-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 64,
+    "title": "schema-registry: feat alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-19T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-343"
+  },
+  {
+    "id": "PR-loyalty-service-65",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-18T11:00:00+05:30",
+    "updated_at": "2026-07-18T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 65,
+    "title": "tests: refactor null member ids",
+    "author": "rajesh-yadav",
+    "author_id": "NW1114",
+    "state": "merged",
+    "merged_at": "2026-07-18T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-18T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-126"
+  },
+  {
+    "id": "PR-loyalty-service-66",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-22T11:00:00+05:30",
+    "updated_at": "2026-03-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 66,
+    "title": "config: refactor idempotent offsets",
+    "author": "ananya-krishnan",
+    "author_id": "NW1104",
+    "state": "merged",
+    "merged_at": "2026-03-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-22T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-314"
+  },
+  {
+    "id": "PR-loyalty-service-67",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-22T11:00:00+05:30",
+    "updated_at": "2026-03-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 67,
+    "title": "redemption: fix partition rebalance",
+    "author": "varun-shah",
+    "author_id": "NW1107",
+    "state": "merged",
+    "merged_at": "2026-03-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-22T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-277"
+  },
+  {
+    "id": "PR-loyalty-service-68",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-24T11:00:00+05:30",
+    "updated_at": "2026-03-24T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 68,
+    "title": "kafka-consumer: fix null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-03-24T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-24T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-106"
+  },
+  {
+    "id": "PR-loyalty-service-69",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-04T11:00:00+05:30",
+    "updated_at": "2026-08-04T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 69,
+    "title": "dlq: refactor alerting",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-08-04T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-04T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-397"
+  },
+  {
+    "id": "PR-loyalty-service-70",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-05T11:00:00+05:30",
+    "updated_at": "2026-03-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 70,
+    "title": "functions-binding: feat batch size",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-03-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "varun-shah",
+        "reviewer_id": "NW1107",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-05T13:00:00+05:30",
+        "comments": 5
+      },
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-05T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-107"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-71",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-29T11:00:00+05:30",
+    "updated_at": "2026-07-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 71,
+    "title": "tests: refactor null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-29T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-280"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-72",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-24T11:00:00+05:30",
+    "updated_at": "2026-03-24T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 72,
+    "title": "tests: chore idempotent offsets",
+    "author": "tanvi-mishra",
+    "author_id": "NW1113",
+    "state": "merged",
+    "merged_at": "2026-03-24T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-24T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-395"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-73",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-19T11:00:00+05:30",
+    "updated_at": "2026-08-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 73,
+    "title": "etl: feat partition rebalance",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-08-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-19T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-416"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-74",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-29T11:00:00+05:30",
+    "updated_at": "2026-03-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 74,
+    "title": "job: feat flaky test",
+    "author": "aakash-jain",
+    "author_id": "NW1116",
+    "state": "merged",
+    "merged_at": "2026-03-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-29T13:00:00+05:30",
+        "comments": 5
+      },
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-29T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-237"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-75",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-20T11:00:00+05:30",
+    "updated_at": "2026-07-20T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 75,
+    "title": "ui: feat points rounding",
+    "author": "aakash-jain",
+    "author_id": "NW1116",
+    "state": "merged",
+    "merged_at": "2026-07-20T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-20T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-146"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-76",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-23T11:00:00+05:30",
+    "updated_at": "2026-09-23T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 76,
+    "title": "tests: feat flaky test",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-09-23T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-23T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-308"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-77",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-10T11:00:00+05:30",
+    "updated_at": "2026-06-10T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 77,
+    "title": "tests: chore points rounding",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-10T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "tanvi-mishra",
+        "reviewer_id": "NW1113",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-10T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-223"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-78",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-14T11:00:00+05:30",
+    "updated_at": "2026-06-14T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 78,
+    "title": "ui: feat alerting",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-06-14T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-14T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-126"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-79",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-01T11:00:00+05:30",
+    "updated_at": "2026-07-01T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 79,
+    "title": "infra: refactor idempotent offsets",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-07-01T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-01T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-329"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-80",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-04T11:00:00+05:30",
+    "updated_at": "2026-09-04T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 80,
+    "title": "tests: chore partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-09-04T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-04T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-135"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-81",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-09T11:00:00+05:30",
+    "updated_at": "2026-06-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 81,
+    "title": "infra: fix points rounding",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-06-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-09T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-142"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-82",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-15T11:00:00+05:30",
+    "updated_at": "2026-09-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 82,
+    "title": "tests: feat flaky test",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-09-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-15T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-113"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-83",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-10T11:00:00+05:30",
+    "updated_at": "2026-04-10T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 83,
+    "title": "infra: feat flaky test",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-04-10T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-10T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-227"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-84",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-19T11:00:00+05:30",
+    "updated_at": "2026-07-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 84,
+    "title": "job: feat alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-07-19T13:00:00+05:30",
+        "comments": 3
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-19T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-285"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-85",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-05T11:00:00+05:30",
+    "updated_at": "2026-09-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 85,
+    "title": "etl: refactor batch size",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-09-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-05T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-160"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-86",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-27T11:00:00+05:30",
+    "updated_at": "2026-08-27T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 86,
+    "title": "ui: refactor partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-27T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "tanvi-mishra",
+        "reviewer_id": "NW1113",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-27T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-307"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-87",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-23T11:00:00+05:30",
+    "updated_at": "2026-07-23T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 87,
+    "title": "ui: feat retry backoff",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-07-23T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-23T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-368"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-88",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-03T11:00:00+05:30",
+    "updated_at": "2026-05-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 88,
+    "title": "ui: chore null member ids",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-05-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-03T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-138"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-89",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-27T11:00:00+05:30",
+    "updated_at": "2026-08-27T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 89,
+    "title": "ui: chore alerting",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-27T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-27T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-121"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-90",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-24T11:00:00+05:30",
+    "updated_at": "2026-06-24T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 90,
+    "title": "infra: chore flaky test",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-06-24T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-24T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-247"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-91",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-14T11:00:00+05:30",
+    "updated_at": "2026-08-14T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 91,
+    "title": "job: refactor partition rebalance",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-08-14T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-14T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-394"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-92",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-29T11:00:00+05:30",
+    "updated_at": "2026-07-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 92,
+    "title": "infra: refactor retry backoff",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-07-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-29T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-167"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-93",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-10T11:00:00+05:30",
+    "updated_at": "2026-06-10T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 93,
+    "title": "infra: refactor batch size",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-06-10T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-10T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-410"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-94",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-22T11:00:00+05:30",
+    "updated_at": "2026-09-22T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 94,
+    "title": "job: fix points rounding",
+    "author": "tanvi-mishra",
+    "author_id": "NW1113",
+    "state": "merged",
+    "merged_at": "2026-09-22T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-09-22T13:00:00+05:30",
+        "comments": 2
+      },
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-22T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-240"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-95",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-14T11:00:00+05:30",
+    "updated_at": "2026-06-14T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 95,
+    "title": "ui: chore batch size",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-06-14T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-14T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-218"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-96",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-08T11:00:00+05:30",
+    "updated_at": "2026-09-08T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 96,
+    "title": "ui: refactor batch size",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-09-08T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "tanvi-mishra",
+        "reviewer_id": "NW1113",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-08T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-122"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-97",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-19T11:00:00+05:30",
+    "updated_at": "2026-05-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 97,
+    "title": "infra: chore idempotent offsets",
+    "author": "imran-sheikh",
+    "author_id": "NW1109",
+    "state": "merged",
+    "merged_at": "2026-05-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-19T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-167"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-98",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-13T11:00:00+05:30",
+    "updated_at": "2026-08-13T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 98,
+    "title": "ui: refactor batch size",
+    "author": "tanvi-mishra",
+    "author_id": "NW1113",
+    "state": "merged",
+    "merged_at": "2026-08-13T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-08-13T13:00:00+05:30",
+        "comments": 5
+      },
+      {
+        "reviewer": "imran-sheikh",
+        "reviewer_id": "NW1109",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-13T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-146"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-99",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-02T11:00:00+05:30",
+    "updated_at": "2026-08-02T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 99,
+    "title": "ui: fix null member ids",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-08-02T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-02T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-243"
+  },
+  {
+    "id": "PR-loyalty-ingest-pipeline-100",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-31T11:00:00+05:30",
+    "updated_at": "2026-05-31T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-ingest-pipeline",
+    "number": 100,
+    "title": "ui: feat idempotent offsets",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-05-31T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-31T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-351"
+  },
+  {
+    "id": "PR-member-portal-web-101",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-20T11:00:00+05:30",
+    "updated_at": "2026-08-20T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 101,
+    "title": "infra: feat alerting",
+    "author": "megha-sinha",
+    "author_id": "NW1111",
+    "state": "merged",
+    "merged_at": "2026-08-20T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-20T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-293"
+  },
+  {
+    "id": "PR-member-portal-web-102",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-20T11:00:00+05:30",
+    "updated_at": "2026-04-20T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 102,
+    "title": "infra: chore flaky test",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-04-20T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "megha-sinha",
+        "reviewer_id": "NW1111",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-04-20T13:00:00+05:30",
+        "comments": 6
+      },
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-20T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-152"
+  },
+  {
+    "id": "PR-member-portal-web-103",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-03T11:00:00+05:30",
+    "updated_at": "2026-09-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 103,
+    "title": "job: fix alerting",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-09-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "sneha-patil",
+        "reviewer_id": "NW1108",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-03T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-280"
+  },
+  {
+    "id": "PR-member-portal-web-104",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-30T11:00:00+05:30",
+    "updated_at": "2026-04-30T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 104,
+    "title": "etl: refactor null member ids",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-04-30T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "megha-sinha",
+        "reviewer_id": "NW1111",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-30T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-200"
+  },
+  {
+    "id": "PR-member-portal-web-105",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-07T11:00:00+05:30",
+    "updated_at": "2026-04-07T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 105,
+    "title": "ui: feat points rounding",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-04-07T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-04-07T13:00:00+05:30",
+        "comments": 2
+      },
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-07T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-254"
+  },
+  {
+    "id": "PR-member-portal-web-106",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-03T11:00:00+05:30",
+    "updated_at": "2026-08-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 106,
+    "title": "etl: chore points rounding",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-08-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-03T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-378"
+  },
+  {
+    "id": "PR-member-portal-web-107",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-18T11:00:00+05:30",
+    "updated_at": "2026-03-18T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 107,
+    "title": "infra: feat retry backoff",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-03-18T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-18T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-364"
+  },
+  {
+    "id": "PR-member-portal-web-108",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-09T11:00:00+05:30",
+    "updated_at": "2026-05-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 108,
+    "title": "job: chore idempotent offsets",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-05-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-05-09T13:00:00+05:30",
+        "comments": 2
+      },
+      {
+        "reviewer": "sneha-patil",
+        "reviewer_id": "NW1108",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-09T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-160"
+  },
+  {
+    "id": "PR-member-portal-web-109",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-26T11:00:00+05:30",
+    "updated_at": "2026-07-26T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 109,
+    "title": "ui: feat batch size",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-07-26T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-07-26T13:00:00+05:30",
+        "comments": 6
+      },
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-26T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-371"
+  },
+  {
+    "id": "PR-member-portal-web-110",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-09T11:00:00+05:30",
+    "updated_at": "2026-09-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 110,
+    "title": "etl: fix flaky test",
+    "author": "megha-sinha",
+    "author_id": "NW1111",
+    "state": "merged",
+    "merged_at": "2026-09-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-09T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-151"
+  },
+  {
+    "id": "PR-member-portal-web-111",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-19T11:00:00+05:30",
+    "updated_at": "2026-05-19T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 111,
+    "title": "ui: refactor retry backoff",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-05-19T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-19T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-302"
+  },
+  {
+    "id": "PR-member-portal-web-112",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-09T11:00:00+05:30",
+    "updated_at": "2026-08-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 112,
+    "title": "tests: fix alerting",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-08-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-09T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-185"
+  },
+  {
+    "id": "PR-member-portal-web-113",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-11T11:00:00+05:30",
+    "updated_at": "2026-07-11T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 113,
+    "title": "tests: feat alerting",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-07-11T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-11T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-351"
+  },
+  {
+    "id": "PR-member-portal-web-114",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-28T11:00:00+05:30",
+    "updated_at": "2026-04-28T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 114,
+    "title": "infra: feat partition rebalance",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-04-28T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "sneha-patil",
+        "reviewer_id": "NW1108",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-28T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-252"
+  },
+  {
+    "id": "PR-member-portal-web-115",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-21T11:00:00+05:30",
+    "updated_at": "2026-07-21T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 115,
+    "title": "job: refactor alerting",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-07-21T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-21T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-300"
+  },
+  {
+    "id": "PR-member-portal-web-116",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-31T11:00:00+05:30",
+    "updated_at": "2026-03-31T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 116,
+    "title": "infra: fix idempotent offsets",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-03-31T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "megha-sinha",
+        "reviewer_id": "NW1111",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-03-31T13:00:00+05:30",
+        "comments": 1
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-31T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-190"
+  },
+  {
+    "id": "PR-member-portal-web-117",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-29T11:00:00+05:30",
+    "updated_at": "2026-03-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 117,
+    "title": "etl: refactor null member ids",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-03-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-29T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-164"
+  },
+  {
+    "id": "PR-member-portal-web-118",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-21T11:00:00+05:30",
+    "updated_at": "2026-05-21T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 118,
+    "title": "ui: fix null member ids",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-05-21T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-21T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-224"
+  },
+  {
+    "id": "PR-member-portal-web-119",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-03T11:00:00+05:30",
+    "updated_at": "2026-07-03T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 119,
+    "title": "infra: fix flaky test",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-07-03T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-03T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-234"
+  },
+  {
+    "id": "PR-member-portal-web-120",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-05T11:00:00+05:30",
+    "updated_at": "2026-06-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 120,
+    "title": "tests: chore null member ids",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-06-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "megha-sinha",
+        "reviewer_id": "NW1111",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-05T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-176"
+  },
+  {
+    "id": "PR-member-portal-web-121",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-15T11:00:00+05:30",
+    "updated_at": "2026-04-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 121,
+    "title": "ui: fix alerting",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-04-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-04-15T13:00:00+05:30",
+        "comments": 5
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-15T16:00:00+05:30",
+        "comments": 5
+      }
+    ],
+    "jira": "BRM-404"
+  },
+  {
+    "id": "PR-member-portal-web-122",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-21T11:00:00+05:30",
+    "updated_at": "2026-04-21T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 122,
+    "title": "ui: refactor retry backoff",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-04-21T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "megha-sinha",
+        "reviewer_id": "NW1111",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-21T16:00:00+05:30",
+        "comments": 9
+      }
+    ],
+    "jira": "BRM-157"
+  },
+  {
+    "id": "PR-member-portal-web-123",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-09-16T11:00:00+05:30",
+    "updated_at": "2026-09-16T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 123,
+    "title": "infra: refactor retry backoff",
+    "author": "sneha-patil",
+    "author_id": "NW1108",
+    "state": "merged",
+    "merged_at": "2026-09-16T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "kiran-das",
+        "reviewer_id": "NW1110",
+        "state": "APPROVED",
+        "submitted_at": "2026-09-16T16:00:00+05:30",
+        "comments": 6
+      }
+    ],
+    "jira": "BRM-156"
+  },
+  {
+    "id": "PR-member-portal-web-124",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-28T11:00:00+05:30",
+    "updated_at": "2026-08-28T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 124,
+    "title": "infra: feat null member ids",
+    "author": "megha-sinha",
+    "author_id": "NW1111",
+    "state": "merged",
+    "merged_at": "2026-08-28T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "sneha-patil",
+        "reviewer_id": "NW1108",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-28T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-419"
+  },
+  {
+    "id": "PR-member-portal-web-125",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-20T11:00:00+05:30",
+    "updated_at": "2026-03-20T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/member-portal-web",
+    "number": 125,
+    "title": "ui: refactor points rounding",
+    "author": "kiran-das",
+    "author_id": "NW1110",
+    "state": "merged",
+    "merged_at": "2026-03-20T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "sneha-patil",
+        "reviewer_id": "NW1108",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-20T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-125"
+  },
+  {
+    "id": "PR-infra-brightmart-126",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-21T11:00:00+05:30",
+    "updated_at": "2026-06-21T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 126,
+    "title": "infra: fix flaky test",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-06-21T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-06-21T13:00:00+05:30",
+        "comments": 4
+      },
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-21T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-227"
+  },
+  {
+    "id": "PR-infra-brightmart-127",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-16T11:00:00+05:30",
+    "updated_at": "2026-03-16T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 127,
+    "title": "infra: feat partition rebalance",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-03-16T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-16T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-130"
+  },
+  {
+    "id": "PR-infra-brightmart-128",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-09T11:00:00+05:30",
+    "updated_at": "2026-07-09T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 128,
+    "title": "tests: chore partition rebalance",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-07-09T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "arvind-pandey",
+        "reviewer_id": "NW1112",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-09T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-109"
+  },
+  {
+    "id": "PR-infra-brightmart-129",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-16T11:00:00+05:30",
+    "updated_at": "2026-05-16T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 129,
+    "title": "infra: chore null member ids",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-05-16T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-05-16T13:00:00+05:30",
+        "comments": 4
+      },
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-16T16:00:00+05:30",
+        "comments": 2
+      }
+    ],
+    "jira": "BRM-201"
+  },
+  {
+    "id": "PR-infra-brightmart-130",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-25T11:00:00+05:30",
+    "updated_at": "2026-07-25T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 130,
+    "title": "etl: feat flaky test",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-07-25T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-25T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-333"
+  },
+  {
+    "id": "PR-infra-brightmart-131",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T11:00:00+05:30",
+    "updated_at": "2026-03-02T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 131,
+    "title": "etl: refactor idempotent offsets",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-03-02T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-02T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-362"
+  },
+  {
+    "id": "PR-infra-brightmart-132",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-04T11:00:00+05:30",
+    "updated_at": "2026-06-04T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 132,
+    "title": "tests: fix batch size",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-06-04T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-04T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-126"
+  },
+  {
+    "id": "PR-infra-brightmart-133",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-29T11:00:00+05:30",
+    "updated_at": "2026-04-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 133,
+    "title": "tests: fix flaky test",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-04-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-29T16:00:00+05:30",
+        "comments": 1
+      }
+    ],
+    "jira": "BRM-166"
+  },
+  {
+    "id": "PR-infra-brightmart-134",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-26T11:00:00+05:30",
+    "updated_at": "2026-06-26T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 134,
+    "title": "infra: fix batch size",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-26T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-26T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-264"
+  },
+  {
+    "id": "PR-infra-brightmart-135",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-29T11:00:00+05:30",
+    "updated_at": "2026-04-29T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 135,
+    "title": "infra: fix flaky test",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-04-29T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-29T16:00:00+05:30",
+        "comments": 8
+      }
+    ],
+    "jira": "BRM-163"
+  },
+  {
+    "id": "PR-infra-brightmart-136",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-04-13T11:00:00+05:30",
+    "updated_at": "2026-04-13T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 136,
+    "title": "tests: fix flaky test",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-04-13T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-04-13T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-255"
+  },
+  {
+    "id": "PR-infra-brightmart-137",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-05-17T11:00:00+05:30",
+    "updated_at": "2026-05-17T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 137,
+    "title": "tests: refactor null member ids",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-05-17T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-05-17T16:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-214"
+  },
+  {
+    "id": "PR-infra-brightmart-138",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-05T11:00:00+05:30",
+    "updated_at": "2026-03-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 138,
+    "title": "job: feat null member ids",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-03-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-03-05T16:00:00+05:30",
+        "comments": 7
+      }
+    ],
+    "jira": "BRM-242"
+  },
+  {
+    "id": "PR-infra-brightmart-139",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-07-05T11:00:00+05:30",
+    "updated_at": "2026-07-05T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 139,
+    "title": "ui: fix alerting",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-07-05T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-07-05T16:00:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-180"
+  },
+  {
+    "id": "PR-infra-brightmart-140",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-08-15T11:00:00+05:30",
+    "updated_at": "2026-08-15T17:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/infra-brightmart",
+    "number": 140,
+    "title": "etl: fix alerting",
+    "author": "arvind-pandey",
+    "author_id": "NW1112",
+    "state": "merged",
+    "merged_at": "2026-08-15T17:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "mohit-saxena",
+        "reviewer_id": "NW1105",
+        "state": "APPROVED",
+        "submitted_at": "2026-08-15T16:00:00+05:30",
+        "comments": 3
+      }
+    ],
+    "jira": "BRM-140"
+  },
+  {
+    "id": "PR-loyalty-service-212",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "updated_at": "2026-06-15T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 212,
+    "title": "chore: CODEOWNERS -> @mohit-saxena (acting architect)",
+    "author": "mohit-saxena",
+    "author_id": "NW1105",
+    "state": "merged",
+    "merged_at": "2026-06-15T12:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "deepa-narayan",
+        "reviewer_id": "NW1106",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-15T11:30:00+05:30",
+        "comments": 0
+      }
+    ],
+    "jira": "BRM-301"
+  },
+  {
+    "id": "PR-loyalty-service-198",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-11T10:00:00+05:30",
+    "updated_at": "2026-06-11T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "number": 198,
+    "title": "docs: loyalty-service runbook (on-call, DLQ replay, offset reset, partition rebalance)",
+    "author": "deepa-narayan",
+    "author_id": "NW1106",
+    "state": "merged",
+    "merged_at": "2026-06-12T18:00:00+05:30",
+    "reviews": [
+      {
+        "reviewer": "ananya-krishnan",
+        "reviewer_id": "NW1104",
+        "state": "APPROVED",
+        "submitted_at": "2026-06-12T17:00:00+05:30",
+        "comments": 4
+      }
+    ],
+    "jira": "BRM-298",
+    "files": [
+      "docs/runbook.md"
+    ]
+  }
+]

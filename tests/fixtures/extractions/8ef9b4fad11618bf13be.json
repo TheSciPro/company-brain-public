@@ -1,0 +1,15 @@
+{
+ "doc_id": "DEC-2026-001",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "key_person_removal_allowed",
+   "label": "Removal of key persons without client consent",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Architect becomes a contractual key person; any change needs client approval."
+  }
+ ]
+}

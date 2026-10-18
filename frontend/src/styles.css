@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Base: readable type, calm background. Components style themselves with Tailwind (shadcn/ui). */
+html, body, #root { height: 100%; }
+body { @apply bg-slate-50 text-slate-900 antialiased; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.answer p { @apply my-1.5 leading-relaxed; }
+.answer ul { @apply my-1.5 list-disc pl-5; }
+.answer ol { @apply my-1.5 list-decimal pl-5; }
+.answer li { @apply my-0.5 leading-relaxed; }
+.answer code:not(.cite) { @apply rounded bg-slate-100 px-1 py-0.5 text-[0.85em]; }
+.answer code.cite { @apply mx-0.5 cursor-pointer rounded-md bg-indigo-50 px-1.5 py-0.5 align-middle font-sans text-[11px] font-medium text-indigo-700 hover:bg-indigo-100; }
+.reasoning-graph .react-flow__handle { opacity: 0; }

@@ -1,0 +1,23 @@
+{
+ "doc_id": "POL-SEC-CDH@v2",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "access_review_frequency",
+   "label": "Access review frequency",
+   "value": "1",
+   "unit": "month",
+   "qualifiers": {},
+   "quote": "Access is granted per project via an access-request ticket approved by the PM, and reviewed monthly by the PM (ISO A.5.18)."
+  },
+  {
+   "key": "client_restricted_data_download_allowed",
+   "label": "Download of client‑restricted data to local storage",
+   "value": "0",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "No download of client-restricted data to local storage."
+  }
+ ]
+}

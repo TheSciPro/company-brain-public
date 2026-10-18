@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "case": "work-from-anywhere-heldout",
+  "person": "NW0001",
+  "passed": true,
+  "model": "callbacks=[<nwb.llm.factory.DataflowCallback object at 0x7fa21ad7d6a0>] metadata={'lc_versions': {'langchain-core': '1.6.12', 'langchain': '1.4.6', 'langchain-openai': '1.7.2'}} client=<openai.resources.chat.completions.completions.Completions object at 0x7fa2198a0ad0> async_client=<openai.resources.chat.completions.completions.AsyncCompletions object at 0x7fa2198a1550> root_client=<openai.OpenAI object at 0x7fa2198a02f0> root_async_client=<openai.AsyncOpenAI object at 0x7fa2198a12b0> model_name='openai/gpt-oss-20b' temperature=0.2 model_kwargs={} openai_api_key=SecretStr('**********') openai_api_base='https://api.groq.com/openai/v1' request_timeout=60.0 max_retries=2 max_tokens=4096 reasoning_effort='low' stream_chunk_timeout=120.0"
+ },
+ "messages": [
+  {
+   "type": "ai",
+   "data": {
+    "content": "",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "tool_calls": [
+     {
+      "name": "read_file",
+      "args": {
+       "file_path": "/skills/company-answers/SKILL.md",
+       "limit": 200
+      },
+      "id": "fc_d7c209c2-3674-4f2d-b8aa-83c753000827",
+      "type": "tool_call"
+     }
+    ],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+   }
+  },
+  {
+   "type": "ai",
+   "data": {
+    "content": "",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "tool_calls": [
+     {
+      "name": "company_fact",
+      "args": {
+       "client": null,
+       "on_date": "2026-09-28",
+       "question": "Do we get any work-from-anywhere days? How many per year?"
+      },
+      "id": "fc_983f5ac4-7aef-461a-8df9-79073a49e88f",
+      "type": "tool_call"
+     }
+    ],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+   }
+  },
+  {
+   "type": "ai",
+   "data": {
+    "content": "Yes \u2013 you can work from anywhere up to\u202f20\u202fdays per year.\u202f[POL\u2011HR\u2011WFH@v3]",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+   }
+  }
+ ]
+}

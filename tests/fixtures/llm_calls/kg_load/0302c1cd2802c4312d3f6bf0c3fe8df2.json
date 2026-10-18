@@ -1,0 +1,5 @@
+{
+ "kind": "messages",
+ "model": "offline-kg",
+ "response": "{\"main_entities\": [], \"aboutness\": \"A short organisational note.\"}"
+}

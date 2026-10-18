@@ -1,0 +1,537 @@
+[
+  {
+    "id": "CHT-2026-003",
+    "source_system": "Slack",
+    "created_at": "2026-02-03T14:05:00+00:00",
+    "updated_at": "2026-02-03T20:40:00+05:30",
+    "classification": "RESTRICTED-FIN-DM",
+    "acl": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "channel": "#brightmart-bid",
+    "thread_ts": "2026-02-03T14:05:00+00:00",
+    "participants": [
+      "NW0011",
+      "NW0202",
+      "NW1101",
+      "NW1118"
+    ],
+    "links": [
+      "DEC-2026-005",
+      "DQ-BRM-2026-001-v1"
+    ],
+    "messages": [
+      {
+        "user": "NW1118",
+        "user_name": "James Carter",
+        "ts": "2026-02-03T14:05:00+00:00",
+        "text": "Call with Mark Lewis (Brightmart VM) done. They have a competing bid roughly 20% under our 12% draft number. He was explicit: 12% won't get through their procurement board."
+      },
+      {
+        "user": "NW1101",
+        "user_name": "Siddharth Chauhan",
+        "ts": "2026-02-03T19:50:00+05:30",
+        "text": "Then 12% is dead. Manoj, can we model 18% with a renewal reprice? Anything >15% goes to CFO+CEO."
+      },
+      {
+        "user": "NW0202",
+        "user_name": "Manoj Pillai",
+        "ts": "2026-02-03T20:15:00+05:30",
+        "text": "Modelled: 18% gives ~21% floor margin vs 28% target. Needs Pricing Committee note. Booking committee for Thu 5 Feb."
+      },
+      {
+        "user": "NW0011",
+        "user_name": "Rahul Bhatia",
+        "ts": "2026-02-03T20:40:00+05:30",
+        "text": "Agree. Strategic UK logo; I'll recommend at committee."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-005",
+    "source_system": "Slack",
+    "created_at": "2026-02-11T11:00:00+05:30",
+    "updated_at": "2026-02-11T12:10:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "channel": "#brightmart-legal",
+    "thread_ts": "2026-02-11T11:00:00+05:30",
+    "participants": [
+      "NW0401",
+      "NW0402"
+    ],
+    "links": [
+      "DEC-2026-006",
+      "ADD-BRM-GDPR-01"
+    ],
+    "messages": [
+      {
+        "user": "NW0401",
+        "user_name": "Ishaan Malhotra",
+        "ts": "2026-02-11T11:00:00+05:30",
+        "text": "Brightmart DPO (Hannah Price) wants breach notice in 24h, not 72h, and no remote working for anyone touching member PII."
+      },
+      {
+        "user": "NW0402",
+        "user_name": "Grace Okafor",
+        "ts": "2026-02-11T07:30:00+00:00",
+        "text": "24h to the controller is stricter than our IR default (72h) but acceptable. We must make sure the IR runbook carries the client clock."
+      },
+      {
+        "user": "NW0401",
+        "user_name": "Ishaan Malhotra",
+        "ts": "2026-02-11T12:10:00+05:30",
+        "text": "Accepting both: DPA §8 (24h) and §11 / MSA §7.3 (office-only from ODC-2). Flagging to Siddharth for team planning."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-007",
+    "source_system": "Slack",
+    "created_at": "2026-02-18T10:20:00+05:30",
+    "updated_at": "2026-02-19T17:00:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "channel": "#rmg-staffing",
+    "thread_ts": "2026-02-18T10:20:00+05:30",
+    "participants": [
+      "NW0801",
+      "NW1201",
+      "NW1202"
+    ],
+    "links": [
+      "APR-2026-0219",
+      "DEC-2026-008",
+      "STF-2026-0146"
+    ],
+    "messages": [
+      {
+        "user": "NW1202",
+        "user_name": "Sameer Desai",
+        "ts": "2026-02-18T10:20:00+05:30",
+        "text": "Varun is a named key person in SOW-CIN-03 Annex B and M3 is due 30 Apr. Pulling him now is a real risk."
+      },
+      {
+        "user": "NW0801",
+        "user_name": "Bhavna Thakur",
+        "ts": "2026-02-18T10:45:00+05:30",
+        "text": "Brightmart needs Guidewire-free Java/Kafka depth by 23 Feb; Varun is the only fit not on bench. Bench v2 only needs your consent as releasing DM."
+      },
+      {
+        "user": "NW1201",
+        "user_name": "Prakash Hegde",
+        "ts": "2026-02-18T11:05:00+05:30",
+        "text": "Policy says 10 working days handover. We'd get 3. No backfill named."
+      },
+      {
+        "user": "NW1202",
+        "user_name": "Sameer Desai",
+        "ts": "2026-02-19T17:00:00+05:30",
+        "text": "Approving under protest with 3 days handover. Logging the M3 risk. @Prakash please start backfill search."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-010",
+    "source_system": "Slack",
+    "created_at": "2026-04-14T15:00:00+05:30",
+    "updated_at": "2026-04-14T15:20:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "channel": "#brightmart-eng",
+    "thread_ts": "2026-04-14T15:00:00+05:30",
+    "participants": [
+      "NW1105",
+      "NW1106",
+      "NW1110"
+    ],
+    "links": [
+      "RFC-2026-010",
+      "DEC-2026-011"
+    ],
+    "messages": [
+      {
+        "user": "NW1110",
+        "user_name": "Kiran Das",
+        "ts": "2026-04-14T15:00:00+05:30",
+        "text": "Consumer lag spiking on points-accrual after rebalance - who knows the offset commit logic?"
+      },
+      {
+        "user": "NW1106",
+        "user_name": "Deepa Narayan",
+        "ts": "2026-04-14T15:04:00+05:30",
+        "text": "That's the manual-commit path I wrote for idempotency. Don't reset offsets; replay from DLQ with the runbook script. Pushing a fix to the rebalance listener."
+      },
+      {
+        "user": "NW1105",
+        "user_name": "Mohit Saxena",
+        "ts": "2026-04-14T15:20:00+05:30",
+        "text": "Thanks Deepa. Keep me as reviewer for visibility."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-016",
+    "source_system": "Slack",
+    "created_at": "2026-04-02T10:02:00+05:30",
+    "updated_at": "2026-04-02T12:10:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "channel": "#brightmart-team",
+    "thread_ts": "2026-04-02T10:02:00+05:30",
+    "participants": [
+      "NW0301",
+      "NW1101",
+      "NW1108",
+      "NW1110"
+    ],
+    "links": [
+      "DEC-2026-014",
+      "POL-HR-WFH-v3"
+    ],
+    "messages": [
+      {
+        "user": "NW1108",
+        "user_name": "Sneha Patil",
+        "ts": "2026-04-02T10:02:00+05:30",
+        "text": "WFH v3 is live from yesterday - does that mean we get 3 days WFH now?"
+      },
+      {
+        "user": "NW1110",
+        "user_name": "Kiran Das",
+        "ts": "2026-04-02T10:05:00+05:30",
+        "text": "Also the wiki page said 4 days?"
+      },
+      {
+        "user": "NW0301",
+        "user_name": "Pooja Reddy",
+        "ts": "2026-04-02T11:30:00+05:30",
+        "text": "The 4-day page was a draft (rc1), never effective. v3 gives 3 days generally, BUT v3 §2.5 says client contracts prevail. Brightmart contract is office-only - Siddharth will confirm."
+      },
+      {
+        "user": "NW1101",
+        "user_name": "Siddharth Chauhan",
+        "ts": "2026-04-02T12:10:00+05:30",
+        "text": "Confirming: Brightmart team stays office-only at ODC-2 (MSA §7.3, DPA §11). Formal note going out tomorrow (DEC-2026-014)."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-019",
+    "source_system": "Slack",
+    "created_at": "2026-04-30T18:00:00+05:30",
+    "updated_at": "2026-04-30T19:05:00+05:30",
+    "classification": "CLIENT-CONF-CIN",
+    "acl": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "channel": "#coastline-delivery",
+    "thread_ts": "2026-04-30T18:00:00+05:30",
+    "participants": [
+      "NW0010",
+      "NW1201",
+      "NW1202"
+    ],
+    "links": [
+      "ESC-2026-002",
+      "APR-2026-0506"
+    ],
+    "messages": [
+      {
+        "user": "NW1201",
+        "user_name": "Prakash Hegde",
+        "ts": "2026-04-30T18:00:00+05:30",
+        "text": "M3 will slip ~3 weeks. Claims-module knowledge left with Varun; backfill only ramped 2 weeks ago."
+      },
+      {
+        "user": "NW1202",
+        "user_name": "Sameer Desai",
+        "ts": "2026-04-30T18:30:00+05:30",
+        "text": "Daniel Reyes has escalated formally. Expect a service-credit claim under §8."
+      },
+      {
+        "user": "NW0010",
+        "user_name": "Kavita Menon",
+        "ts": "2026-04-30T19:05:00+05:30",
+        "text": "I was never consulted on this release. We need a policy fix - raising with Sanjay."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-022",
+    "source_system": "Slack",
+    "created_at": "2026-05-20T16:00:00+05:30",
+    "updated_at": "2026-05-20T17:10:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "channel": "#brightmart-leadership",
+    "thread_ts": "2026-05-20T16:00:00+05:30",
+    "participants": [
+      "NW1101",
+      "NW1104",
+      "NW1118"
+    ],
+    "links": [
+      "APR-2026-0610",
+      "STF-2026-0388"
+    ],
+    "messages": [
+      {
+        "user": "NW1104",
+        "user_name": "Ananya Krishnan",
+        "ts": "2026-05-20T16:00:00+05:30",
+        "text": "Informed Sarah Mitchell today: I'm moving to HarbourBank from 15 Jun. Proposing Mohit as acting architect; Deepa owns most of loyalty-service day to day."
+      },
+      {
+        "user": "NW1118",
+        "user_name": "James Carter",
+        "ts": "2026-05-20T12:30:00+00:00",
+        "text": "Sarah is unhappy - MSA §9 needs 30 days' notice and her approval. We're short. I'll push for approval."
+      },
+      {
+        "user": "NW1101",
+        "user_name": "Siddharth Chauhan",
+        "ts": "2026-05-20T17:10:00+05:30",
+        "text": "Raising client approval request (APR-2026-0610). Ananya, please plan a proper handover with Deepa and Mohit."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-028",
+    "source_system": "Slack",
+    "created_at": "2026-07-14T22:31:00+05:30",
+    "updated_at": "2026-07-15T01:36:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "channel": "#brightmart-oncall",
+    "thread_ts": "2026-07-14T22:31:00+05:30",
+    "participants": [
+      "NW1109"
+    ],
+    "links": [
+      "BRM-377",
+      "INC-2026-014"
+    ],
+    "messages": [
+      {
+        "user": "NW1109",
+        "user_name": "Imran Sheikh",
+        "ts": "2026-07-14T22:31:00+05:30",
+        "text": "ldp-accrual-nightly failed again (executor OOM). My office laptop is at ODC, logging in from home to fix."
+      },
+      {
+        "user": "NW1109",
+        "user_name": "Imran Sheikh",
+        "ts": "2026-07-15T01:36:00+05:30",
+        "text": "Fixed, job rerun. Points accrued for 14 Jul."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-031",
+    "source_system": "Slack",
+    "created_at": "2026-08-01T10:35:00+05:30",
+    "updated_at": "2026-08-02T08:00:00+01:00",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "channel": "#inc-2026-014",
+    "thread_ts": "2026-08-01T10:35:00+05:30",
+    "participants": [
+      "NW0402",
+      "NW0501",
+      "NW1101"
+    ],
+    "links": [
+      "INC-2026-014",
+      "DEC-2026-032",
+      "ADD-BRM-GDPR-01"
+    ],
+    "messages": [
+      {
+        "user": "NW0501",
+        "user_name": "Karthik Subramanian",
+        "ts": "2026-08-01T10:35:00+05:30",
+        "text": "Sev1 confirmed 10:30: session queried BM-LOYALTY-PROD members table. DPO + DM notified. Client notice per IR §4 default 72h."
+      },
+      {
+        "user": "NW1101",
+        "user_name": "Siddharth Chauhan",
+        "ts": "2026-08-01T10:50:00+05:30",
+        "text": "Ack. Prepping client comms."
+      },
+      {
+        "user": "NW0402",
+        "user_name": "Grace Okafor",
+        "ts": "2026-08-02T07:50:00+01:00",
+        "text": "Correction: Brightmart DPA §8 is 24h from awareness, not 72h. Sending to Hannah Price now - we are late."
+      },
+      {
+        "user": "NW0402",
+        "user_name": "Grace Okafor",
+        "ts": "2026-08-02T08:00:00+01:00",
+        "text": "Sent to Brightmart DPO at 08:00 UK (12:30 IST), 26h after awareness. Logging the miss (DEC-2026-032)."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-033",
+    "source_system": "Slack",
+    "created_at": "2026-08-06T15:30:00+00:00",
+    "updated_at": "2026-08-06T15:45:00+00:00",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "channel": "#brightmart-leadership",
+    "thread_ts": "2026-08-06T15:30:00+00:00",
+    "participants": [
+      "NW0013",
+      "NW1118"
+    ],
+    "links": [
+      "ESC-2026-005",
+      "DEC-2026-034"
+    ],
+    "messages": [
+      {
+        "user": "NW1118",
+        "user_name": "James Carter",
+        "ts": "2026-08-06T15:30:00+00:00",
+        "text": "Mark Lewis has invoked the audit right (§16) and wants a remediation plan in 14 days, by 20 Aug."
+      },
+      {
+        "user": "NW0013",
+        "user_name": "Eleanor Hughes",
+        "ts": "2026-08-06T15:45:00+00:00",
+        "text": "Exec call on 10 Aug. We need a fresh PM and a dedicated security champion."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-040",
+    "source_system": "Slack",
+    "created_at": "2026-08-26T18:00:00+05:30",
+    "updated_at": "2026-08-26T18:10:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "channel": "#brightmart-team",
+    "thread_ts": "2026-08-26T18:00:00+05:30",
+    "participants": [
+      "NW1103",
+      "NW1106"
+    ],
+    "links": [
+      "MOM-2026-038",
+      "ITT-2026-2301"
+    ],
+    "messages": [
+      {
+        "user": "NW1103",
+        "user_name": "Nikhil Bose",
+        "ts": "2026-08-26T18:00:00+05:30",
+        "text": "Hi all, I'm the new PM from today. Handover with Ritu done - 7 open actions; I'll own the monthly access review."
+      },
+      {
+        "user": "NW1106",
+        "user_name": "Deepa Narayan",
+        "ts": "2026-08-26T18:10:00+05:30",
+        "text": "Welcome Nikhil! Runbook for loyalty-service is in docs/runbook.md - happy to walk you through."
+      }
+    ]
+  },
+  {
+    "id": "CHT-2026-044",
+    "source_system": "Slack",
+    "created_at": "2026-09-22T12:00:00+05:30",
+    "updated_at": "2026-09-22T12:20:00+05:30",
+    "classification": "CLIENT-CONF-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "channel": "#brightmart-leadership",
+    "thread_ts": "2026-09-22T12:00:00+05:30",
+    "participants": [
+      "NW0502",
+      "NW1103"
+    ],
+    "links": [
+      "AUD-2026-01",
+      "ITT-2026-2210"
+    ],
+    "messages": [
+      {
+        "user": "NW0502",
+        "user_name": "Divya Shetty",
+        "ts": "2026-09-22T12:00:00+05:30",
+        "text": "Ashgrove (Claire Bennett) wants CAPA-1 closure evidence by 30 Oct. Rakesh says 80% and the last 2 nodes are blocked by Brightmart's change freeze."
+      },
+      {
+        "user": "NW1103",
+        "user_name": "Nikhil Bose",
+        "ts": "2026-09-22T12:20:00+05:30",
+        "text": "Raising dependency BRM-RAID-D01 with Brightmart Citrix team; target 9 Oct."
+      }
+    ]
+  }
+]

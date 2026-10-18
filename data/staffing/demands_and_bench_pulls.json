@@ -1,0 +1,85 @@
+[
+  {
+    "id": "STF-2026-0140",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-02-13T10:00:00+05:30",
+    "updated_at": "2026-02-13T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "type": "resource_demand",
+    "raised_by": "NW1101",
+    "account": "ACC-BRM",
+    "need": "12 staff by 2026-02-23 (Kafka, Azure Functions, Java, React, Spark, QA, DevOps, BA onsite)",
+    "status": "Fulfilled",
+    "fulfilled_by": "BPL-2026-007"
+  },
+  {
+    "id": "BPL-2026-007",
+    "source_system": "Kantata PSA",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013",
+      "grp-acc-cin"
+    ],
+    "type": "bench_pull",
+    "proposed_by": [
+      "NW0801",
+      "NW0802"
+    ],
+    "demand": "STF-2026-0140",
+    "resources": [
+      "NW1106",
+      "NW1107",
+      "NW1108",
+      "NW1109",
+      "NW1110",
+      "NW1111",
+      "NW1112",
+      "NW1113",
+      "NW1114",
+      "NW1115",
+      "NW1116",
+      "NW1117"
+    ],
+    "from_bench": [
+      "NW1108",
+      "NW1109",
+      "NW1110",
+      "NW1111",
+      "NW1112",
+      "NW1113",
+      "NW1114",
+      "NW1115",
+      "NW1116",
+      "NW1117"
+    ],
+    "from_active_projects": [
+      {
+        "resource": "NW1106",
+        "from": "CL-212",
+        "note": "background project ending 2026-02-20 anyway"
+      },
+      {
+        "resource": "NW1107",
+        "from": "ACC-CIN / SOW-CIN-03",
+        "note": "Annex B key person; M3 due 2026-04-30",
+        "release_approval": "APR-2026-0219"
+      }
+    ],
+    "approval": "APR-2026-0216",
+    "minutes": "MOM-2026-009",
+    "policy_in_force": "POL-RMG-BENCH v2"
+  }
+]

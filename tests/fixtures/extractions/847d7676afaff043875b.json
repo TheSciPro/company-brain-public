@@ -1,0 +1,31 @@
+{
+ "doc_id": "POL-RMG-BENCH@v3",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "bench_unallocated_threshold",
+   "label": "Minimum unallocated bench duration",
+   "value": "5",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "Bench = unallocated > 5 working days."
+  },
+  {
+   "key": "release_handover_period",
+   "label": "Required handover period for releasing staff",
+   "value": "15",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "Release from an active project needs the releasing DM's and the releasing Unit Head's approval if handover is < 15 working days"
+  },
+  {
+   "key": "bench_review_threshold",
+   "label": "Bench duration that triggers a review",
+   "value": "45",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Bench > 45 days triggers a review (was 60)."
+  }
+ ]
+}

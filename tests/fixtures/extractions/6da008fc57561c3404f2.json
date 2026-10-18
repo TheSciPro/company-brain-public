@@ -1,0 +1,79 @@
+{
+ "doc_id": "POL-FIN-PRICE@v3",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "target_gross_margin_t_and_m",
+   "label": "Target gross margin for Time & Materials",
+   "value": "28",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Target gross margin 28% for T&M"
+  },
+  {
+   "key": "target_gross_margin_fixed_price",
+   "label": "Target gross margin for Fixed Price contracts",
+   "value": "32",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Target gross margin 32% for fixed price"
+  },
+  {
+   "key": "discount_pct_dm",
+   "label": "Maximum discount allowed by Decision Maker",
+   "value": "10",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Discounts vs rate card: ≤10% DM"
+  },
+  {
+   "key": "discount_pct_unit_head_min",
+   "label": "Minimum discount requiring Unit Head approval",
+   "value": "10",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "10–15% Unit Head"
+  },
+  {
+   "key": "discount_pct_unit_head_max",
+   "label": "Maximum discount allowed with Unit Head approval",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "10–15% Unit Head"
+  },
+  {
+   "key": "discount_pct_cfo_ceo_threshold",
+   "label": "Discount percentage above which CFO and CEO approval is required",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": ">15% CFO and CEO jointly"
+  },
+  {
+   "key": "margin_recovery_threshold",
+   "label": "Margin percentage below which a recovery plan is required",
+   "value": "22",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Any deal below 22% margin needs a recovery plan reviewed quarterly by Finance"
+  },
+  {
+   "key": "exception_initial_term_only",
+   "label": "Exceptions are valid only for the initial contract term",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Exceptions are valid for the initial contract term only"
+  },
+  {
+   "key": "exception_renegotiation_at_renewal",
+   "label": "Exceptions must be renegotiated at renewal",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "must be renegotiated at renewal"
+  }
+ ]
+}

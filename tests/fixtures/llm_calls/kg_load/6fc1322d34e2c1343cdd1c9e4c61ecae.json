@@ -1,0 +1,5 @@
+{
+ "kind": "messages",
+ "model": "offline-kg",
+ "response": "{\"entities\": [{\"label\": \"Person\", \"description\": \"A named person.\", \"properties\": [{\"name\": \"name\", \"type\": \"STRING\", \"description\": \"Display name.\"}]}, {\"label\": \"Organization\", \"description\": \"A named organisation, team or office.\", \"properties\": [{\"name\": \"name\", \"type\": \"STRING\", \"description\": \"Display name.\"}]}], \"relations\": [{\"label\": \"AFFILIATED_WITH\", \"description\": \"A person is affiliated with an organisation.\", \"patterns\": [[\"Person\", \"Organization\"]], \"properties\": []}]}"
+}

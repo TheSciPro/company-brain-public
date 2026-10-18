@@ -1,0 +1,47 @@
+{
+ "doc_id": "SOW-CIN-03",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "hourly_rate",
+   "label": "Blended offshore hourly rate",
+   "value": "36",
+   "unit": "USD/hour",
+   "qualifiers": {},
+   "quote": "Fixed price; blended offshore $36/hr basis (standard)."
+  },
+  {
+   "key": "release_handover_period",
+   "label": "Required handover period for key‑person change",
+   "value": "10",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "Any change of a key person requires Coastline's consent and ten (10) working days' handover."
+  },
+  {
+   "key": "max_service_credit_amount",
+   "label": "Maximum service credit per missed milestone",
+   "value": "50000",
+   "unit": "USD",
+   "qualifiers": {},
+   "quote": "A milestone missed by more than 10 business days attracts a service credit (up to $50,000 per milestone)."
+  },
+  {
+   "key": "milestone_due_date_m3",
+   "label": "M3 claims‑module cutover due date",
+   "value": "2026-04-30",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "M3 claims-module cutover due 2026-04-30"
+  },
+  {
+   "key": "milestone_due_date_m4",
+   "label": "M4 decommission due date",
+   "value": "2026-08-31",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "M4 decommission (2026-08-31)"
+  }
+ ]
+}

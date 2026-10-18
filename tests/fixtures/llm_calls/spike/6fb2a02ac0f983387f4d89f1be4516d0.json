@@ -1,0 +1,13 @@
+{
+ "kind": "graphiti",
+ "model": "qwen/qwen3.8-27b",
+ "response": {
+  "entity_resolutions": [
+   {
+    "duplicate_candidate_id": -1,
+    "id": 0,
+    "name": "Platform team"
+   }
+  ]
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/openai/gpt-oss-120b",
+ "response": "comp days, Payments team"
+}

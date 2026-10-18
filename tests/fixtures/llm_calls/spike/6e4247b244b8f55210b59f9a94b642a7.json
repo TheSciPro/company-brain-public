@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/openai/gpt-oss-120b",
+ "response": "{\n  \"entities\": [\n    {\n      \"name\": \"Payments team on-call policy\",\n      \"type\": \"Policy\",\n      \"description\": \"The on-call policy governing the Payments team.\"\n    },\n    {\n      \"name\": \"Payments team\",\n      \"type\": \"Team\",\n      \"description\": \"The team referred to as the Payments team.\"\n    },\n    {\n      \"name\": \"Ben Ode\",\n      \"type\": \"Person\",\n      \"description\": \"Individual who approves comp days for the Payments team.\"\n    }\n  ],\n  \"relationships\": []\n}"
+}

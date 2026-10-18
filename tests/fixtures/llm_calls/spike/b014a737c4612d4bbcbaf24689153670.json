@@ -1,0 +1,19 @@
+{
+ "kind": "graphiti",
+ "model": "openai/gpt-oss-120b",
+ "response": {
+  "edges": [
+   {
+    "episode_indices": [
+     0
+    ],
+    "fact": "user works on the Payments team",
+    "invalid_at": null,
+    "relation_type": "WORKS_ON",
+    "source_entity_name": "user",
+    "target_entity_name": "Payments team",
+    "valid_at": "2026-10-01T00:00:00Z"
+   }
+  ]
+ }
+}

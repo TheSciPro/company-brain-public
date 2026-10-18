@@ -1,0 +1,22 @@
+{
+ "kind": "graphiti",
+ "model": "qwen/qwen3.8-27b",
+ "response": {
+  "extracted_entities": [
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "user"
+   },
+   {
+    "entity_type_id": 0,
+    "episode_indices": [
+     0
+    ],
+    "name": "Platform team"
+   }
+  ]
+ }
+}

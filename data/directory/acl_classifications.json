@@ -1,0 +1,115 @@
+{
+  "x_northwind": {
+    "id": "ACL-MAP",
+    "source_system": "Northwind IAM",
+    "created_at": "2026-01-01T10:00:00+05:30",
+    "updated_at": "2026-01-01T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ]
+  },
+  "classifications": {
+    "PUBLIC-INT": [
+      "grp-employee"
+    ],
+    "MGR": [
+      "grp-mgr",
+      "grp-exec"
+    ],
+    "RESTRICTED-FIN": [
+      "grp-finance",
+      "grp-exec"
+    ],
+    "RESTRICTED-FIN-DM": [
+      "grp-finance",
+      "grp-exec",
+      "grp-pricing-desk",
+      "grp-acc-brm-dm",
+      "NW0011",
+      "NW0013"
+    ],
+    "RESTRICTED-HR": [
+      "NW0004",
+      "grp-hr-con"
+    ],
+    "CLIENT-CONF-BRM": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "CLIENT-CONF-BRM-OPS": [
+      "grp-acc-brm",
+      "grp-legal",
+      "grp-exec",
+      "grp-hr",
+      "grp-auditor-ext",
+      "grp-auditor-int"
+    ],
+    "CLIENT-CONF-CIN": [
+      "grp-acc-cin",
+      "grp-legal",
+      "grp-exec",
+      "grp-rmg"
+    ],
+    "CLIENT-CONF-OTHER": [
+      "grp-legal",
+      "grp-exec"
+    ],
+    "SECURITY": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "SECURITY-BRM": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "INTERNAL-ACCOUNT-BRM": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "PERSONAL": []
+  },
+  "groups": {
+    "grp-employee": "All Employees",
+    "grp-pm": "Project Managers",
+    "grp-dm": "Delivery Managers",
+    "grp-unit-head": "Unit Heads",
+    "grp-hr": "HR",
+    "grp-hr-con": "HR - Consumer scope",
+    "grp-finance": "Finance",
+    "grp-pricing-desk": "Pricing Desk",
+    "grp-legal": "Legal & Compliance",
+    "grp-security": "IT Security & GRC",
+    "grp-auditor-int": "Internal Audit",
+    "grp-auditor-ext": "External Auditors (Ashgrove, time-boxed)",
+    "grp-exec": "Executive Leadership",
+    "grp-rmg": "Resource Management",
+    "grp-mgr": "Managers G5+",
+    "grp-acc-brm": "Account Team - Brightmart UK",
+    "grp-acc-brm-dm": "Account Leadership - Brightmart (DM/Client Partner)",
+    "grp-acc-cin": "Account Team - Coastline Insurance",
+    "grp-acc-hbk": "Account Team - HarbourBank",
+    "grp-acc-zen": "Account Team - Zentro Retail",
+    "grp-acc-med": "Account Team - Medisure Health",
+    "grp-acc-ver": "Account Team - Veridian Pharma"
+  },
+  "rules": [
+    "Visibility is evaluated at query time per node/edge; a path with any invisible node/edge is pruned.",
+    "restricted_fields[] on a record override the record ACL for that field only.",
+    "existence_disclosure on a restricted field states what may be said to a reader who cannot see the value.",
+    "grp-auditor-ext is valid 2026-07-28..2026-10-30 only and sees employee IDs, not names, in HR-adjacent context.",
+    "Unit-head visibility follows unit membership as of the query date (ORG-2026-05)."
+  ]
+}

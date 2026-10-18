@@ -1,0 +1,47 @@
+# Questions for scripts/deploy_smoke.py. Persona comes from GET /personas on the running app.
+# No person ids and no tenant facts here: each case is a kind of request, not a Northwind example.
+version: 1
+abstain_reply: "I don't have that on record."
+abstain_patterns:
+  - "no fact"
+  - "not on record"
+  - "don't have"
+  - "do not have"
+  - "cannot confirm"
+  - "can't confirm"
+  - "none applies"
+  - "don't know"
+  - "do not know"
+  - "nothing found"
+company_skill: /skills/company-answers/SKILL.md
+cases:
+  - id: company
+    question: "Look up my own directory record and tell me my title."
+    tool: org_lookup
+    arg: who
+    arg_from: user_id
+    skill: true
+    expect:
+      tools_any: [org_lookup]
+      status: done
+      abstains: false
+  - id: memory
+    question: "What do you remember about how I like to work?"
+    tool: search_memory
+    arg: query
+    arg_from: question
+    skill: false
+    expect:
+      tools_any: [search_memory, add_memory, read_memory]
+      status: done
+      abstains: false
+  - id: abstain
+    question: "What is the official policy for commuting by submarine?"
+    tool: company_fact
+    arg: question
+    arg_from: question
+    skill: true
+    expect:
+      tools_any: [company_fact, search_company]
+      status: done
+      abstains: true

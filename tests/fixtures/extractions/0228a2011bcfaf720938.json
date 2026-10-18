@@ -1,0 +1,73 @@
+{
+ "doc_id": "POL-HR-TRAVEL@v3",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "hotel_night_cap_tier1_g1_g5",
+   "label": "Hotel night cap for Tier‑1 (G1‑G5)",
+   "value": "7500",
+   "unit": "INR/night",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Hotels capped by city tier (Tier-1 ₹7,500/night for G1–G5"
+  },
+  {
+   "key": "hotel_night_cap_tier1_g6_plus",
+   "label": "Hotel night cap for Tier‑1 (G6+)",
+   "value": "11000",
+   "unit": "INR/night",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "₹11,000 for G6+)"
+  },
+  {
+   "key": "economy_air_min_distance",
+   "label": "Minimum distance for economy air (domestic)",
+   "value": "500",
+   "unit": "km",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Economy air if > 500 km."
+  },
+  {
+   "key": "flight_economy_max_duration",
+   "label": "Maximum duration for economy international flight",
+   "value": "8",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Economy for flights < 8h"
+  },
+  {
+   "key": "flight_premium_economy_min_duration",
+   "label": "Minimum duration for premium economy international flight",
+   "value": "8",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "premium economy for > 8h at G6+ only"
+  },
+  {
+   "key": "immigration_review_threshold_uk",
+   "label": "Days abroad requiring immigration review (UK visitor)",
+   "value": "30",
+   "unit": "days",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "India-based staff travelling to London for client work > 30 days need an immigration review"
+  },
+  {
+   "key": "per_diem_london",
+   "label": "Per diem rate for London",
+   "value": "55",
+   "unit": "GBP/day",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "London £55/day."
+  }
+ ]
+}

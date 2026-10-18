@@ -1,0 +1,93 @@
+{
+ "doc_id": "POL-HR-LEAVE@v4",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "earned_leave_entitlement_india",
+   "label": "Earned leave entitlement in India",
+   "value": "18",
+   "unit": "days/year",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "India: 18 days/year, accrued 1.5/month, carry-forward up to 45 days."
+  },
+  {
+   "key": "earned_leave_accrual_rate_india",
+   "label": "Earned leave accrual rate in India",
+   "value": "1.5",
+   "unit": "days/month",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "India: 18 days/year, accrued 1.5/month, carry-forward up to 45 days."
+  },
+  {
+   "key": "earned_leave_carry_forward_max_india",
+   "label": "Maximum carry‑forward earned leave in India",
+   "value": "45",
+   "unit": "days",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "India: 18 days/year, accrued 1.5/month, carry-forward up to 45 days."
+  },
+  {
+   "key": "earned_leave_entitlement_uk",
+   "label": "Earned leave entitlement in the United Kingdom",
+   "value": "25",
+   "unit": "days/year",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "UK: 25 days plus bank holidays; carry-forward max 5 days, to be used by 31 March."
+  },
+  {
+   "key": "earned_leave_carry_forward_max_uk",
+   "label": "Maximum carry‑forward earned leave in the United Kingdom",
+   "value": "5",
+   "unit": "days",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "UK: 25 days plus bank holidays; carry-forward max 5 days, to be used by 31 March."
+  },
+  {
+   "key": "sick_leave_entitlement_india",
+   "label": "Sick leave entitlement in India",
+   "value": "10",
+   "unit": "days/year",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "India: 10 days/year (medical certificate required beyond 2 consecutive days)."
+  },
+  {
+   "key": "sick_leave_entitlement_uk",
+   "label": "Sick leave entitlement in the United Kingdom",
+   "value": "10",
+   "unit": "days/year",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "UK: statutory sick pay plus 10 days company sick pay."
+  },
+  {
+   "key": "leave_approval_max_days_line_manager",
+   "label": "Maximum leave days approved by line manager only",
+   "value": "5",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "≤5 working days — line manager; 6–15 days — line manager and the Project Manager..."
+  },
+  {
+   "key": "leave_notice_required_days",
+   "label": "Notice period required for leave >5 days",
+   "value": "15",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Employees on a client project must give **15 days' notice** for leave of more than 5 days, unless it is an emergency."
+  }
+ ]
+}

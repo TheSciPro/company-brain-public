@@ -1,0 +1,7 @@
+{
+ "kind": "graphiti",
+ "model": "qwen/qwen3.8-27b",
+ "response": {
+  "edges": []
+ }
+}

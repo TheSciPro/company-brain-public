@@ -1,0 +1,27 @@
+# Classification levels (mirrors table classification_levels) and how each is shown to the model.
+version: 1
+levels:
+  - {code: public, rank: 1, label: Public}
+  - {code: internal, rank: 2, label: Internal}
+  - {code: confidential, rank: 3, label: Confidential}
+  - {code: highly_confidential, rank: 4, label: Highly confidential}
+audit_answers_at_or_above: confidential    # answers using >= this level create a Decision audit node
+# Source tags from the export. Anything not listed fails closed via unknown_tag.
+tags:
+  PUBLIC:
+    level: public
+    grants: false
+  PUBLIC-INT:
+    level: internal
+    grants: false
+  MGR:
+    level: confidential
+    share: leadership
+    grants: true
+  PERSONAL:
+    level: highly_confidential
+    personal: true
+    grants: false
+unknown_tag:
+  level: highly_confidential
+  grants: true

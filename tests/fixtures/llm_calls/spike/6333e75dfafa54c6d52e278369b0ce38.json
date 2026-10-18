@@ -1,0 +1,5 @@
+{
+ "kind": "messages",
+ "model": "groq/openai/gpt-oss-120b",
+ "response": "Ben Ode"
+}

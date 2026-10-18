@@ -1,0 +1,107 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nwb"
+version = "0.1.0"
+description = "Northwind Brain: organisational memory on FalkorDB"
+requires-python = ">=3.13"
+dependencies = [
+  "FalkorDB==1.8.0",
+  "falkordblite==0.10.0",
+  "redis==8.1.0",
+  "pydantic==2.14.1",
+  "pydantic-settings==2.16.0",
+  "psycopg[binary]==3.3.6",
+  "psycopg-pool==3.3.3",
+  "langchain-core==1.6.12",
+  "langchain-openai==1.7.2",
+  "langchain-nvidia-ai-endpoints==1.5.0",
+  "langchain==1.4.6",
+  "langgraph==1.2.16",
+  "langgraph-checkpoint-sqlite==3.1.2",
+  "langgraph-checkpoint-postgres==3.2.0",
+  "deepagents==0.7.28",
+  "fastapi==0.143.3",
+  "uvicorn==0.54.0",
+  "sse-starlette==3.5.0",
+  "jinja2==3.1.6",
+  "PyYAML==6.0.3",
+  "APScheduler==3.11.3",
+  "fastembed==0.9.0",
+  "numpy==2.5.4",
+  "tzdata==2026.5",
+]
+
+[project.optional-dependencies]
+# Heavy graph stack. GraphRAG-SDK on PyPI (1.4.0) has no TableMapping; the git pin does.
+# fastembed stays in the base dependencies (the memory embedder). This extra pulls gliner/torch
+# via the SDK, so the base install stays lean. `import nwb.kg` does not need it.
+graph = [
+  "graphiti-core[falkordb]==0.31.1",
+  "hnswlib==0.8.0",
+  "litellm==1.105.1",
+  "graphrag-sdk[litellm] @ git+https://github.com/FalkorDB/GraphRAG-SDK.git@35e67a0b27fdcc7f2c28508b09e86169851a8187#subdirectory=graphrag_sdk",
+]
+dev = ["pytest==9.1.1", "ruff==0.17.1", "mypy==2.4.0", "types-PyYAML==6.0.12.20260906", "httpx==0.28.1"]
+
+[project.scripts]
+nwb = "nwb.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nwb = ["py.typed", "access/sql/*.sql"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N", "S", "PT"]
+ignore = ["S101", "S608", "RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/nwb/ingest/fact_rules.py" = ["E501", "RUF001"]
+"src/nwb/ingest/layer2.py" = ["E501"]
+"tests/**" = ["S", "N", "PT018", "E501"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+mypy_path = "src"
+packages = ["nwb"]
+plugins = ["pydantic.mypy"]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+
+[[tool.mypy.overrides]]
+module = [
+  "falkordb.*",
+  "redislite.*",
+  "redis.*",
+  "fastembed.*",
+  "apscheduler.*",
+  "sse_starlette.*",
+  "graphrag_sdk.*",
+  "graphiti_core.*",
+  "litellm",
+  "litellm.*",
+  "hnswlib.*",
+  "gliner.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "postgres: needs Postgres on NWB_PG_DSN (skipped if unreachable)",
+  "graph: needs FalkorDBLite",
+  "live: calls a hosted model with a real key; skipped unless NWB_LIVE=1 (see AGENTS.md 14.2)",
+]

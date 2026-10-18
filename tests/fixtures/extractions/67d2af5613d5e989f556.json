@@ -1,0 +1,23 @@
+{
+ "doc_id": "DEC-2026-006",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "client_notification_deadline",
+   "label": "Client notification deadline",
+   "value": "24",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Accept DPA §8 (24h to controller DPO)"
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "no remote work for PII handlers (office‑only)"
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "EVD-001",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.18",
+    "description": "Monthly access certification exports Mar-May, Jul, Aug (June missing)",
+    "artifacts": [
+      "APR-2026-0330",
+      "APR-2026-0429",
+      "APR-2026-0529",
+      "APR-2026-0729",
+      "APR-2026-0908"
+    ],
+    "collected_by": "NW0502",
+    "status": "Missing period: 2026-06"
+  },
+  {
+    "id": "EVD-002",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.8.1",
+    "description": "Intune compliant-device inventory for Brightmart team",
+    "artifacts": [
+      "DEV-NW-LT-1109"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-003",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.6.3",
+    "description": "Training completion report 2026",
+    "artifacts": [
+      "TRN-2026-BRM"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-004",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.24",
+    "description": "POL-SEC-IR v2 + IR tabletop record 2026-03",
+    "artifacts": [
+      "POL-SEC-IR-v2"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-005",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.26",
+    "description": "INC-2026-014 + PIR-2026-014",
+    "artifacts": [
+      "INC-2026-014",
+      "PIR-2026-014"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-006",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.34",
+    "description": "Brightmart DPA + RoPA entry",
+    "artifacts": [
+      "ADD-BRM-GDPR-01"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-007",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.6.7",
+    "description": "WFH v3 + DM override for Brightmart",
+    "artifacts": [
+      "POL-HR-WFH-v3",
+      "DEC-2026-014"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-008",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.8.16",
+    "description": "SIEM alert rules export",
+    "artifacts": [],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-009",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.8.12",
+    "description": "DLP policy export (no download events for INC-2026-014)",
+    "artifacts": [
+      "INC-2026-014"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-010",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.15",
+    "description": "Access control standard",
+    "artifacts": [
+      "POL-SEC-CDH-v2"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-011",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.8.1",
+    "description": "CAPA-1 progress (80%)",
+    "artifacts": [
+      "ITT-2026-2210"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  },
+  {
+    "id": "EVD-012",
+    "source_system": "Vanta (Evidence)",
+    "created_at": "2026-07-27T10:00:00+05:30",
+    "updated_at": "2026-07-27T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "control": "CTL-A.5.1",
+    "description": "ISMS SoA 2026.1",
+    "artifacts": [
+      "ISMS-SOA-2026.1"
+    ],
+    "collected_by": "NW0502",
+    "status": "Accepted"
+  }
+]

@@ -1,0 +1,23 @@
+{
+ "doc_id": "DEC-2026-017",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "release_handover_period",
+   "label": "Required handover period for releasing staff",
+   "value": "15",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "Unit Head approval if handover < 15 working days"
+  },
+  {
+   "key": "bench_review_threshold",
+   "label": "Bench duration that triggers a review",
+   "value": "45",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "bench review at 45 days"
+  }
+ ]
+}

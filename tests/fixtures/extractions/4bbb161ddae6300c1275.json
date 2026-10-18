@@ -1,0 +1,39 @@
+{
+ "doc_id": "MOM-2026-009",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "bench_hires_count",
+   "label": "Number of hires from bench",
+   "value": "10",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Decisions: 10 from bench + 2 from active projects"
+  },
+  {
+   "key": "active_project_hires_count",
+   "label": "Number of hires from active projects",
+   "value": "2",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Decisions: 10 from bench + 2 from active projects"
+  },
+  {
+   "key": "consent_deadline",
+   "label": "Deadline for obtaining consent",
+   "value": "2026-02-19",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Bhavna Thakur — get Sameer Desai consent for Varun (due 2026-02-19)"
+  },
+  {
+   "key": "access_request_deadline",
+   "label": "Deadline for raising access requests",
+   "value": "2026-02-23",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Ritu Agarwal — raise access requests (due 2026-02-23)"
+  }
+ ]
+}

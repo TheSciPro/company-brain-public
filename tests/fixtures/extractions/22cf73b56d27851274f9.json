@@ -1,0 +1,31 @@
+{
+ "doc_id": "POL-SEC-IR@v2",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "incident_report_deadline",
+   "label": "Incident report deadline",
+   "value": "1",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Report to the SOC within 1 hour."
+  },
+  {
+   "key": "client_notification_deadline",
+   "label": "Client notification deadline",
+   "value": "72",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Client notification follows the contractual timeline (default 72h unless the contract specifies otherwise)."
+  },
+  {
+   "key": "post_incident_review_deadline",
+   "label": "Post‑incident review deadline",
+   "value": "10",
+   "unit": "working days",
+   "qualifiers": {},
+   "quote": "Post-incident review due within 10 working days, with a corrective action plan (CAPA) tracked to closure."
+  }
+ ]
+}

@@ -1,0 +1,2298 @@
+[
+  {
+    "id": "ITT-2026-0301",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1106",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Deepa Narayan",
+    "approval": "APR-2026-0224-01",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0302",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1107",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Varun Shah",
+    "approval": "APR-2026-0224-02",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0303",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1108",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Sneha Patil",
+    "approval": "APR-2026-0224-03",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0304",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1109",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Imran Sheikh",
+    "approval": "APR-2026-0224-04",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0305",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1110",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Kiran Das",
+    "approval": "APR-2026-0224-05",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0306",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1111",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Megha Sinha",
+    "approval": "APR-2026-0224-06",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0307",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1112",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Arvind Pandey",
+    "approval": "APR-2026-0224-07",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0308",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1113",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Tanvi Mishra",
+    "approval": "APR-2026-0224-08",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0309",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1114",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Rajesh Yadav",
+    "approval": "APR-2026-0224-09",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0310",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1115",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Fatima Khan",
+    "approval": "APR-2026-0224-10",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0311",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1116",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Aakash Jain",
+    "approval": "APR-2026-0224-11",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-0312",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-23T11:00:00+05:30",
+    "updated_at": "2026-02-24T18:40:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1117",
+    "short_description": "Brightmart Citrix + BM-LOYALTY-PROD read for Shreya Ghosh",
+    "approval": "APR-2026-0224-12",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-2210",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-14T10:00:00+05:30",
+    "updated_at": "2026-09-15T18:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Change / CAPA",
+    "short_description": "CAPA-1: Enforce device compliance (Intune) via Okta device assurance on Brightmart Citrix gateway",
+    "assigned_to": "NW1701",
+    "due_date": "2026-09-15",
+    "state": "Work in Progress",
+    "percent_complete": 80,
+    "overdue": true,
+    "capa": "CAPA-2026-014-1",
+    "finding": "AUD-2026-01",
+    "work_notes": [
+      {
+        "at": "2026-08-20T10:00:00+05:30",
+        "by": "NW1701",
+        "note": "Policy v2 piloted on 2 of 10 gateway nodes"
+      },
+      {
+        "at": "2026-09-15T18:00:00+05:30",
+        "by": "NW1701",
+        "note": "80% of nodes enforced. Remaining 2 nodes blocked by Brightmart change freeze window; new ETA 2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "ITT-2026-2301",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-29T15:00:00+05:30",
+    "updated_at": "2026-09-01T10:20:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "Access Request",
+    "requested_for": "NW1109",
+    "short_description": "Restore Brightmart Citrix access for NW1109 after re-training; device NW-LT-1109 enrolled & compliant",
+    "approved_by": [
+      "NW1103",
+      "NW0501"
+    ],
+    "state": "Closed Complete",
+    "restored_on": "2026-09-01",
+    "related": [
+      "SEC-2026-0077",
+      "HRC-2026-0031"
+    ],
+    "restricted_fields": [
+      {
+        "field": "related[HRC-2026-0031]",
+        "classification": "RESTRICTED-HR",
+        "acl": [
+          "NW0004",
+          "grp-hr-con"
+        ],
+        "existence_disclosure": "PM sees: restricted HR context exists; contact HRBP Pooja Reddy"
+      }
+    ]
+  },
+  {
+    "id": "ITT-2026-2215",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-14T10:00:00+05:30",
+    "updated_at": "2026-08-14T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "CAPA",
+    "short_description": "CAPA-2: IR runbook - client-specific notification clock lookup (DPA 24h)",
+    "assigned_to": "NW0501",
+    "due_date": "2026-08-31",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-2216",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-14T10:00:00+05:30",
+    "updated_at": "2026-08-14T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "CAPA",
+    "short_description": "CAPA-3: Monthly access-review calendar with mandatory delegate",
+    "assigned_to": "NW1103",
+    "due_date": "2026-09-30",
+    "state": "Work in Progress",
+    "note": "Reassigned from NW1102 on 2026-08-26 (MOM-2026-038)"
+  },
+  {
+    "id": "ITT-2026-2217",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-14T10:00:00+05:30",
+    "updated_at": "2026-08-14T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "category": "CAPA",
+    "short_description": "CAPA-4: Complete A.6.3 security training for 3 Brightmart staff",
+    "assigned_to": "NW1117",
+    "due_date": "2026-08-31",
+    "state": "Closed Complete"
+  },
+  {
+    "id": "ITT-2026-3000",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-08T10:00:00+05:30",
+    "updated_at": "2026-08-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2896",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2896",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3001",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-16T10:00:00+05:30",
+    "updated_at": "2026-04-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2891",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2891",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3002",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-09T10:00:00+05:30",
+    "updated_at": "2026-01-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4962",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4962",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3003",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-18T10:00:00+05:30",
+    "updated_at": "2026-01-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2490",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2490",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3004",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-22T10:00:00+05:30",
+    "updated_at": "2026-03-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2412",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2412",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3005",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-09T10:00:00+05:30",
+    "updated_at": "2026-08-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3751",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3751",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3006",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-27T10:00:00+05:30",
+    "updated_at": "2026-02-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2588",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2588",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3007",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-17T10:00:00+05:30",
+    "updated_at": "2026-07-17T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3367",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3367",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3008",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-25T10:00:00+05:30",
+    "updated_at": "2026-09-25T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2085",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2085",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3009",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-01T10:00:00+05:30",
+    "updated_at": "2026-07-01T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3659",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3659",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3010",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-08T10:00:00+05:30",
+    "updated_at": "2026-01-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2777",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2777",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3011",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-16T10:00:00+05:30",
+    "updated_at": "2026-07-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4582",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4582",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3012",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-27T10:00:00+05:30",
+    "updated_at": "2026-04-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2693",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW2693",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3013",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-22T10:00:00+05:30",
+    "updated_at": "2026-07-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4190",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4190",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3014",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-16T10:00:00+05:30",
+    "updated_at": "2026-01-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2455",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2455",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3015",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-26T10:00:00+05:30",
+    "updated_at": "2026-08-26T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4445",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4445",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3016",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-22T10:00:00+05:30",
+    "updated_at": "2026-03-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3235",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3235",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3017",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-15T10:00:00+05:30",
+    "updated_at": "2026-02-15T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2864",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW2864",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3018",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-08T10:00:00+05:30",
+    "updated_at": "2026-09-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4832",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4832",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3019",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-14T10:00:00+05:30",
+    "updated_at": "2026-03-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4428",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4428",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3020",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-18T10:00:00+05:30",
+    "updated_at": "2026-01-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4342",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4342",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3021",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-03T10:00:00+05:30",
+    "updated_at": "2026-05-03T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4076",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4076",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3022",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-08T10:00:00+05:30",
+    "updated_at": "2026-08-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2450",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2450",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3023",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-14T10:00:00+05:30",
+    "updated_at": "2026-06-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4327",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4327",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3024",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-26T10:00:00+05:30",
+    "updated_at": "2026-04-26T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4430",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4430",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3025",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-18T10:00:00+05:30",
+    "updated_at": "2026-01-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3003",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3003",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3026",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-09T10:00:00+05:30",
+    "updated_at": "2026-01-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3701",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3701",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3027",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-26T10:00:00+05:30",
+    "updated_at": "2026-06-26T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4027",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4027",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3028",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-27T10:00:00+05:30",
+    "updated_at": "2026-09-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3717",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3717",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3029",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-04T10:00:00+05:30",
+    "updated_at": "2026-05-04T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3766",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3766",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3030",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-04T10:00:00+05:30",
+    "updated_at": "2026-07-04T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3117",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3117",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3031",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-06T10:00:00+05:30",
+    "updated_at": "2026-04-06T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4483",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4483",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3032",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-18T10:00:00+05:30",
+    "updated_at": "2026-07-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3128",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3128",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3033",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-12T10:00:00+05:30",
+    "updated_at": "2026-08-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4595",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4595",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3034",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-08T10:00:00+05:30",
+    "updated_at": "2026-04-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3680",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3680",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3035",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-09T10:00:00+05:30",
+    "updated_at": "2026-04-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4837",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4837",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3036",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-04T10:00:00+05:30",
+    "updated_at": "2026-02-04T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2605",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW2605",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3037",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-03T10:00:00+05:30",
+    "updated_at": "2026-04-03T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3337",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3337",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3038",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-16T10:00:00+05:30",
+    "updated_at": "2026-04-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3861",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3861",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3039",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-12T10:00:00+05:30",
+    "updated_at": "2026-06-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4969",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4969",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3040",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-27T10:00:00+05:30",
+    "updated_at": "2026-05-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3353",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3353",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3041",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-11T10:00:00+05:30",
+    "updated_at": "2026-08-11T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4017",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4017",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3042",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-06T10:00:00+05:30",
+    "updated_at": "2026-08-06T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3389",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3389",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3043",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4209",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4209",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3044",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-10T10:00:00+05:30",
+    "updated_at": "2026-09-10T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2577",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2577",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3045",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-25T10:00:00+05:30",
+    "updated_at": "2026-03-25T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4385",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4385",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3046",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-10T10:00:00+05:30",
+    "updated_at": "2026-08-10T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3143",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3143",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3047",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4886",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4886",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3048",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-01T10:00:00+05:30",
+    "updated_at": "2026-07-01T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3555",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3555",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3049",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-22T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4195",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4195",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3050",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-06T10:00:00+05:30",
+    "updated_at": "2026-06-06T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4232",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4232",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3051",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-10T10:00:00+05:30",
+    "updated_at": "2026-03-10T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2789",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2789",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3052",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-26T10:00:00+05:30",
+    "updated_at": "2026-06-26T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4879",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4879",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3053",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-09T10:00:00+05:30",
+    "updated_at": "2026-06-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3774",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3774",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3054",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-11T10:00:00+05:30",
+    "updated_at": "2026-03-11T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4430",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4430",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3055",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-19T10:00:00+05:30",
+    "updated_at": "2026-04-19T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3607",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3607",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3056",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-15T10:00:00+05:30",
+    "updated_at": "2026-03-15T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2609",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2609",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3057",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-22T10:00:00+05:30",
+    "updated_at": "2026-04-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4651",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4651",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3058",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-03T10:00:00+05:30",
+    "updated_at": "2026-04-03T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2963",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2963",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3059",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-06T10:00:00+05:30",
+    "updated_at": "2026-07-06T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2255",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW2255",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3060",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-24T10:00:00+05:30",
+    "updated_at": "2026-02-24T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2019",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2019",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3061",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-07T10:00:00+05:30",
+    "updated_at": "2026-09-07T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4273",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4273",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3062",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-02T10:00:00+05:30",
+    "updated_at": "2026-02-02T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3697",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3697",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3063",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-03T10:00:00+05:30",
+    "updated_at": "2026-01-03T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4628",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4628",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3064",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-25T10:00:00+05:30",
+    "updated_at": "2026-05-25T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3133",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3133",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3065",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-19T10:00:00+05:30",
+    "updated_at": "2026-05-19T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2203",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2203",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3066",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-02T10:00:00+05:30",
+    "updated_at": "2026-09-02T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2561",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2561",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3067",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-14T10:00:00+05:30",
+    "updated_at": "2026-01-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2279",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2279",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3068",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-05T10:00:00+05:30",
+    "updated_at": "2026-04-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4696",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4696",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3069",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-18T10:00:00+05:30",
+    "updated_at": "2026-05-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4057",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4057",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3070",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-25T10:00:00+05:30",
+    "updated_at": "2026-03-25T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3002",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3002",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3071",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-12T10:00:00+05:30",
+    "updated_at": "2026-06-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4471",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4471",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3072",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-26T10:00:00+05:30",
+    "updated_at": "2026-05-26T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2647",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2647",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3073",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-15T10:00:00+05:30",
+    "updated_at": "2026-02-15T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2390",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2390",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3074",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-03T10:00:00+05:30",
+    "updated_at": "2026-01-03T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4305",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4305",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3075",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2122",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2122",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3076",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-27T10:00:00+05:30",
+    "updated_at": "2026-03-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3206",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3206",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3077",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-22T10:00:00+05:30",
+    "updated_at": "2026-09-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3137",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3137",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3078",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-07T10:00:00+05:30",
+    "updated_at": "2026-07-07T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4592",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4592",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3079",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-16T10:00:00+05:30",
+    "updated_at": "2026-03-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3652",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3652",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3080",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-06T10:00:00+05:30",
+    "updated_at": "2026-04-06T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4323",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4323",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3081",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-20T10:00:00+05:30",
+    "updated_at": "2026-06-20T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3257",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3257",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3082",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-12T10:00:00+05:30",
+    "updated_at": "2026-07-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2414",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2414",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3083",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-08T10:00:00+05:30",
+    "updated_at": "2026-01-08T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3501",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3501",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3084",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-12T10:00:00+05:30",
+    "updated_at": "2026-02-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3920",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3920",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3085",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-27T10:00:00+05:30",
+    "updated_at": "2026-02-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2338",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2338",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3086",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-19T10:00:00+05:30",
+    "updated_at": "2026-09-19T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3859",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW3859",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3087",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4193",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4193",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3088",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-14T10:00:00+05:30",
+    "updated_at": "2026-09-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4676",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4676",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3089",
+    "source_system": "ServiceNow",
+    "created_at": "2026-03-22T10:00:00+05:30",
+    "updated_at": "2026-03-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4720",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4720",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3090",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4824",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4824",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3091",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-27T10:00:00+05:30",
+    "updated_at": "2026-02-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3250",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3250",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3092",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-09T10:00:00+05:30",
+    "updated_at": "2026-07-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2021",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2021",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3093",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-25T10:00:00+05:30",
+    "updated_at": "2026-08-25T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3344",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3344",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3094",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-14T10:00:00+05:30",
+    "updated_at": "2026-09-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4365",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4365",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3095",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-02T10:00:00+05:30",
+    "updated_at": "2026-05-02T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4857",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4857",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3096",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-05T10:00:00+05:30",
+    "updated_at": "2026-05-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3851",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3851",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3097",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-04T10:00:00+05:30",
+    "updated_at": "2026-09-04T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3678",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3678",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3098",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-02T10:00:00+05:30",
+    "updated_at": "2026-08-02T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2042",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW2042",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3099",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-15T10:00:00+05:30",
+    "updated_at": "2026-05-15T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3917",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3917",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3100",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-22T10:00:00+05:30",
+    "updated_at": "2026-08-22T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4113",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4113",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3101",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-09T10:00:00+05:30",
+    "updated_at": "2026-02-09T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4696",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4696",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3102",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-23T10:00:00+05:30",
+    "updated_at": "2026-07-23T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4102",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW4102",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3103",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-19T10:00:00+05:30",
+    "updated_at": "2026-05-19T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2768",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2768",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3104",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-11T10:00:00+05:30",
+    "updated_at": "2026-09-11T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4983",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW4983",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3105",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-27T10:00:00+05:30",
+    "updated_at": "2026-09-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3080",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3080",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3106",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-14T10:00:00+05:30",
+    "updated_at": "2026-02-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4836",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4836",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3107",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-19T10:00:00+05:30",
+    "updated_at": "2026-09-19T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4155",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4155",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3108",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-18T10:00:00+05:30",
+    "updated_at": "2026-06-18T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3034",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3034",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3109",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-12T10:00:00+05:30",
+    "updated_at": "2026-09-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3273",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW3273",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3110",
+    "source_system": "ServiceNow",
+    "created_at": "2026-04-14T10:00:00+05:30",
+    "updated_at": "2026-04-14T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2963",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW2963",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3111",
+    "source_system": "ServiceNow",
+    "created_at": "2026-05-12T10:00:00+05:30",
+    "updated_at": "2026-05-12T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3063",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3063",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3112",
+    "source_system": "ServiceNow",
+    "created_at": "2026-08-04T10:00:00+05:30",
+    "updated_at": "2026-08-04T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4626",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW4626",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3113",
+    "source_system": "ServiceNow",
+    "created_at": "2026-07-28T10:00:00+05:30",
+    "updated_at": "2026-07-28T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3122",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3122",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3114",
+    "source_system": "ServiceNow",
+    "created_at": "2026-06-13T10:00:00+05:30",
+    "updated_at": "2026-06-13T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2103",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2103",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3115",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-01T10:00:00+05:30",
+    "updated_at": "2026-09-01T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2115",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW2115",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3116",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-16T10:00:00+05:30",
+    "updated_at": "2026-02-16T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW2180",
+      "grp-security"
+    ],
+    "category": "Laptop",
+    "requested_for": "NW2180",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3117",
+    "source_system": "ServiceNow",
+    "created_at": "2026-01-24T10:00:00+05:30",
+    "updated_at": "2026-01-24T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW4199",
+      "grp-security"
+    ],
+    "category": "Password",
+    "requested_for": "NW4199",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3118",
+    "source_system": "ServiceNow",
+    "created_at": "2026-09-02T10:00:00+05:30",
+    "updated_at": "2026-09-02T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3877",
+      "grp-security"
+    ],
+    "category": "VPN",
+    "requested_for": "NW3877",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  },
+  {
+    "id": "ITT-2026-3119",
+    "source_system": "ServiceNow",
+    "created_at": "2026-02-27T10:00:00+05:30",
+    "updated_at": "2026-02-27T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "NW3378",
+      "grp-security"
+    ],
+    "category": "Software",
+    "requested_for": "NW3378",
+    "short_description": "Background IT request",
+    "state": "Closed Complete",
+    "background": true
+  }
+]

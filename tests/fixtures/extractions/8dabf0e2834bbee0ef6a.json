@@ -1,0 +1,6 @@
+{
+ "doc_id": "DEC-2026-034",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": []
+}

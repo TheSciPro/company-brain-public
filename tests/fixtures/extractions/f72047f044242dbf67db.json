@@ -1,0 +1,71 @@
+{
+ "doc_id": "MSA-BRM-2026",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "contract_term_years",
+   "label": "Contract term duration",
+   "value": "3",
+   "unit": "years",
+   "qualifiers": {},
+   "quote": "Three (3) years from the Effective Date (2026-02-12), renewable by mutual agreement."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "No home or remote working."
+  },
+  {
+   "key": "key_person_removal_allowed",
+   "label": "Removal of key persons without client consent",
+   "value": "no",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Replacement requires thirty (30) days' prior written notice and Brightmart's written approval."
+  },
+  {
+   "key": "key_person_replacement_notice_days",
+   "label": "Notice period for key‑person replacement",
+   "value": "30",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Replacement requires thirty (30) days' prior written notice and Brightmart's written approval."
+  },
+  {
+   "key": "incident_report_deadline",
+   "label": "Incident report deadline",
+   "value": "24",
+   "unit": "hours",
+   "qualifiers": {},
+   "quote": "Supplier shall notify Brightmart of any security incident affecting Brightmart data within twenty-four (24) hours of becoming aware."
+  },
+  {
+   "key": "post_incident_review_deadline",
+   "label": "Post‑incident review deadline",
+   "value": "14",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "may require a remediation plan within 14 days."
+  },
+  {
+   "key": "max_service_credit_pct",
+   "label": "Maximum service credit as percent of monthly charges",
+   "value": "10",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Service credits apply for SLA misses as set out in Schedule 4, capped at 10% of monthly charges."
+  },
+  {
+   "key": "audit_frequency",
+   "label": "Audit frequency",
+   "value": "1",
+   "unit": "year",
+   "qualifiers": {},
+   "quote": "Brightmart may audit Supplier's compliance annually"
+  }
+ ]
+}

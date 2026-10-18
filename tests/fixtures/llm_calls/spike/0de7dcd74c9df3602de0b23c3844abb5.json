@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "groq/openai/gpt-oss-120b",
+ "response": "1. Platform vs Payments team on-call policy | rule: 5 | NO"
+}

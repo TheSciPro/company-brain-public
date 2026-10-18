@@ -1,0 +1,38 @@
+# Agent-level evals (audit Part E.3): a natural-language question goes through the WHOLE agent (skills, tools,
+# memory, subagents). CI replays recorded model responses (tests/fixtures/cassettes/<id>.json); `nwb eval --live`
+# re-records them against Groq. Assertions check what the TOOLS returned and what the answer cites — never
+# hand-fed tool arguments. `heldout: true` marks questions that were never demo scenarios.
+version: 1
+asof: 2026-09-28
+cases:
+  - id: wfh-uk-heldout
+    persona: {country: GB, with_client: false}
+    ask: "How many days a week am I allowed to work from home?"
+    expect: {value: "3", cite: "POL-HR-WFH@v3"}
+    heldout: true
+  - id: work-from-anywhere-heldout
+    persona: {country: IN, with_client: false}
+    ask: "Do we get any work-from-anywhere days? How many per year?"
+    expect: {value: "20", cite: "POL-HR-WFH@v3"}
+    heldout: true
+  - id: wfh-client-override
+    persona: {country: GB, with_client: true}
+    ask: "Can I work from home this week?"
+    expect: {value: "0", cite: "MSA-BRM-2026"}
+  - id: breach-notice-client
+    persona: {id: NW1101}
+    ask: "If we find a data breach on my client's systems, how quickly must we notify them?"
+    expect: {value: "24", cite: "ADD-BRM-GDPR-01"}
+  - id: discount-draft-vs-decision
+    persona: {id: NW0011}
+    ask: "What discount did we finally approve for Brightmart?"
+    expect: {value: "18", cite: "DEC-2026-005"}
+  - id: doa-travel-heldout
+    persona: {country: IN, with_client: null}
+    ask: "Who approves a domestic trip costing 80000 rupees for me?"
+    expect: {cite: "DOA-"}
+    heldout: true
+  - id: memory-remember-preference
+    persona: {id: NW2027}
+    ask: "Please remember that I prefer answers as short bullet lists."
+    expect: {memory_file: "/memories/USER.md", contains: "bullet"}

@@ -1,0 +1,19 @@
+{
+ "kind": "graphiti",
+ "model": "nvidia/nemotron-3-super-120b-a12b:free",
+ "response": {
+  "edges": [
+   {
+    "episode_indices": [
+     0
+    ],
+    "fact": "user moved to the Platform team this week.",
+    "invalid_at": null,
+    "relation_type": "MOVED_TO_TEAM",
+    "source_entity_name": "user",
+    "target_entity_name": "Platform team",
+    "valid_at": "2026-10-11T00:00:00Z"
+   }
+  ]
+ }
+}

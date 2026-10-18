@@ -1,0 +1,90 @@
+# Source catalog: how each KIND of source becomes knowledge. Schema mapping only — no facts, no topics, no ids.
+# A new source type is a new entry here; a new document or record of an existing type needs nothing.
+version: 1
+
+documents:
+  folders: [policies, contracts, decisions, collab/minutes, hris]
+  # frontmatter field -> meaning (first present field wins)
+  fields:
+    id: [id, doc_id]
+    title: [title]
+    status: [status]
+    valid_from: [effective_from, date, created_at]
+    client: [account]           # a document about one client: its facts are scoped to that client
+    parties: [parties]          # contract parties -> client names/aliases
+  # authority by source kind; first matching rule wins (contract 5 > exception 4 > policy 3 > minutes 2 > draft 1)
+  authority:
+    - {status_contains: draft, authority: chat_or_draft, draft: true}
+    - {folder: contracts, authority: contract}
+    - {folder: policies, authority: approved_policy}
+    - {authority: minutes_or_decision}
+  extract: true                 # LLM fact extraction (background model), cached by document hash
+
+records:
+  # record_type -> role. Field names are the source system's schema (an ETL mapping), never values.
+  pricing_exceptions:
+    authority: approved_exception
+    valid_from: [effective_from, created_at]
+    facts:
+      - {field: discount_pct, unit: "%", scope: {client: account}, say: "The final approved {label} for {client} is {value}."}
+  delegation_of_authority_matrix:
+    role: approval_matrix
+    fields: {action: item, region: region, min: min, max: max, unit: unit_of_measure,
+             approvers: [approver_1, approver_2], valid_from: effective_from, valid_to: effective_to,
+             source_doc: doc_id, source_version: version}
+    any_region: [ALL]
+  allocations:
+    role: assignment
+    fields: {person: resource_id, client: account, start: start, end: end, status: status}
+    inactive_status: [Closed, Cancelled]   # prefix match on the status field
+  training_records:
+    role: training
+    fields: {person: employee_id, course: course, due: due, completed: completed}
+
+unit_words: {"%": [pct, percent]}   # unit words dropped from {label}: "x pct" with % reads "x"
+scope_dimensions: [client, country]   # most specific first; facts may be scoped by any combination
+
+# Connected apps. Each entry becomes one subagent (query_<id>, and update_<id> only when writes is set).
+# writes is the fail-closed allowlist: an update outside these virtual paths is refused, and the update
+# tool is registered with Deep Agents interrupt_on so it does not run until a person approves.
+# Field names are the source system's payload schema, not values.
+connectors:
+  - id: gmail
+    description: Connected mailbox. Delegate questions about the user's mail here. Read only.
+    list_action: GMAIL_FETCH_EMAILS
+    max_results: 50
+    since_query: "after:{unix}"
+    fields:
+      external_id: messageId
+      title: subject
+      body: messageText
+      author: sender
+      created_at: messageTimestamp
+      readers: [to, sender]
+  - id: slack
+    description: Connected chat. Delegate questions about messages here. Posting waits for approval.
+    list_action: SLACK_FETCH_CONVERSATION_HISTORY
+    limit_param: limit
+    channel_param: channel
+    channels: []          # conversation ids (C…/G…/D…) the connected account may read; empty reads nothing
+    identity_provider: slack   # user_identities(provider=slack, subject=U…) maps a Slack user to a person
+    fields:
+      external_id: ts
+      title: user
+      body: text
+      author: user
+      created_at: ts
+      readers: [user]
+    writes: ["/sources/slack/**"]
+    update_action: SLACK_SEND_MESSAGE
+    update_kind: post_message
+    post_targets: []      # channel ids an approved post may go to: /sources/slack/<channel id>; empty refuses all
+    update_target_param: channel
+    update_text_param: markdown_text
+    update_ref_keys: [ts]
+
+# Directory groups that carry org roles (company data; codes differ per company).
+directory:
+  root_unit: ORG
+  leader_groups: [grp-unit-head]
+  executive_groups: [grp-exec]

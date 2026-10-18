@@ -1,0 +1,129 @@
+{
+ "doc_id": "POL-FIN-AUTH@v5",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "business_expense_limit_a",
+   "label": "Maximum business expense per claim (A)",
+   "value": "25000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Business expense (per claim) | ₹25,000 | Line manager (G4+)"
+  },
+  {
+   "key": "business_expense_limit_b",
+   "label": "Maximum business expense per claim (B)",
+   "value": "200000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Business expense (per claim) | ₹2,00,000 | G6+ in reporting line"
+  },
+  {
+   "key": "business_expense_limit_a",
+   "label": "Maximum business expense per claim (A) – UK",
+   "value": "250",
+   "unit": "GBP",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "5.1 UK entity. Northwind Consulting UK Ltd expense limits are GBP: A = £250"
+  },
+  {
+   "key": "business_expense_limit_b",
+   "label": "Maximum business expense per claim (B) – UK",
+   "value": "2000",
+   "unit": "GBP",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "5.1 UK entity. Northwind Consulting UK Ltd expense limits are GBP: B = £2,000"
+  },
+  {
+   "key": "domestic_travel_limit_a",
+   "label": "Maximum domestic travel expense per trip (A)",
+   "value": "50000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Domestic travel | ₹50,000/trip | Line manager"
+  },
+  {
+   "key": "domestic_travel_limit_b",
+   "label": "Maximum domestic travel expense per trip (B)",
+   "value": "150000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Domestic travel | ₹1,50,000 | G6"
+  },
+  {
+   "key": "hotfix_unbudgeted_spend_limit_a",
+   "label": "Maximum hotfix / unbudgeted cloud spend (A)",
+   "value": "100000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Hotfix / unbudgeted cloud spend | ₹1,00,000 | DM"
+  },
+  {
+   "key": "hotfix_unbudgeted_spend_limit_b",
+   "label": "Maximum hotfix / unbudgeted cloud spend (B)",
+   "value": "1000000",
+   "unit": "INR",
+   "qualifiers": {
+    "country": "IN"
+   },
+   "quote": "Hotfix / unbudgeted cloud spend | ₹10,00,000 | Unit Head"
+  },
+  {
+   "key": "discount_pct_dm",
+   "label": "Maximum client discount allowed by Decision Maker",
+   "value": "10",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Client discount vs rate card | ≤ 10% | DM (G6)"
+  },
+  {
+   "key": "discount_pct_unit_head_max",
+   "label": "Maximum client discount allowed with Unit Head approval",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Client discount vs rate card | 10–15% | Unit Head (G8)"
+  },
+  {
+   "key": "discount_pct_cfo_ceo_threshold",
+   "label": "Client discount percentage requiring CFO and CEO approval",
+   "value": "15",
+   "unit": "%",
+   "qualifiers": {},
+   "quote": "Client discount vs rate card | > 15%: CFO **and** CEO + Pricing Committee note"
+  },
+  {
+   "key": "leave_approval_max_days_line_manager",
+   "label": "Maximum leave days approved by line manager only",
+   "value": "5",
+   "unit": "days",
+   "qualifiers": {},
+   "quote": "Leave | ≤ 5 days | Line manager"
+  },
+  {
+   "key": "immigration_review_threshold_uk",
+   "label": "Days abroad triggering immigration review (UK)",
+   "value": "30",
+   "unit": "days",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "International travel | > 30 days: CHRO (immigration)"
+  }
+ ]
+}

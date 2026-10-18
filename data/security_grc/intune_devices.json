@@ -1,0 +1,302 @@
+[
+  {
+    "id": "DEV-NW-LT-1101",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1101",
+    "userPrincipalName": "siddharth.chauhan@northwind-consulting.com",
+    "employeeNumber": "NW1101",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1102",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1102",
+    "userPrincipalName": "ritu.agarwal@northwind-consulting.com",
+    "employeeNumber": "NW1102",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1105",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1105",
+    "userPrincipalName": "mohit.saxena@northwind-consulting.com",
+    "employeeNumber": "NW1105",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1106",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1106",
+    "userPrincipalName": "deepa.narayan@northwind-consulting.com",
+    "employeeNumber": "NW1106",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1107",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1107",
+    "userPrincipalName": "varun.shah@northwind-consulting.com",
+    "employeeNumber": "NW1107",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1108",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1108",
+    "userPrincipalName": "sneha.patil@northwind-consulting.com",
+    "employeeNumber": "NW1108",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1109",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1109",
+    "userPrincipalName": "imran.sheikh@northwind-consulting.com",
+    "employeeNumber": "NW1109",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1110",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1110",
+    "userPrincipalName": "kiran.das@northwind-consulting.com",
+    "employeeNumber": "NW1110",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1111",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1111",
+    "userPrincipalName": "megha.sinha@northwind-consulting.com",
+    "employeeNumber": "NW1111",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1112",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1112",
+    "userPrincipalName": "arvind.pandey@northwind-consulting.com",
+    "employeeNumber": "NW1112",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1113",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1113",
+    "userPrincipalName": "tanvi.mishra@northwind-consulting.com",
+    "employeeNumber": "NW1113",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1114",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1114",
+    "userPrincipalName": "rajesh.yadav@northwind-consulting.com",
+    "employeeNumber": "NW1114",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1115",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1115",
+    "userPrincipalName": "fatima.khan@northwind-consulting.com",
+    "employeeNumber": "NW1115",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1116",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1116",
+    "userPrincipalName": "aakash.jain@northwind-consulting.com",
+    "employeeNumber": "NW1116",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  },
+  {
+    "id": "DEV-NW-LT-1117",
+    "source_system": "Microsoft Intune",
+    "created_at": "2026-02-20T10:00:00+05:30",
+    "updated_at": "2026-02-20T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec"
+    ],
+    "deviceName": "NW-LT-1117",
+    "userPrincipalName": "shreya.ghosh@northwind-consulting.com",
+    "employeeNumber": "NW1117",
+    "complianceState": "compliant",
+    "isEncrypted": true,
+    "managementAgent": "mdm",
+    "enrolledDateTime": "2026-02-20T10:00:00+05:30"
+  }
+]

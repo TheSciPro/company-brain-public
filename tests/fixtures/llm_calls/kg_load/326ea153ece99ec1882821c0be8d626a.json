@@ -1,0 +1,5 @@
+{
+ "kind": "prompt",
+ "model": "offline-kg",
+ "response": "[{\"name\": \"Morgan Hale\", \"type\": \"Person\", \"description\": \"Morgan Hale is named in the text.\", \"confidence\": 0.95, \"start\": 0, \"end\": 11}, {\"name\": \"Harbor Desk\", \"type\": \"Organization\", \"description\": \"Harbor Desk is named in the text.\", \"confidence\": 0.95, \"start\": 18, \"end\": 29}, {\"name\": \"Avery Quinn\", \"type\": \"Person\", \"description\": \"Avery Quinn is named in the text.\", \"confidence\": 0.95, \"start\": 31, \"end\": 42}]"
+}

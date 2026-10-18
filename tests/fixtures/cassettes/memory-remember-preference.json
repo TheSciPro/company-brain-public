@@ -1,0 +1,9 @@
+{
+ "meta": {
+  "case": "memory-remember-preference",
+  "person": "NW2027",
+  "passed": false,
+  "model": "callbacks=[<nwb.llm.factory.DataflowCallback object at 0x7fa21ad7d6a0>] metadata={'lc_versions': {'langchain-core': '1.6.12', 'langchain': '1.4.6', 'langchain-openai': '1.7.2'}} client=<openai.resources.chat.completions.completions.Completions object at 0x7fa2198a0ad0> async_client=<openai.resources.chat.completions.completions.AsyncCompletions object at 0x7fa2198a1550> root_client=<openai.OpenAI object at 0x7fa2198a02f0> root_async_client=<openai.AsyncOpenAI object at 0x7fa2198a12b0> model_name='openai/gpt-oss-20b' temperature=0.2 model_kwargs={} openai_api_key=SecretStr('**********') openai_api_base='https://api.groq.com/openai/v1' request_timeout=60.0 max_retries=2 max_tokens=4096 reasoning_effort='low' stream_chunk_timeout=120.0"
+ },
+ "messages": []
+}

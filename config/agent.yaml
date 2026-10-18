@@ -1,0 +1,69 @@
+# Agent harness tunables, read through nwb.conf.models.AgentConfig (typed, unknown keys are errors).
+# Change behaviour here, not in code. Prompts: prompts/*.md. Agent assets (AGENTS.md, skills, subagents,
+# USER.md/MEMORY.md templates): agent/.
+version: 5
+name: company-brain
+timezone: Asia/Calcutta
+default_asof: null            # null = today in `timezone`; demo personas can pin a date
+
+prompts:
+  system: system              # static rules first (cache friendly)
+  runtime: runtime_context    # per-run <runtime> block, appended last
+  bootstrap: onboarding_bootstrap
+  memory_files: memory_files  # wrapper deepagents MemoryMiddleware uses for AGENTS.md / USER.md / MEMORY.md
+  heartbeat: heartbeat
+
+harness:
+  # deepagents built-ins are ON: ls, read_file, write_file, edit_file, glob, grep, write_todos, task.
+  # Off: delete (never) and execute (no sandbox backend).
+  excluded_tools: [delete, execute]
+  general_purpose_subagent: false   # our subagents are explicit (agent/subagents/*.md)
+  recursion_limit: 120
+  model_call_limit: 8               # per run, main agent; subagents set their own in their frontmatter
+  tool_call_limit: 12
+  empty_reply_retries: 1            # a run that ends with an empty reply is asked once more (never shown blank)
+  empty_reply_nudge: "Reply to the user now, in plain words, based on what you just did."
+  # A call to one of these ends the main agent's turn; the tool's `say` sentence is the reply (no second model
+  # call, no further searching after a "not on record"). Subagents keep the normal loop.
+  # Final-reply scrub: memory file names and paths are internal (AGENTS.md says so; this catches slips).
+  # Case-insensitive, applied in order; each hit is logged.
+  reply_redactions:
+    - ['[ \t]*[\[【]\s*`?[\w./-]*\.md`?\s*[\]】]', '']                       # a "[/memories/USER.md]" citation
+    - ['(?:\b(?:your|the|my)\s+)?`?(?:/memories/)?USER\.md`?(?:\s+file)?', 'your saved preferences']
+    - ['(?:\b(?:your|the|my)\s+)?`?(?:/memories/)?MEMORY\.md`?(?:\s+file)?', 'my notes']
+    - ['`?/memories/[\w./-]*`?', 'my notes']
+    - ['(?:\b(?:your|the|my)\s+)?`?AGENTS\.md`?(?:\s+file)?', 'my instructions']
+    - ['(your saved preferences|my notes)(?:\s+(?:in|from|at|of)\s+(?:your saved preferences|my notes))+', '\1']  # "saved preferences in USER.md"
+  direct_reply_tools: [company_fact, search_company]
+
+tools:
+  always: []   # dated facts and preferences are /memories/ files (built-in ls/read/grep/write/edit)
+
+skills:
+  sources: [/skills/]
+
+memory_files:
+  sources: [/org/AGENTS.md, /memories/USER.md, /memories/MEMORY.md]
+
+summarization:                # background role; summarise early and keep the tail verbatim
+  trigger_tokens: 5000
+  keep_messages: 6
+  trim_tokens: 3000
+  role: background
+
+subagents:
+  dir: subagents              # each file is read-only unless it sets read_only: false or a writes: allowlist
+
+# Built-in filesystem permissions. FIRST MATCH WINS (default allow), so deny rules come first.
+permissions:
+  - {operations: [write], paths: ["/org/**", "/skills/**"], mode: deny}
+
+payload:
+  guessed_memories_top_k: 3
+  guessed_memories_min_score: 0.25
+  next_days: 7
+  show_access_summary: true
+
+# Human-in-the-loop: LangGraph pauses BEFORE these tools run; the user approves or rejects in chat.
+interrupt_on:
+  propose_action: {allowed_decisions: [approve, edit, reject]}

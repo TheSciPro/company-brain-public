@@ -1,0 +1,79 @@
+{
+ "doc_id": "MOM-2026-030",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "audit_opening_day",
+   "label": "Audit opening day of month",
+   "value": "28",
+   "unit": "day",
+   "qualifiers": {},
+   "quote": "Opening (28 Jul): scope SoA 2026.1"
+  },
+  {
+   "key": "audit_opening_month",
+   "label": "Audit opening month",
+   "value": "7",
+   "unit": "month",
+   "qualifiers": {},
+   "quote": "Opening (28 Jul): scope SoA 2026.1"
+  },
+  {
+   "key": "audit_closing_day",
+   "label": "Audit closing day of month",
+   "value": "31",
+   "unit": "day",
+   "qualifiers": {},
+   "quote": "Closing (31 Jul): 1 Major NC (A.8.1/A.6.7, AUD-2026-01), 1 Minor NC (A.5.18, AUD-2026-02), 1 Observation (A.6.3, AUD-2026-03)"
+  },
+  {
+   "key": "audit_closing_month",
+   "label": "Audit closing month",
+   "value": "7",
+   "unit": "month",
+   "qualifiers": {},
+   "quote": "Closing (31 Jul): 1 Major NC (A.8.1/A.6.7, AUD-2026-01), 1 Minor NC (A.5.18, AUD-2026-02), 1 Observation (A.6.3, AUD-2026-03)"
+  },
+  {
+   "key": "major_nc_count",
+   "label": "Number of major non‑conformities",
+   "value": "1",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "1 Major NC (A.8.1/A.6.7, AUD-2026-01)"
+  },
+  {
+   "key": "minor_nc_count",
+   "label": "Number of minor non‑conformities",
+   "value": "1",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "1 Minor NC (A.5.18, AUD-2026-02)"
+  },
+  {
+   "key": "observation_count",
+   "label": "Number of observations",
+   "value": "1",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "1 Observation (A.6.3, AUD-2026-03)"
+  },
+  {
+   "key": "capa_due_date",
+   "label": "CAPA plan due date",
+   "value": "2026-08-28",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Divya Shetty — CAPA plan to Ashgrove (due 2026-08-28)"
+  },
+  {
+   "key": "audit_scope_version",
+   "label": "Scope Statement of Applicability version",
+   "value": "2026.1",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "scope SoA 2026.1"
+  }
+ ]
+}

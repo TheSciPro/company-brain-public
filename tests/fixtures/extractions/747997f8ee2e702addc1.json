@@ -1,0 +1,31 @@
+{
+ "doc_id": "MOM-2026-024",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "runbook_walkthrough_due",
+   "label": "Runbook walkthrough due date",
+   "value": "2026-06-19",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Deepa — runbook walkthrough for team (due 2026-06-19)."
+  },
+  {
+   "key": "access_review_due",
+   "label": "June access review due date",
+   "value": "2026-06-30",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Ritu — June access review (due 2026-06-30) ⟵ *not done*."
+  },
+  {
+   "key": "reachability_until",
+   "label": "Ananya reachable until",
+   "value": "2026-07-31",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Ananya remains reachable at HarbourBank for questions until 31 Jul."
+  }
+ ]
+}

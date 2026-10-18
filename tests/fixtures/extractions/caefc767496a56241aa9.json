@@ -1,0 +1,27 @@
+{
+ "doc_id": "MSA-HBK-2023",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "discount_pct",
+   "label": "Discount percentage",
+   "value": "5",
+   "unit": "%",
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "T&M payments modernisation at RC-2026 less 5%."
+  },
+  {
+   "key": "remote_work_allowed",
+   "label": "Work‑from‑home permission",
+   "value": "yes",
+   "unit": null,
+   "qualifiers": {
+    "country": "GB"
+   },
+   "quote": "WFH allowed with VDI."
+  }
+ ]
+}

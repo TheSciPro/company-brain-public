@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "SKL-NW0001",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0001",
+    "name": "Rohan Mehra",
+    "skills": [
+      {
+        "skill": "strategy",
+        "source": "self-declared"
+      },
+      {
+        "skill": "BFSI sales",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0002",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0002",
+    "name": "Anjali Kapoor",
+    "skills": [
+      {
+        "skill": "corporate finance",
+        "source": "self-declared"
+      },
+      {
+        "skill": "pricing",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0003",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0003",
+    "name": "David Whitfield",
+    "skills": [
+      {
+        "skill": "delivery ops",
+        "source": "self-declared"
+      },
+      {
+        "skill": "UK market",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0004",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0004",
+    "name": "Sunita Rao",
+    "skills": [
+      {
+        "skill": "HR policy",
+        "source": "self-declared"
+      },
+      {
+        "skill": "org design",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0005",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0005",
+    "name": "Farhan Qureshi",
+    "skills": [
+      {
+        "skill": "contracts",
+        "source": "self-declared"
+      },
+      {
+        "skill": "regulatory",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0006",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0006",
+    "name": "Meera Iyer",
+    "skills": [
+      {
+        "skill": "ISO 27001",
+        "source": "self-declared"
+      },
+      {
+        "skill": "SOC 2",
+        "source": "self-declared"
+      },
+      {
+        "skill": "IAM",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0007",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0007",
+    "name": "Arjun Nair",
+    "skills": [
+      {
+        "skill": "cloud architecture",
+        "source": "self-declared"
+      },
+      {
+        "skill": "data platforms",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0010",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0010",
+    "name": "Kavita Menon",
+    "skills": [
+      {
+        "skill": "core banking",
+        "source": "self-declared"
+      },
+      {
+        "skill": "delivery",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0011",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0011",
+    "name": "Rahul Bhatia",
+    "skills": [
+      {
+        "skill": "retail",
+        "source": "self-declared"
+      },
+      {
+        "skill": "POS",
+        "source": "self-declared"
+      },
+      {
+        "skill": "e-com",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0012",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0012",
+    "name": "Lakshmi Pillai",
+    "skills": [
+      {
+        "skill": "HL7/FHIR",
+        "source": "self-declared"
+      },
+      {
+        "skill": "healthcare IT",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0013",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0013",
+    "name": "Eleanor Hughes",
+    "skills": [
+      {
+        "skill": "UK retail",
+        "source": "self-declared"
+      },
+      {
+        "skill": "client partnering",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0014",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0014",
+    "name": "Sanjay Kulkarni",
+    "skills": [
+      {
+        "skill": "workforce planning",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0015",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0015",
+    "name": "Neha Joshi",
+    "skills": [
+      {
+        "skill": "controllership",
+        "source": "self-declared"
+      },
+      {
+        "skill": "revenue recognition",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0016",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0016",
+    "name": "Ramesh Choudhary",
+    "skills": [
+      {
+        "skill": "Azure",
+        "source": "self-declared"
+      },
+      {
+        "skill": "data engineering",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0017",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0017",
+    "name": "Harish Gupta",
+    "skills": [
+      {
+        "skill": "IT audit",
+        "source": "self-declared"
+      },
+      {
+        "skill": "ISO lead auditor",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "ISO/IEC 27001 Lead Auditor",
+      "CISA"
+    ]
+  },
+  {
+    "id": "SKL-NW0201",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0201",
+    "name": "Aditi Verma",
+    "skills": [
+      {
+        "skill": "margin analysis",
+        "source": "self-declared"
+      },
+      {
+        "skill": "rate cards",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0202",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0202",
+    "name": "Manoj Pillai",
+    "skills": [
+      {
+        "skill": "deal pricing",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0203",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0203",
+    "name": "Rachel Moore",
+    "skills": [
+      {
+        "skill": "UK VAT",
+        "source": "self-declared"
+      },
+      {
+        "skill": "billing",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0301",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0301",
+    "name": "Pooja Reddy",
+    "skills": [
+      {
+        "skill": "employee relations",
+        "source": "self-declared"
+      },
+      {
+        "skill": "policy",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0302",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0302",
+    "name": "Thomas Green",
+    "skills": [
+      {
+        "skill": "UK employment law",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0303",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0303",
+    "name": "Swati Bhat",
+    "skills": [
+      {
+        "skill": "policy drafting",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0401",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0401",
+    "name": "Ishaan Malhotra",
+    "skills": [
+      {
+        "skill": "MSAs",
+        "source": "self-declared"
+      },
+      {
+        "skill": "SOWs",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0402",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0402",
+    "name": "Grace Okafor",
+    "skills": [
+      {
+        "skill": "GDPR",
+        "source": "self-declared"
+      },
+      {
+        "skill": "UK DPA 2018",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "CIPP/E"
+    ]
+  },
+  {
+    "id": "SKL-NW0501",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0501",
+    "name": "Karthik Subramanian",
+    "skills": [
+      {
+        "skill": "endpoint security",
+        "source": "self-declared"
+      },
+      {
+        "skill": "MDM",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "CISSP",
+      "Microsoft Intune"
+    ]
+  },
+  {
+    "id": "SKL-NW0502",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0502",
+    "name": "Divya Shetty",
+    "skills": [
+      {
+        "skill": "ISMS",
+        "source": "self-declared"
+      },
+      {
+        "skill": "risk registers",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "ISO/IEC 27001 Lead Implementer"
+    ]
+  },
+  {
+    "id": "SKL-NW0503",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0503",
+    "name": "Abhishek Rana",
+    "skills": [
+      {
+        "skill": "SIEM",
+        "source": "self-declared"
+      },
+      {
+        "skill": "DLP",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0801",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0801",
+    "name": "Bhavna Thakur",
+    "skills": [
+      {
+        "skill": "staffing",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW0802",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW0802",
+    "name": "Yusuf Ansari",
+    "skills": [
+      {
+        "skill": "skill matching",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1101",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1101",
+    "name": "Siddharth Chauhan",
+    "skills": [
+      {
+        "skill": "retail delivery",
+        "source": "self-declared"
+      },
+      {
+        "skill": "P&L",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1102",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1102",
+    "name": "Ritu Agarwal",
+    "skills": [
+      {
+        "skill": "agile PM",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "PMP"
+    ]
+  },
+  {
+    "id": "SKL-NW1103",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1103",
+    "name": "Nikhil Bose",
+    "skills": [
+      {
+        "skill": "PM",
+        "source": "self-declared"
+      },
+      {
+        "skill": "incident mgmt",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "PMP",
+      "ITIL 4 Foundation"
+    ]
+  },
+  {
+    "id": "SKL-NW1104",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1104",
+    "name": "Ananya Krishnan",
+    "skills": [
+      {
+        "skill": "Azure",
+        "source": "self-declared"
+      },
+      {
+        "skill": "event-driven architecture",
+        "source": "self-declared"
+      },
+      {
+        "skill": "loyalty platforms",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Solutions Architect Expert (2024)"
+    ]
+  },
+  {
+    "id": "SKL-NW1105",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1105",
+    "name": "Mohit Saxena",
+    "skills": [
+      {
+        "skill": "Java",
+        "source": "self-declared"
+      },
+      {
+        "skill": "Kafka",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "Oracle Java SE 17 Developer (2023)"
+    ]
+  },
+  {
+    "id": "SKL-NW1106",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1106",
+    "name": "Deepa Narayan",
+    "skills": [
+      {
+        "skill": "Kafka",
+        "source": "self-declared"
+      },
+      {
+        "skill": "Azure Functions",
+        "source": "self-declared"
+      },
+      {
+        "skill": "data pipelines",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "Confluent Certified Developer for Apache Kafka (2025)",
+      "Microsoft Certified: Azure Developer Associate (2024)"
+    ]
+  },
+  {
+    "id": "SKL-NW1107",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1107",
+    "name": "Varun Shah",
+    "skills": [
+      {
+        "skill": "Guidewire",
+        "source": "self-declared"
+      },
+      {
+        "skill": "Java",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1108",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1108",
+    "name": "Sneha Patil",
+    "skills": [
+      {
+        "skill": "React",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1109",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1109",
+    "name": "Imran Sheikh",
+    "skills": [
+      {
+        "skill": "Spark",
+        "source": "self-declared"
+      },
+      {
+        "skill": "SQL",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1110",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1110",
+    "name": "Kiran Das",
+    "skills": [
+      {
+        "skill": "Node.js",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1111",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1111",
+    "name": "Megha Sinha",
+    "skills": [
+      {
+        "skill": "test automation",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1112",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1112",
+    "name": "Arvind Pandey",
+    "skills": [
+      {
+        "skill": "AKS",
+        "source": "self-declared"
+      },
+      {
+        "skill": "Terraform",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "CKA",
+      "HashiCorp Terraform Associate"
+    ]
+  },
+  {
+    "id": "SKL-NW1113",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1113",
+    "name": "Tanvi Mishra",
+    "skills": [
+      {
+        "skill": "Power BI",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1114",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1114",
+    "name": "Rajesh Yadav",
+    "skills": [
+      {
+        "skill": "Java",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1115",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1115",
+    "name": "Fatima Khan",
+    "skills": [
+      {
+        "skill": "retail BA",
+        "source": "self-declared"
+      },
+      {
+        "skill": "onsite coordination",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1116",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1116",
+    "name": "Aakash Jain",
+    "skills": [
+      {
+        "skill": "Python",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1117",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1117",
+    "name": "Shreya Ghosh",
+    "skills": [
+      {
+        "skill": "DLP",
+        "source": "self-declared"
+      },
+      {
+        "skill": "access reviews",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "CompTIA Security+"
+    ]
+  },
+  {
+    "id": "SKL-NW1118",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1118",
+    "name": "James Carter",
+    "skills": [
+      {
+        "skill": "UK retail relationships",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1201",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1201",
+    "name": "Prakash Hegde",
+    "skills": [
+      {
+        "skill": "Guidewire PM",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1202",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1202",
+    "name": "Sameer Desai",
+    "skills": [
+      {
+        "skill": "insurance delivery",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1301",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1301",
+    "name": "Oliver Hayes",
+    "skills": [
+      {
+        "skill": "payments",
+        "source": "self-declared"
+      },
+      {
+        "skill": "UK banking",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1302",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1302",
+    "name": "Lavanya Raghavan",
+    "skills": [
+      {
+        "skill": "PM",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1401",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1401",
+    "name": "Gaurav Kohli",
+    "skills": [
+      {
+        "skill": "omnichannel",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1501",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1501",
+    "name": "Shalini Mukherjee",
+    "skills": [
+      {
+        "skill": "hospital systems",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1601",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1601",
+    "name": "Stefan Bauer",
+    "skills": [
+      {
+        "skill": "GxP",
+        "source": "self-declared"
+      },
+      {
+        "skill": "pharma",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "SKL-NW1701",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1701",
+    "name": "Rakesh Venkat",
+    "skills": [
+      {
+        "skill": "Intune",
+        "source": "self-declared"
+      },
+      {
+        "skill": "ServiceNow",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Endpoint Administrator Associate"
+    ]
+  },
+  {
+    "id": "SKL-NW1801",
+    "source_system": "Workday Skills Cloud",
+    "created_at": "2026-01-05T10:00:00+05:30",
+    "updated_at": "2026-01-05T10:00:00+05:30",
+    "classification": "PUBLIC-INT",
+    "acl": [
+      "grp-employee"
+    ],
+    "worker_id": "NW1801",
+    "name": "Kunal Arora",
+    "skills": [
+      {
+        "skill": "Kafka",
+        "source": "self-declared"
+      }
+    ],
+    "certifications": [
+      "Confluent Certified Developer for Apache Kafka (2023)"
+    ]
+  }
+]

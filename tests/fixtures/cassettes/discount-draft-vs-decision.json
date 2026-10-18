@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "case": "discount-draft-vs-decision",
+  "person": "NW0011",
+  "passed": false,
+  "model": "callbacks=[<nwb.llm.factory.DataflowCallback object at 0x7fa21ad7d6a0>] metadata={'lc_versions': {'langchain-core': '1.6.12', 'langchain': '1.4.6', 'langchain-openai': '1.7.2'}} client=<openai.resources.chat.completions.completions.Completions object at 0x7fa2198a0ad0> async_client=<openai.resources.chat.completions.completions.AsyncCompletions object at 0x7fa2198a1550> root_client=<openai.OpenAI object at 0x7fa2198a02f0> root_async_client=<openai.AsyncOpenAI object at 0x7fa2198a12b0> model_name='openai/gpt-oss-20b' temperature=0.2 model_kwargs={} openai_api_key=SecretStr('**********') openai_api_base='https://api.groq.com/openai/v1' request_timeout=60.0 max_retries=2 max_tokens=4096 reasoning_effort='low' stream_chunk_timeout=120.0"
+ },
+ "messages": [
+  {
+   "type": "ai",
+   "data": {
+    "content": "",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "tool_calls": [
+     {
+      "name": "read_file",
+      "args": {
+       "file_path": "/skills/company-answers/SKILL.md",
+       "limit": 200
+      },
+      "id": "fc_f400294d-70df-40bc-90be-5a0a5583499b",
+      "type": "tool_call"
+     }
+    ],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+   }
+  },
+  {
+   "type": "ai",
+   "data": {
+    "content": "",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "tool_calls": [
+     {
+      "name": "company_fact",
+      "args": {
+       "client": "Brightmart",
+       "question": "What discount did we finally approve for Brightmart?"
+      },
+      "id": "fc_91402cfc-ce2c-4e59-9df7-ed2824dfb48e",
+      "type": "tool_call"
+     }
+    ],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "REPO-loyalty-service",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T10:00:00+05:30",
+    "updated_at": "2026-03-02T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "full_name": "brightmart/loyalty-service",
+    "description": "Points accrual/redemption service (Java 17, Kafka, Azure Functions bindings)",
+    "default_branch": "main",
+    "visibility": "internal",
+    "codeowners_file": "codeowners/loyalty-service.CODEOWNERS"
+  },
+  {
+    "id": "REPO-loyalty-ingest-pipeline",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T10:00:00+05:30",
+    "updated_at": "2026-03-02T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "full_name": "brightmart/loyalty-ingest-pipeline",
+    "description": "Nightly + streaming ingest of POS/e-com transactions (Spark, ADF)",
+    "default_branch": "main",
+    "visibility": "internal",
+    "codeowners_file": "codeowners/loyalty-ingest-pipeline.CODEOWNERS"
+  },
+  {
+    "id": "REPO-member-portal-web",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T10:00:00+05:30",
+    "updated_at": "2026-03-02T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "full_name": "brightmart/member-portal-web",
+    "description": "Member portal (React)",
+    "default_branch": "main",
+    "visibility": "internal",
+    "codeowners_file": "codeowners/member-portal-web.CODEOWNERS"
+  },
+  {
+    "id": "REPO-infra-brightmart",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-02T10:00:00+05:30",
+    "updated_at": "2026-03-02T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "full_name": "brightmart/infra-brightmart",
+    "description": "AKS, Event Hubs, Terraform",
+    "default_branch": "main",
+    "visibility": "internal",
+    "codeowners_file": "codeowners/infra-brightmart.CODEOWNERS"
+  }
+]

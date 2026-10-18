@@ -1,0 +1,17 @@
+{
+ "kind": "graphiti",
+ "model": "qwen/qwen3.8-27b",
+ "response": {
+  "edges": [
+   {
+    "episode_indices: [0]}]}] }  // Note: The preference for async standups is a single-entity attribute and does not form a relationship between two distinct entities in the provided list.}  // Correction: The JSON structure must be valid. Let's re-evaluate. The preference ": "I prefer async standups over video calls",
+    "fact": "The user works on the Payments team",
+    "invalid_at": null,
+    "relation_type": "WORKS_ON",
+    "source_entity_name": "user",
+    "target_entity_name": "Payments team",
+    "valid_at": "2026-10-01T00:00:00Z"
+   }
+  ]
+ }
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "TRN-2026-NW1101",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1101",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1101",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-04-20",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1102",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1102",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1102",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-05-14",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1103",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1103",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1103",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-03-15",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1105",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1105",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1105",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-06-11",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1106",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1106",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1106",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-06-15",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1107",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1107",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1107",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-04-06",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1108",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1108",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1108",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-03-12",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1109",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1109",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1109",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-08-29",
+    "status_at_audit": "Incomplete"
+  },
+  {
+    "id": "TRN-2026-NW1110",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1110",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1110",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-05-25",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1111",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1111",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1111",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-05-07",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1112",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1112",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1112",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-06-07",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1113",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1113",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1113",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-08-29",
+    "status_at_audit": "Incomplete"
+  },
+  {
+    "id": "TRN-2026-NW1114",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1114",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1114",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-03-02",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1115",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1115",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1115",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-05-24",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1116",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1116",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1116",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-08-29",
+    "status_at_audit": "Incomplete"
+  },
+  {
+    "id": "TRN-2026-NW1117",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-01-10T10:00:00+05:30",
+    "updated_at": "2026-08-29T10:00:00+05:30",
+    "classification": "SECURITY",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "NW1117",
+      "grp-acc-brm-dm"
+    ],
+    "employee_id": "NW1117",
+    "course": "Security Awareness & Client Data Handling 2026",
+    "assigned": "2026-01-10",
+    "due": "2026-06-30",
+    "completed": "2026-05-03",
+    "status_at_audit": "Complete"
+  },
+  {
+    "id": "TRN-2026-NW1109-RT",
+    "source_system": "KnowBe4 LMS",
+    "created_at": "2026-08-20T10:00:00+05:30",
+    "updated_at": "2026-08-20T10:00:00+05:30",
+    "classification": "RESTRICTED-HR",
+    "acl": [
+      "NW0004",
+      "grp-hr-con",
+      "grp-security"
+    ],
+    "employee_id": "NW1109",
+    "course": "Remedial: Client Data Handling & Device Policy",
+    "completed": "2026-08-29",
+    "linked": "HRC-2026-0031"
+  }
+]

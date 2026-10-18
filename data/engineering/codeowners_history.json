@@ -1,0 +1,46 @@
+[
+  {
+    "id": "CO-loyalty-service-1",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-03-09T10:00:00+05:30",
+    "updated_at": "2026-03-09T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "pattern": "*",
+    "owners": [
+      "@ananya-krishnan"
+    ],
+    "valid_from": "2026-03-09",
+    "valid_to": "2026-06-14",
+    "commit": "PR #3"
+  },
+  {
+    "id": "CO-loyalty-service-2",
+    "source_system": "GitHub Enterprise",
+    "created_at": "2026-06-15T10:00:00+05:30",
+    "updated_at": "2026-06-15T10:00:00+05:30",
+    "classification": "INTERNAL-ACCOUNT-BRM",
+    "acl": [
+      "grp-acc-brm",
+      "grp-exec",
+      "grp-rmg",
+      "NW0011",
+      "NW0013"
+    ],
+    "repo": "brightmart/loyalty-service",
+    "pattern": "*",
+    "owners": [
+      "@mohit-saxena"
+    ],
+    "valid_from": "2026-06-15",
+    "valid_to": null,
+    "commit": "PR #212"
+  }
+]

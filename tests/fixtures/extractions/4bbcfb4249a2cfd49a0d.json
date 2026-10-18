@@ -1,0 +1,63 @@
+{
+ "doc_id": "MOM-2026-038",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "access_review_due",
+   "label": "Access review due date",
+   "value": "2026-09-08",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Run August access review + June catch-up ... Due 2026-09-08"
+  },
+  {
+   "key": "capa_due_date",
+   "label": "CAPA-1 deadline",
+   "value": "2026-09-15",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Track CAPA-1 Citrix device compliance ... Due 2026-09-15"
+  },
+  {
+   "key": "access_review_calendar_deadline",
+   "label": "CAPA-3 access‑review calendar deadline",
+   "value": "2026-09-30",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Own CAPA-3 access-review calendar with mandatory delegate ... Due 2026-09-30"
+  },
+  {
+   "key": "architect_proposal_due",
+   "label": "Permanent architect proposal due date",
+   "value": "2026-10-31",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Permanent architect proposal to Brightmart (MSA §9) ... Due 2026-10-31"
+  },
+  {
+   "key": "peak_freeze_start_day_month",
+   "label": "Peak‑freeze start day and month",
+   "value": "15 Nov",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Peak-freeze leave plan for team (15 Nov–31 Dec)"
+  },
+  {
+   "key": "peak_freeze_end_day_month",
+   "label": "Peak‑freeze end day and month",
+   "value": "31 Dec",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Peak-freeze leave plan for team (15 Nov–31 Dec)"
+  },
+  {
+   "key": "steering_committee_pack_due",
+   "label": "Steering committee pack due date (London)",
+   "value": "2026-10-01",
+   "unit": null,
+   "qualifiers": {},
+   "quote": "Prepare steering committee pack (London, Oct) ... Due 2026-10-01"
+  }
+ ]
+}

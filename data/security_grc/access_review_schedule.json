@@ -1,0 +1,129 @@
+[
+  {
+    "id": "ARS-BRM-2026-03",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-03-01T10:00:00+05:30",
+    "updated_at": "2026-03-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-03",
+    "expected_reviewer": "NW1102",
+    "completed_record": "APR-2026-0330",
+    "status": "Completed"
+  },
+  {
+    "id": "ARS-BRM-2026-04",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-04-01T10:00:00+05:30",
+    "updated_at": "2026-04-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-04",
+    "expected_reviewer": "NW1102",
+    "completed_record": "APR-2026-0429",
+    "status": "Completed"
+  },
+  {
+    "id": "ARS-BRM-2026-05",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-05-01T10:00:00+05:30",
+    "updated_at": "2026-05-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-05",
+    "expected_reviewer": "NW1102",
+    "completed_record": "APR-2026-0529",
+    "status": "Completed"
+  },
+  {
+    "id": "ARS-BRM-2026-06",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-06-01T10:00:00+05:30",
+    "updated_at": "2026-06-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-06",
+    "expected_reviewer": "NW1102",
+    "completed_record": null,
+    "status": "MISSED (no record)",
+    "note": "Ritu busy with architect handover; no valid delegation (DLG-2026-004 expired 2026-02-28). Caught up in APR-2026-0908."
+  },
+  {
+    "id": "ARS-BRM-2026-07",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-07-01T10:00:00+05:30",
+    "updated_at": "2026-07-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-07",
+    "expected_reviewer": "NW1102",
+    "completed_record": "APR-2026-0729",
+    "status": "Completed"
+  },
+  {
+    "id": "ARS-BRM-2026-08",
+    "source_system": "Vanta (Access Reviews)",
+    "created_at": "2026-08-01T10:00:00+05:30",
+    "updated_at": "2026-08-01T10:00:00+05:30",
+    "classification": "SECURITY-BRM",
+    "acl": [
+      "grp-security",
+      "grp-auditor-ext",
+      "grp-auditor-int",
+      "grp-exec",
+      "grp-legal",
+      "grp-acc-brm"
+    ],
+    "control": "CTL-A.5.18",
+    "account": "ACC-BRM",
+    "period": "2026-08",
+    "expected_reviewer": "NW1103",
+    "completed_record": "APR-2026-0908",
+    "status": "Completed"
+  }
+]

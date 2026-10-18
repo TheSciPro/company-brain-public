@@ -1,0 +1,15 @@
+{
+ "doc_id": "MSA-VER-2025",
+ "prompt_ref": "fact_extract@v1",
+ "model": "groq:openai/gpt-oss-120b",
+ "facts": [
+  {
+   "key": "hourly_rate",
+   "label": "Blended hourly rate for T&M services",
+   "value": "62",
+   "unit": "EUR/hour",
+   "qualifiers": {},
+   "quote": "T&M GxP validation, €62/hr onsite blend."
+  }
+ ]
+}

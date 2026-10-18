@@ -1,0 +1,138 @@
+# Graph-backed knowledge (GraphRAG-SDK) and per-user temporal memory (Graphiti), both on FalkorDB.
+# Models come from env (LLM_GRAPH, else LLM_BACKGROUND): a comma-separated provider chain.
+# GraphRAG-SDK follows that chain when every provider has a LiteLLM prefix.
+# Graphiti follows it too: its LLMClient calls the same fallback chat model.
+# Embeddings come from memory.yaml (fastembed, local).
+version: 1
+server:
+  local_dir: var/falkordb          # used when FALKORDB_URL is unset: local server from the falkordblite binaries
+  local_port: 0
+  persist: true
+recording:
+  directory: tests/fixtures/llm_calls   # every extraction call is stored here; tests replay, never call out
+  mode: record
+tokenizer:
+  cache_dir: var/tiktoken               # TIKTOKEN_CACHE_DIR; `nwb cache-tokenizers` fills it (not committed)
+  encodings:                            # GraphRAG SentenceTokenCapChunking default; add a name if the chunker changes
+    - cl100k_base
+company:
+  graph_name: "{company}_kb_{level}"    # one FalkorDB graph per access level
+  # Approved schema. Discovery writes a proposal; a load never uses an unapproved type.
+  ontology:
+    file: config/ontology.json
+    pending_file: var/ontology/pending.json
+    state_file: var/ontology/state.json
+    reviewer_role: executive          # directory.executive_groups in sources.yaml
+    decision_type_pattern: "(?i)decis"
+    classification_properties: [classification, cls]
+    action_kind: review_ontology
+  ner: llm
+  max_concurrency: 1
+  chunk_chars: 1500
+  min_evidence: 1
+  evidence_floor: 0.45            # top passage score; below this, search_company returns no chunks
+  retrieve_limit: 6
+  query_timeout_ms: 120000
+  enable_cypher: true
+  # Dedup is GraphRAG-SDK finalize(). The suggestion threshold lives in config/resolution.yaml.
+  edge_origin:
+    extracted: EXTRACTED
+    inferred: INFERRED
+    extracted_confidence: 1.0
+    inferred_confidence: 0.6
+    inferred_types: [SAME_AS]
+  # Company facts live in the same per-level graphs as the documents. Both clocks are properties.
+  # Precedence (which source wins) is decided when the fact is written; as-of reads are Cypher.
+  facts:
+    label: Fact
+    alert_label: Alert
+    about: ABOUT
+    valid_at: valid_at
+    invalid_at: invalid_at
+    recorded_at: recorded_at
+    supersedes: SUPERSEDES
+    overrides: OVERRIDES
+    contradicts: CONTRADICTS
+    live_statuses: [current, superseded]
+    contested_statuses: [conflict, draft]
+    index_statuses: [current, superseded, corroborates]
+    query_timeout_ms: 10000
+  # Tabular sources are deterministic (no LLM). Prose is discovered then extracted.
+  # High-volume event streams stay out until a table entry is added here.
+  load:
+    classification_field: classification
+    envelope_keys: [x_northwind]
+    discover_method: llm
+    sample_chunks_per_doc: 1
+    seed: 0
+    boundaries: company policies, contracts, decisions and meeting notes
+    offline_model: offline-kg
+    tables:
+      - path: hris/workers.csv
+        format: csv
+        source_name: people.csv
+        label: Person
+        key: worker_id
+        name: name
+        properties: [title, grade]
+        links:
+          - {type: MEMBER_OF, to: Unit, by: unit, name: unit}
+          - {type: REPORTS_TO, to: Person, by: manager_id}
+        standalone: false
+      - path: policies/delegation_of_authority_matrix.csv
+        format: csv
+        source_name: approval_limits.csv
+        label: ApprovalLimit
+        key: id
+        name: id
+        properties: [item, region]
+      - path: approvals/pricing_exceptions.json
+        format: json
+        source_name: pricing_exceptions.csv
+        label: Exception
+        key: id
+        name: id
+        properties: [title, account]
+      - path: staffing/allocations.json
+        format: json
+        source_name: allocations.csv
+        label: Allocation
+        key: id
+        name: id
+        properties: [role, project, account]
+        links:
+          - {type: ALLOCATED, to: Person, by: resource_id, name: resource_name}
+        standalone: false
+      - path: hris/hr_cases.json
+        format: json
+        source_name: hr_cases.csv
+        label: HrCase
+        key: id
+        name: id
+        properties: [case_type, status]
+      - path: security_grc/training_records.json
+        format: json
+        source_name: training_records.csv
+        label: Training
+        key: id
+        name: id
+        properties: [course, status_at_audit]
+        links:
+          - {type: FOR_PERSON, to: Person, by: employee_id}
+        standalone: false
+    prose:
+      - {root: policies, pattern: "*.md"}
+      - {root: contracts, pattern: "*.md"}
+      - {root: decisions, pattern: "*.md"}
+      - {root: collab/minutes, pattern: "*.md"}
+      - {root: hris, pattern: "*.md"}
+personal:
+  group_id: "{company}__{user}"
+  semaphore_limit: 1
+  search_limit: 8
+  entity_types:                         # Facts are edges. Preferences stay in USER.md, not here.
+    Person: A human the user mentions, including the user themself.
+    Organization: A company, team, department or client.
+    Project: A piece of work, product, repository or initiative.
+    Event: A meeting, deadline, incident or other dated happening.
+    Location: An office, city or country.
